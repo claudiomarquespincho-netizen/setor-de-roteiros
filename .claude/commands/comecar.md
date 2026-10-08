@@ -124,10 +124,15 @@ Proponha um tema por roteiro. Cada tema:
 
 - sai da tese, das dores e do tipo de conteudo, com vivencia da pessoa primeiro;
 - nao repete nada da lista acima, nem video que ela ja postou;
-- com linha cientifica, traz dado com fonte conferida na web agora (link real);
+- todo dado traz fonte conferida na web agora (link real), e com linha
+  cientifica o tema se apoia em estudo. Retrato sem `linha` conta como vivencia;
+- se duas fontes discordam do fato, fique so' com o que todas sustentam ou troque
+  de tema;
+- se o retrato ou o `regras.md` trabalha com tipos ou grade (crescimento, conexao,
+  autoridade...), cada tema leva o seu tipo, na mistura que o cliente pede;
 - tem uma linha de sacada: o que o video revela.
 
-Mostre a lista numerada com tema, sacada e fonte. Pergunte se pode escrever ou se
+Mostre a lista numerada com tema, tipo (quando houver), sacada e fonte. Pergunte se pode escrever ou se
 quer trocar algum. Nada e' escrito antes do sim.
 
 ## 4. Escrita
@@ -137,11 +142,16 @@ Para cada tema aprovado, com a chave `r1`, `r2`, ... na ordem da lista:
 1. Escolha um molde em `base/ganchos-1005.json` que caiba no tema. Molde com
    `exige_fato: true` so' com fonte conferida. Na mesma leva, nenhum molde nem
    estrutura de abertura se repete.
-2. Chame o agente `setor-roteirista` com a pasta, a chave, o tema, a sacada, a
-   fonte, o molde e a saida `<pasta-temporaria>/<chave>.json`.
+2. Chame o agente `setor-roteirista` com a pasta, a chave, o tema, a sacada, os
+   links de fonte, o tipo (quando houver), o molde e a saida
+   `<pasta-temporaria>/<chave>.json`.
 3. Chame o agente `setor-conferente` com a pasta e esse caminho.
-4. Veredito nao: chame o roteirista de novo com os motivos. Segundo nao: troque o
-   tema, avise a pessoa em uma linha e volte a secao 3 so' para esse roteiro.
+4. Veredito nao: chame o roteirista de novo com os motivos. Segundo nao:
+   - se todos os motivos forem de voz ou vicio (perguntas 6 e 7), corrija voce
+     mesmo os trechos apontados e siga;
+   - se houver motivo de conteudo (qualquer outra pergunta), troque o tema: avise
+     a pessoa em uma linha, mostre o tema novo como na secao 3 e so' escreva
+     depois do sim dela.
 
 Os roteiros de temas diferentes podem rodar em paralelo.
 

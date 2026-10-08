@@ -50,6 +50,9 @@ def validar(dado):
         refs = r.get("referencias")
         if isinstance(refs, list) and any(_texto_com_travessao(x) for x in refs):
             problemas.append(f"{chave}: travessao em referencias")
+        fontes = r.get("fontes", [])
+        if not isinstance(fontes, list) or not all(isinstance(x, str) for x in fontes):
+            problemas.append(f"{chave}: fontes precisa ser uma lista de links")
     if problemas:
         raise ValueError("; ".join(problemas))
 
@@ -101,4 +104,4 @@ def temas_entregues(pasta):
         if not isinstance(dado, dict) or not isinstance(dado.get("roteiros"), list):
             continue
         temas += [r["tema"] for r in dado["roteiros"] if isinstance(r, dict) and r.get("tema")]
-    return temas
+    return list(dict.fromkeys(temas))  # versoes da mesma leva repetem o tema

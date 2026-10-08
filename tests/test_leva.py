@@ -111,3 +111,17 @@ def test_temas_entregues_inclui_rascunhos(tmp_path):
     (rascunhos / "a.json").write_text(json.dumps(uma_leva(roteiro("r1", "Scrub"))), encoding="utf-8")
     (rascunhos / "quebrado.json").write_text("{nao", encoding="utf-8")
     assert leva.temas_entregues(pasta) == ["Jaleco", "Scrub"]
+
+
+def test_temas_entregues_sem_repetir(tmp_path):
+    pasta = tmp_path / "ceci"
+    leva.gravar(uma_leva(roteiro("r1", "Jaleco"), roteiro("r2", "Scrub")), pasta)
+    leva.gravar(uma_leva(roteiro("r1", "Jaleco")), pasta)
+    assert leva.temas_entregues(pasta) == ["Jaleco", "Scrub"]
+
+
+def test_fontes_precisa_ser_lista_de_textos():
+    dado = uma_leva(dict(roteiro(), fontes="https://exemplo.com"))
+    with pytest.raises(ValueError, match="fontes"):
+        leva.validar(dado)
+    leva.validar(uma_leva(dict(roteiro(), fontes=["https://exemplo.com"])))

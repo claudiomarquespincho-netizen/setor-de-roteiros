@@ -9,7 +9,8 @@ ir para a pessoa.
 
 ## O que voce le
 
-1. O roteiro (JSON no caminho recebido).
+1. O roteiro (JSON no caminho recebido). So' ele: outros roteiros da mesma
+   pasta nao sao seus, e repeticao entre roteiros da leva e' trabalho da varredura.
 2. `<pasta>/retrato.json`, inteiro, e `<pasta>/regras.md`, se existir.
    Todo campo de limite do retrato e' lei: `bandeiras*`, `limites`, `cuidado`,
    `regras_de_roteiro`, com o nome que tiver.
@@ -22,11 +23,13 @@ ir para a pessoa.
 1. **Nexo:** o roteiro tem comeco, meio e fim que se ligam?
 2. **Gancho pago:** o corpo entrega o que o gancho promete?
 3. **Uma mensagem:** historia, ensinamento e chamada dizem a mesma coisa?
-4. **Fato:** todo dado, numero, nome e estudo tem fonte e diz so' o que a fonte
-   sustenta? Na duvida, confira na web. Fato sem fonte e' nao.
+4. **Fato:** todo dado, numero, nome e estudo diz so' o que as `fontes` do
+   roteiro sustentam? Abra os links. Fato que nenhuma fonte sustenta, ou que outra
+   fonte seria desmente, e' nao.
 5. **Sem dependencia do cliente:** nenhum `[PREENCHER]`, nenhum dado que so' o
    cliente teria?
-6. **Voz:** soa como a pessoa das transcricoes, e nao como texto escrito?
+6. **Voz:** soa como a pessoa das transcricoes, e nao como texto escrito? Marca de
+   fala listada no `regras.md` ou no retrato e' voz dela, nunca vicio.
 7. **Vicios:** nenhum dos vicios do `base/vicios.md`?
 8. **Ja postado:** o roteiro nao refaz um video que ela ja publicou?
 9. **Limites:** respeita todo campo de limite do retrato (`bandeiras*`, `limites`,

@@ -159,20 +159,16 @@ def por_expressao(roteiros):
 def relatorio(roteiros):
     achados = 0
 
-    print(f"== cauda de gancho ==  ({len(roteiros)} roteiros)")
-    for chave, nota in cauda_de_gancho(roteiros):
-        print(f"  {chave}: {nota}")
-        achados += 1
-
-    print("== transicao repetida na leva ==")
-    for chaves, nota in transicao_repetida(roteiros):
-        print(f"  {chaves}: {nota}")
-        achados += 1
-
-    print("== muleta repetida na leva ==")
-    for chaves, nota in muleta_repetida(roteiros):
-        print(f"  {chaves}: {nota}")
-        achados += 1
+    for titulo, itens in (("cauda de gancho", cauda_de_gancho(roteiros)),
+                          ("transicao repetida na leva", transicao_repetida(roteiros)),
+                          ("muleta repetida na leva", muleta_repetida(roteiros))):
+        print(f"== {titulo} ==")
+        antes = achados
+        for onde, nota in itens:
+            print(f"  {onde}: {nota}")
+            achados += 1
+        if achados == antes:
+            print("  nenhuma")
 
     atual = None
     for vicio, chave, trecho in por_expressao(roteiros):

@@ -86,3 +86,12 @@ def test_copia_reprova_sai_1_e_avisa_fonte_ausente(tmp_path, capsys):
     (pasta / "transcricoes.md").unlink()
     assert varredura_copia.main(["x", str(caminho)]) == 1
     assert "aviso: fonte nao encontrada" in capsys.readouterr().out
+
+
+def test_vicios_diz_quando_secao_esta_vazia(tmp_path, capsys):
+    from scripts import varredura_vicios
+    limpo = [{"chave": "r1", "gancho": "Um gancho so.", "corpo": "Corpo limpo aqui.",
+              "fechamento": "Fecho."}]
+    varredura_vicios.relatorio(limpo)
+    saida = capsys.readouterr().out
+    assert "== cauda de gancho ==\n  nenhuma" in saida

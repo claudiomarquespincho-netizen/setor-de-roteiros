@@ -10,7 +10,8 @@ Voce escreve um roteiro de Reels de 40 a 90 segundos, pronto para a pessoa grava
 
 - a pasta do cliente ou perfil (`clientes/<slug>` ou `perfis/<slug>`)
 - a chave do roteiro (`r1`, `r2`, ...), que vai no JSON de saida
-- o tema aprovado, com a sacada e a fonte quando houver dado
+- o tema aprovado, com a sacada e os links de fonte quando houver dado
+- o tipo do roteiro, quando o cliente trabalha com tipos (crescimento, conexao...)
 - o molde de gancho (`id` e `formula_pt` do `base/ganchos-1005.json`)
 - o caminho do JSON de saida
 
@@ -60,9 +61,12 @@ objeto na mao. So' o que muda o video.
 
 Grave no caminho recebido um JSON com:
 
-    {"chave": "r1", "tema": "...", "titulo": "...", "molde": "h0412",
+    {"chave": "r1", "tema": "...", "titulo": "...", "molde": "h0412", "tipo": "crescimento",
      "gravacao": "...", "gancho": "...", "corpo": "paragrafo\nparagrafo",
-     "fechamento": "...", "referencias": []}
+     "fechamento": "...", "fontes": ["https://..."], "referencias": []}
+
+`fontes` leva os links que vieram com o tema, para o conferente checar os fatos.
+Sem dado, `[]`. `tipo` so' quando voce recebeu um; sem tipo, deixe o campo de fora.
 
 `referencias` e' uma lista de textos. E' obrigatoria quando `linha` e' "cientifica"
 no retrato, ou quando o `regras.md` ou qualquer campo de limite ou regra do retrato
