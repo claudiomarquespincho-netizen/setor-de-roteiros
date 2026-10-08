@@ -5,7 +5,7 @@ e' baixado pelo yt-dlp para <pasta>/mp4/<codigo>.mp4, e o reels.json sai com os
 mesmos campos que a coleta grava, para a transcricao nao saber a diferenca.
 
 Uso:
-    python -m scripts.coleta_links <pasta> <link> [<link> ...] [--sobrescrever]
+    .venv/bin/python -m scripts.coleta_links <pasta> <link> [<link> ...] [--sobrescrever]
 """
 
 import datetime
@@ -77,7 +77,7 @@ def main(argv):
     if sobrescrever:
         argv.remove("--sobrescrever")
     if len(argv) < 3:
-        print("uso: python -m scripts.coleta_links <pasta> <link> [<link> ...] [--sobrescrever]")
+        print("uso: .venv/bin/python -m scripts.coleta_links <pasta> <link> [<link> ...] [--sobrescrever]")
         return 1
     pasta, links = pathlib.Path(argv[1]), argv[2:]
     if (pasta / "reels.json").exists() and not sobrescrever:

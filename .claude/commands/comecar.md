@@ -16,6 +16,12 @@ rodar `./instalar.sh`). Rode em silencio:
 
 Teste vermelho: diga o que falhou e pare. Nada de gerar roteiro com o repo quebrado.
 
+Sem `config/google-client.json`, mande uma linha antes da abertura: "O
+Google Doc ainda não está configurado, então hoje os roteiros saem aqui no chat."
+(o setup esta em `docs/google-cloud.md`) e siga.
+
+`<pasta-temporaria>` e' uma pasta sua no scratchpad da sessao, nunca dentro do repo.
+
 ## 1. Abertura
 
 Mande exatamente:
@@ -38,7 +44,9 @@ uma de cada vez:
 1. "Tem um tema em mente, ou deixa que eu sugiro?"
 2. "Quantos roteiros nessa leva? De 1 a 5."
 
-Pasta da leva: `clientes/<slug>`. Siga para a secao 3.
+Pasta da leva: `clientes/<slug>`. Assim que ela escolher o cliente, rode
+`git pull --rebase origin main` para trazer as levas do time antes dos temas
+(falhou: pare e avise). Perfil nao faz pull. Siga para a secao 3.
 
 ## 2b. Para voce
 
@@ -139,6 +147,8 @@ Os roteiros de temas diferentes podem rodar em paralelo.
 
 ## 5. Varreduras
 
+Pasta de cliente: rode `git pull --rebase origin main` de novo antes de gravar,
+para a leva de um colega no mesmo dia ja estar aqui e a sua sair com `-2` no nome.
 Junte os roteiros numa leva e grave (o comando imprime o `<leva.json>`):
 
     .venv/bin/python -c "import json,sys,datetime,pathlib; from scripts import leva; p=pathlib.Path(sys.argv[2]); print(leva.gravar({'nome':sys.argv[1],'slug':p.name,'data':datetime.date.today().isoformat(),'doc_url':'','roteiros':[json.load(open(a)) for a in sys.argv[3:]]}, p))" "<nome>" <pasta> <pasta-temporaria>/r1.json [<pasta-temporaria>/r2.json ...]

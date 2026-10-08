@@ -8,7 +8,7 @@ consertava um de cada vez. A varredura ve os dez de uma vez, que e' como ele ve.
 Marcacao e' suspeita, nao veredito: numero por extenso faz "cinquenta e oito"
 parecer enumeracao de tres. Confira a mao o que ela marcar.
 
-Uso: python3 -m scripts.varredura_vicios <leva.json>
+Uso: .venv/bin/python -m scripts.varredura_vicios <leva.json>
 
 A saida e' suspeita, nao veredito: o codigo de saida e' 0 mesmo com suspeitas.
 Saida 2 so' quando o uso esta errado ou a leva nao carrega.
@@ -189,7 +189,7 @@ def relatorio(roteiros):
 
 def main(argv):
     if len(argv) != 2:
-        print("uso: python3 -m scripts.varredura_vicios <leva.json>", file=sys.stderr)
+        print("uso: .venv/bin/python -m scripts.varredura_vicios <leva.json>", file=sys.stderr)
         return 2
     try:
         roteiros = carregar(argv[1])

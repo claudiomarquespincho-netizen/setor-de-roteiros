@@ -18,7 +18,7 @@ repeticao e' a daquele cliente.
 Mora aqui em ensaios/ porque cita caminho de fora, o que a trava do esteira2
 proibe la dentro.
 
-Uso: python3 -m scripts.varredura_repeticao <leva.json>
+Uso: .venv/bin/python -m scripts.varredura_repeticao <leva.json>
 """
 
 import collections
@@ -106,7 +106,7 @@ def varrer(roteiros, fontes_de_fala):
 def main(argv):
     from scripts import leva
     if len(argv) != 2:
-        print('uso: python3 -m scripts.varredura_repeticao <leva.json>', file=sys.stderr)
+        print('uso: .venv/bin/python -m scripts.varredura_repeticao <leva.json>', file=sys.stderr)
         return 2
     try:
         caminho = pathlib.Path(argv[1])

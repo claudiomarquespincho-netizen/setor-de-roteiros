@@ -31,8 +31,9 @@ ir para a pessoa.
 8. **Ja postado:** o roteiro nao refaz um video que ela ja publicou?
 9. **Limites:** respeita todo campo de limite do retrato (`bandeiras*`, `limites`,
    `cuidado`, `regras_de_roteiro`) e o `regras.md`?
-10. **Referencias:** se `linha` e' "cientifica" ou o `regras.md` pede referencia
-   cientifica, `referencias` e' uma lista de 2 ou 3 textos completos, conferidos,
+10. **Referencias:** se `linha` e' "cientifica", ou o `regras.md` ou qualquer campo
+   de limite ou regra do retrato (`regras_de_roteiro`, `cuidado`, `limites`...) pede
+   referencia, `referencias` e' uma lista de 2 ou 3 textos completos, conferidos,
    todos na mesma linha?
 
 ## Resposta

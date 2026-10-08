@@ -9,7 +9,7 @@ na cor da casa, gancho e fechamento numa caixa com fundo, corpo em Arial 12.
 Tempo, alavanca, tipo e fonte nao entram: pedido dele em 26/09.
 
 Uso:
-    python3 -m scripts.doc_em_abas <leva.json>
+    .venv/bin/python -m scripts.doc_em_abas <leva.json>
 """
 
 import pathlib

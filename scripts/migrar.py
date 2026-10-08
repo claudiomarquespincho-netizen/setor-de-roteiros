@@ -6,7 +6,7 @@ levas que ja foram entregues, para a trava de nao repetir tema saber o que
 cada cliente ja recebeu. Video nao vem: o retrato e a transcricao bastam.
 
 Uso:
-    python3 -m scripts.migrar <caminho do acervoroteiros>
+    .venv/bin/python -m scripts.migrar <caminho do acervoroteiros>
 """
 
 import importlib.util

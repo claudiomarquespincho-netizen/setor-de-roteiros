@@ -6,7 +6,7 @@ forma, com retrato.json na raiz, e por isso o resto do repo nao distingue um
 do outro.
 
 Uso:
-    python3 -m scripts.perfis           lista clientes e perfis em JSON
+    .venv/bin/python -m scripts.perfis           lista clientes e perfis em JSON
 """
 
 import json

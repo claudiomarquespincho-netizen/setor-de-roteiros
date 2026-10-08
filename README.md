@@ -3,6 +3,14 @@
 Roteiros de video curto, na voz de quem vai gravar, num Google Doc com uma aba
 por roteiro.
 
+## Antes de tudo
+
+- Claude Code instalado e com login feito.
+- git com acesso ao repositorio privado no GitHub (para clonar e para dar push).
+- Homebrew, se o ffmpeg ainda nao estiver instalado.
+- Uns 1,5 GB livres: o modelo do Whisper baixa na primeira transcricao.
+- Mac com Apple Silicon recomendado (no Intel a transcricao e' bem mais lenta).
+
 ## Primeira vez
 
     git clone https://github.com/claudiomarquespincho-netizen/setor-de-roteiros.git

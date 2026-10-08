@@ -21,7 +21,7 @@ isso comparar tema a tema com o que ele ja publicou continua sendo a mao.
 
 Serve a qualquer cliente: o slug sai do caminho da leva.
 
-Uso: python3 -m scripts.varredura_copia <leva.json> [N]
+Uso: .venv/bin/python -m scripts.varredura_copia <leva.json> [N]
 """
 
 import pathlib
@@ -94,7 +94,7 @@ def varrer(roteiros, fontes, n=6):
 def main(argv):
     from scripts import leva
     if len(argv) not in (2, 3):
-        print('uso: python3 -m scripts.varredura_copia <leva.json> [N]', file=sys.stderr)
+        print('uso: .venv/bin/python -m scripts.varredura_copia <leva.json> [N]', file=sys.stderr)
         return 2
     try:
         caminho = pathlib.Path(argv[1])

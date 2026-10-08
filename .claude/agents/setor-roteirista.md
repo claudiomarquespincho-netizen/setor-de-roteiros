@@ -64,9 +64,10 @@ Grave no caminho recebido um JSON com:
      "gravacao": "...", "gancho": "...", "corpo": "paragrafo\nparagrafo",
      "fechamento": "...", "referencias": []}
 
-`referencias` e' uma lista de textos. So' se preenche quando o perfil e' cientifico,
-isto e', `linha` e' "cientifica" no retrato ou o `regras.md` pede referencia
-cientifica (caso da Julia): 2 ou 3 referencias completas, conferidas, que
+`referencias` e' uma lista de textos. E' obrigatoria quando `linha` e' "cientifica"
+no retrato, ou quando o `regras.md` ou qualquer campo de limite ou regra do retrato
+(`regras_de_roteiro`, `cuidado`, `limites`...) pede referencia (caso da Julia):
+2 ou 3 referencias completas, conferidas, que
 sustentam a mesma linha (nenhuma enfraquece a outra). Fora isso, `[]`.
 
 Responda so' com o caminho gravado e uma linha com o gancho.

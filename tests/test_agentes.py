@@ -1,4 +1,5 @@
 import pathlib
+import re
 
 RAIZ = pathlib.Path(__file__).resolve().parents[1]
 AGENTES = RAIZ / ".claude" / "agents"
@@ -34,3 +35,16 @@ def test_comecar_e_claude_md_usam_o_python_do_venv():
         texto = arquivo.read_text(encoding="utf-8")
         assert ".venv/bin/python -m" in texto, arquivo
         assert "python3 -m" not in texto and "python3 -c" not in texto, arquivo
+
+
+def test_scripts_ensinam_o_python_do_venv():
+    solto = re.compile(r"(?<!\.venv/bin/)\bpython3? -[mc]\b")
+    for arquivo in sorted((RAIZ / "scripts").glob("*.py")):
+        texto = arquivo.read_text(encoding="utf-8")
+        assert not solto.search(texto), f"{arquivo.name} ensina python sem o .venv"
+
+
+def test_referencias_valem_para_qualquer_campo_que_pede():
+    for nome in ("setor-roteirista", "setor-conferente"):
+        texto = (AGENTES / f"{nome}.md").read_text(encoding="utf-8")
+        assert "regras_de_roteiro" in texto and "qualquer campo" in texto, nome
