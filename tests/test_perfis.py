@@ -29,7 +29,7 @@ def test_slug():
 
 
 def test_gravar_perfil(tmp_path):
-    caminho = perfis.gravar_perfil({"nome": "Fulana", "voz": "fala rapido"}, tmp_path)
+    caminho = perfis.gravar_perfil({"nome": "Fulana", "voz": "fala rapido"}, tmp_path, clientes=tmp_path / "c")
     dado = json.loads(caminho.read_text(encoding="utf-8"))
     assert caminho == tmp_path / "fulana" / "retrato.json"
     assert dado["slug"] == "fulana"
@@ -37,7 +37,7 @@ def test_gravar_perfil(tmp_path):
 
 def test_perfil_sem_voz_recusa(tmp_path):
     with pytest.raises(ValueError, match="voz"):
-        perfis.gravar_perfil({"nome": "Fulana"}, tmp_path)
+        perfis.gravar_perfil({"nome": "Fulana"}, tmp_path, clientes=tmp_path / "c")
 
 
 def test_slug_passa_por_slug_de(tmp_path):
