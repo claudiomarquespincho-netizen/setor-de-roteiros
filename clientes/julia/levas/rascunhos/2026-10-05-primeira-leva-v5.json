@@ -17,6 +17,7 @@
         "Hall, L., Johansson, P., Tärning, B., Sikström, S., & Deutgen, T. (2010). Magic at the marketplace: Choice blindness for the taste of jam and the smell of tea. *Cognition*, 117(1), 54-61.",
         "Nisbett, R. E., & Wilson, T. D. (1977). Telling more than we can know: Verbal reports on mental processes. *Psychological Review*, 84(3), 231-259."
       ],
+      "tipo": "produto",
       "titulo": "A foto que você não escolheu"
     },
     {
@@ -31,6 +32,7 @@
         "Pronin, E., & Kugler, M. B. (2007). Valuing thoughts, ignoring behavior: The introspection illusion as a source of the bias blind spot. *Journal of Experimental Social Psychology*, 43(4), 565-578.",
         "Chandrashekar, S. P., Yeung, S. K., Yau, K. C., Cheung, C. Y., Agarwal, T. K., Wong, C. Y. J., Pillai, T., Thirlwell, T. N., Leung, W. N., Tse, C., Li, Y. T., Cheng, B. L., Chan, H. Y. C., & Feldman, G. (2021). Agency and self-other asymmetries in perceived bias and shortcomings: Replications of the Bias Blind Spot and link to free will beliefs. *Judgment and Decision Making*, 16(6), 1392-1412."
       ],
+      "tipo": "produto",
       "titulo": "Todo mundo é enviesado, menos eu"
     },
     {
@@ -44,6 +46,7 @@
         "Higgins, E. T. (1987). Self-discrepancy: A theory relating self and affect. *Psychological Review*, 94(3), 319-340.",
         "Davidai, S., & Gilovich, T. (2018). The ideal road not taken: The self-discrepancies involved in people's most enduring regrets. *Emotion*, 18(3), 439-452."
       ],
+      "tipo": "pessoal",
       "titulo": "8 meses tentando ficar"
     },
     {
@@ -57,6 +60,7 @@
         "Hofmann, W., Baumeister, R. F., Förster, G., & Vohs, K. D. (2012). Everyday temptations: An experience sampling study of desire, conflict, and self-control. *Journal of Personality and Social Psychology*, 102(6), 1318-1335.",
         "Galla, B. M., & Duckworth, A. L. (2015). More than resisting temptation: Beneficial habits mediate the relationship between self-control and positive life outcomes. *Journal of Personality and Social Psychology*, 109(3), 508-525."
       ],
+      "tipo": "geral",
       "titulo": "Quem tem mais autocontrole resiste menos"
     }
   ]

@@ -17,6 +17,7 @@
         "Hall, L., Johansson, P., Tärning, B., Sikström, S., & Deutgen, T. (2010). Magic at the marketplace: Choice blindness for the taste of jam and the smell of tea. *Cognition*, 117(1), 54-61.",
         "Marchant, N., Navarrete, G., de Gardelle, V., Silva, J. R., Sackur, J., & Reyes, G. (2025). Social cues for experimenter incompetence influence choice blindness. *Consciousness and Cognition*, 132, 103887."
       ],
+      "tipo": "produto",
       "titulo": "A foto que você não escolheu"
     },
     {
@@ -31,6 +32,7 @@
         "Pronin, E., & Kugler, M. B. (2007). Valuing thoughts, ignoring behavior: The introspection illusion as a source of the bias blind spot. *Journal of Experimental Social Psychology*, 43(4), 565-578.",
         "Chandrashekar, S. P., Yeung, S. K., Yau, K. C., Cheung, C. Y., Agarwal, T. K., Wong, C. Y. J., Pillai, T., Thirlwell, T. N., Leung, W. N., Tse, C., Li, Y. T., Cheng, B. L., Chan, H. Y. C., & Feldman, G. (2021). Agency and self-other asymmetries in perceived bias and shortcomings: Replications of the Bias Blind Spot and link to free will beliefs. *Judgment and Decision Making*, 16(6), 1392-1412."
       ],
+      "tipo": "produto",
       "titulo": "Todo mundo é enviesado, menos eu"
     },
     {
@@ -45,6 +47,7 @@
         "Yeung, S. K., & Feldman, G. (2022). Revisiting the temporal pattern of regret in action versus inaction: Replication of Gilovich and Medvec (1994) with extensions examining responsibility. *Collabra: Psychology*, 8(1), 37122.",
         "Davidai, S., & Gilovich, T. (2018). The ideal road not taken: The self-discrepancies involved in people's most enduring regrets. *Emotion*, 18(3), 439-452."
       ],
+      "tipo": "pessoal",
       "titulo": "8 meses tentando ficar"
     },
     {
@@ -59,6 +62,7 @@
         "Hagger, M. S., Chatzisarantis, N. L. D., Alberts, H., Anggono, C. O., Batailler, C., Birt, A. R., Brand, R., Brandt, M. J., Brewer, G., Bruyneel, S., Calvillo, D. P., Campbell, W. K., Cannon, P. R., Carlucci, M., Carruth, N. P., Cheung, T., Crowell, A., De Ridder, D. T. D., Dewitte, S., ... Zwienenberg, M. (2016). A multilab preregistered replication of the ego-depletion effect. *Perspectives on Psychological Science*, 11(4), 546-573.",
         "Vohs, K. D., Schmeichel, B. J., Lohmann, S., Gronau, Q. F., Finley, A. J., Ainsworth, S. E., Alquist, J. L., Baker, M. D., Brizi, A., Bunyi, A., Butschek, G. J., Campbell, C., Capaldi, J., Cau, C., Chambers, H., Chatzisarantis, N. L. D., Christensen, W. J., Clay, S. L., Curtis, J., ... Albarracín, D. (2021). A multisite preregistered paradigmatic test of the ego-depletion effect. *Psychological Science*, 32(10), 1566-1581."
       ],
+      "tipo": "geral",
       "titulo": "A bateria da força de vontade não passou no teste"
     },
     {
@@ -73,6 +77,7 @@
         "Lieberman, M. D., Eisenberger, N. I., Crockett, M. J., Tom, S. M., Pfeifer, J. H., & Way, B. M. (2007). Putting feelings into words: Affect labeling disrupts amygdala activity in response to affective stimuli. *Psychological Science*, 18(5), 421-428.",
         "Chen, J., van de Vijver, I., Kenemans, J. L., & Baas, J. M. P. (2026). Impact of affect labelling as an implicit emotion regulation strategy on negative and positive emotions. *Cognition and Emotion*. https://doi.org/10.1080/02699931.2026.2616636"
       ],
+      "tipo": "produto",
       "titulo": "A tarântula e o que você sente"
     }
   ]

@@ -3,14 +3,15 @@
   "slug": "sandra",
   "data": "2026-09-22",
   "doc_url": "",
-  "migrada_de": "2026-09-22-cinco-v7.py",
+  "migrada_de": "2026-09-22-cinco-v6.py",
   "roteiros": [
     {
       "chave": "r1",
       "tema": "os alimentos que pioram o efeito colateral de quem usa a medicacao injetavel",
       "gancho": "Os 5 piores alimentos para quem usa caneta emagrecedora.",
-      "corpo": "Em quinto lugar, a pimenta, gente. Ela irrita o estômago e potencializa a azia e o refluxo, que a medicação já traz de brinde.\n\nEm quarto, o refrigerante. O açúcar sobe rápido e desce rápido, e te deixa fraca. E o gás aumenta o estufamento em cima de uma barriga que já está estufada pelo próprio remédio.\n\nEm terceiro, a carne muito gordurosa. Aquela picanha com a capa inteira deixa a digestão ainda mais lenta, e aí vem o enjoo e a diarreia.\n\nEm segundo, a bebida alcoólica. O álcool desidrata e a medicação já tira a sua sede, então você bebe menos água sem perceber.\n\nE em primeiro lugar, a fritura, tá? Pastel, batata frita, frango à milanesa. Gordura em cima de estômago lento vira enjoo e vômito no dia seguinte.\n\nE eu vou te falar um que não está nessa lista e que todo mundo acha que deveria estar: o carboidrato. Cortar arroz e pão enquanto você já está comendo pouco é o caminho mais rápido pra perder músculo.",
+      "corpo": "Em quinto lugar, a pimenta, gente. Ela irrita o estômago e potencializa a azia e o refluxo, que a medicação já traz de brinde.\n\nEm quarto, o refrigerante. O açúcar sobe rápido e desce rápido, e te deixa fraca. E o gás aumenta o estufamento em cima de uma barriga que já está estufada pelo próprio remédio.\n\nEm terceiro, a carne muito gordurosa. Aquela picanha com a capa inteira deixa a digestão ainda mais lenta, e aí vem o enjoo e a diarreia.\n\nEm segundo, a bebida alcoólica. O álcool desidrata e a medicação já tira a sua sede, então você bebe menos água sem perceber.\n\nE em primeiro lugar, a fritura, tá? Pastel, batata frita, frango à milanesa. É o que mais me traz paciente enjoada no dia seguinte, porque gordura em cima de estômago lento é vômito na certa.\n\nE eu vou te falar um que não está nessa lista e que todo mundo acha que deveria estar: o carboidrato. Cortar arroz e pão enquanto você já está comendo pouco é o caminho mais rápido pra perder músculo.",
       "fechamento": "Se você está usando e come algum desses toda semana, começa tirando a fritura. Comenta CANETA que eu te mando a lista inteira.",
+      "tipo": "utilidade",
       "titulo": "Os 5 piores alimentos para quem usa caneta emagrecedora"
     },
     {
@@ -19,6 +20,7 @@
       "gancho": "Você sabe diferenciar um azeite verdadeiro de um azeite falso? Recentemente saiu uma lista do Ministério da Agricultura.",
       "corpo": "E olha, antes de você sair jogando fora o que tem em casa: essa lista não é oficial. O Ministério disse que o resultado é preliminar, que não divulgou os nomes das marcas, e que a lista que está rodando saiu de um documento anexado ao processo. As empresas ainda têm direito a perícia.\n\nEntão em vez de decorar nome de marca, aprende a conferir sozinha. Olha aqui comigo.\n\nPrimeiro, a categoria. Extra virgem só pode se chamar assim com acidez de no máximo 0,8%, e isso vem escrito no rótulo. Virgem é a categoria de baixo. Lampante não é pra consumo, precisa passar por refino antes.\n\nSegundo, a garrafa. Escura protege da luz, e luz oxida o azeite. Aquela garrafa transparente bonita embaixo da lâmpada do mercado trabalha contra o que está dentro dela.\n\nTerceiro, onde você guarda ele. O azeite bom estraga igual se ficar em cima do fogão.\n\nE o preço, gente. Extra virgem de verdade custa caro pra produzir, então preço muito baixo acende a luz amarela.",
       "fechamento": "Vai na sua cozinha agora e procura a acidez no seu rótulo. Me conta nos comentários quanto deu.",
+      "tipo": "utilidade",
       "titulo": "Azeite de verdade e azeite falso"
     },
     {
@@ -27,14 +29,16 @@
       "gancho": "Os 5 alimentos que mais aumentam a saciedade, e o quinto é o que ninguém espera.",
       "corpo": "Número 5: pipoca de panela, gente. É muita fibra com pouca caloria, e ela cabe sim na rotina de quem está emagrecendo.\n\nNúmero 4: arroz com feijão. A fibra do feijão junto com o carboidrato do arroz é o que faz o prato brasileiro segurar a tarde inteira.\n\nNúmero 3: iogurte com 15 gramas de proteína. E repara que eu falei com 15, tá? O de morango da prateleira tem 6 gramas e açúcar como segundo ingrediente, então esse aí é sobremesa.\n\nNúmero 2: ovo. Proteína de alta qualidade, e cozinha em 8 minutos.\n\nE o número 1, que quase ninguém usa: sardinha na lata. Proteína com gordura boa, e custa muito pouco.\n\nE por que isso pesa mais depois dos 40: a mulher precisa de mais proteína nessa fase e costuma comer bem menos do que precisa. Aí ela passa o dia beliscando e acha que é falta de força de vontade.",
       "fechamento": "Abre a sua geladeira agora e vê quantos desses 5 estão lá. Encaminha pra sua amiga 40 + que vive com fome.",
+      "tipo": "utilidade",
       "titulo": "Os 5 alimentos que mais aumentam a saciedade"
     },
     {
       "chave": "r4",
       "tema": "cortar comida na menopausa tira musculo e trava o emagrecimento",
       "gancho": "Comer menos na menopausa trava o seu emagrecimento.",
-      "corpo": "A mulher percebe que o corpo mudou, gente, e a primeira coisa que ela faz é tirar comida do prato.\n\nSó que olha o que acontece por baixo. A partir dos 30 a gente perde de 3% a 8% de massa muscular por década, e o climatério acelera. Essa perda tem nome, sarcopenia, e aparece em 20% das mulheres depois da menopausa, contra 12% dos homens.\n\nE músculo é o que queima energia parada e o que vai te manter andando sozinha aos 80, tá?\n\nAí você corta a comida, e o corpo vai buscar energia onde? No músculo. Você emagrece na balança e fica flácida. E o peso volta, porque agora você queima menos do que queimava antes.\n\nO caminho aqui é outro. Nessa fase você precisa de 1 a 1,2 grama de proteína por quilo por dia, dividida nas refeições, e de musculação pra dar destino a essa proteína.\n\nEu estou na menopausa e como mais proteína hoje do que eu comia aos 30.",
+      "corpo": "Eu vejo isso toda semana no consultório, gente. A mulher percebe que o corpo mudou e a primeira reação é tirar comida do prato.\n\nSó que olha o que acontece por baixo. A partir dos 30 a gente perde de 3% a 8% de massa muscular por década, e o climatério acelera. Essa perda tem nome, sarcopenia, e aparece em 20% das mulheres depois da menopausa, contra 12% dos homens.\n\nE músculo é o que queima energia parada e o que vai te manter andando sozinha aos 80, tá?\n\nAí você corta a comida, e o corpo vai buscar energia onde? No músculo. Você emagrece na balança e fica flácida. E o peso volta, porque agora você queima menos do que queimava antes.\n\nO caminho aqui é outro. Nessa fase você precisa de 1 a 1,2 grama de proteína por quilo por dia, dividida nas refeições, e de musculação pra dar destino a essa proteína.\n\nEu estou na menopausa e como mais proteína hoje do que eu comia aos 30.",
       "fechamento": "Faz a conta agora: seu peso vezes 1,2 é quanta proteína você precisa por dia. Me conta quanto deu.",
+      "tipo": "posicionamento",
       "titulo": "Comer menos trava o seu emagrecimento"
     },
     {
@@ -43,6 +47,7 @@
       "gancho": "Esses são os 3 melhores substitutos de tempero pronto.",
       "corpo": "O terceiro é a páprica defumada com alho em pó, olha. Ela entra no lugar do tempero pronto de carne, e vai bem em carne vermelha e em legume assado.\n\nO segundo é a raspa de limão com pimenta do reino, que substitui aquele tempero de limão que é o mais salgado da prateleira. Você rala a casca na hora e o cheiro toma a cozinha.\n\nE o melhor de todos, o que muda mesmo a sua semana: o caldo do cozido guardado na geladeira, no lugar do caldo em tablete. É ali que mora quase todo o sódio da sua panela. Se você não tiver, uma colher de missô resolve.\n\nE isso pesa mais pra nós agora por um motivo: no climatério a gente já retém mais líquido, e o sódio do ultraprocessado entra em cima disso. A mulher acorda com o anel apertado e acha que engordou.\n\nEla está retendo.\n\nFaz uma troca por semana, gente, que em um mês a sua prateleira está inteira trocada.",
       "fechamento": "Começa pelo caldo em tablete, que é onde está o sódio. Me conta qual tempero pronto ainda mora na sua cozinha.",
+      "tipo": "utilidade",
       "titulo": "Os 3 melhores substitutos de tempero pronto"
     }
   ]

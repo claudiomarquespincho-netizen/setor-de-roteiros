@@ -12,6 +12,7 @@
       "gancho": "Ninguém posta o mês em que a empresa não fechou a conta.",
       "corpo": "Nas redes, empresário só aparece no fim da história. Faturamento grande, conquista, rotina perfeita.\n\nQuase ninguém mostra a fase do meio. Empresa pequena, aperto de caixa, erro de gestão, problema com sócio, decisão ruim, negócio que ainda não dá lucro.\n\nEu tô exatamente nessa fase. [ PREENCHER: em uma frase, o que você tem hoje, por exemplo \"tenho 2 empresas pequenas e uma delas ainda não se paga\" ]\n\nE eu não vou fingir que já construí um império que ainda não existe.\n\nEsse perfil vai mostrar o processo de tentar transformar negócio pequeno em empresa relevante. As decisões e os erros, do jeito que acontecerem.",
       "fechamento": "Se você também tá no meio do caminho, segue aqui e acompanha comigo.",
+      "tipo": "posicionamento",
       "titulo": "A fase do meio"
     },
     {
@@ -21,6 +22,7 @@
       "gancho": "Eu quero ganhar muito dinheiro e não vejo motivo nenhum pra fingir que não.",
       "corpo": "Tem muita gente que esconde a própria ambição atrás de uma falsa modéstia. Como se querer crescer fosse feio.\n\nEu quero construir patrimônio, dar uma vida cada vez melhor pra minha família e ter capacidade de fazer projetos cada vez maiores.\n\nSó que eu também não acredito em ostentar uma riqueza que não existe.\n\nPra mim, dinheiro serve pra 4 coisas: liberdade, segurança, acesso e poder escolher. [ PREENCHER: uma escolha concreta que você quer poder fazer, por exemplo \"tirar um mês com a família sem pedir licença pra ninguém\" ]\n\nEntão sim, eu sou ambicioso. Só que dinheiro não vai ser a única régua que eu uso pra medir se deu certo.",
       "fechamento": "E você, o que faria com mais liberdade de escolha? Escreve aqui.",
+      "tipo": "posicionamento",
       "titulo": "Ambição sem falsa modéstia"
     },
     {
@@ -30,6 +32,7 @@
       "gancho": "Tem uma regra no empreendedorismo que eu me recuso a seguir.",
       "corpo": "A regra diz que, pra crescer, você tem que sacrificar a vida pessoal por anos. Família, saúde, esporte, tudo fica pra depois.\n\nNão quero chegar aos 40 ou 50 anos e perceber que passei a juventude inteira só trabalhando.\n\nEntão eu tô construindo empresa relevante, sim, mas presente com a minha família, cuidando do corpo, treinando e com espaço pra música.\n\nNa prática, hoje isso é: [ PREENCHER: o que você não abre mão na semana, por exemplo o treino da manhã ou o jantar com a família ]\n\nEquilíbrio perfeito eu acho que não existe. Mas o sucesso tem que fazer parte de uma vida boa, e não substituir a vida inteira.",
       "fechamento": "Marca aqui alguém que tá adiando a vida por causa da empresa.",
+      "tipo": "posicionamento",
       "titulo": "Crescer sem adiar a vida"
     },
     {
@@ -39,6 +42,7 @@
       "gancho": "De dia eu discuto negócio. De noite eu tô tocando como DJ.",
       "corpo": "E pra muita gente isso parece não combinar.\n\nPorque tem muito empresário que construiu a identidade inteira em volta da própria empresa. Se você tira a empresa, não sobra ninguém.\n\nEu não quero que isso aconteça comigo. Ser empresário é uma parte muito importante de quem eu sou, mas não é a minha personalidade inteira.\n\nMúsica eletrônica, treino, esporte, carro, família, amigos, viagem. Tudo isso também sou eu. [ PREENCHER: desde quando você toca e onde ]\n\nTer interesse fora do trabalho não reduz a minha ambição. Só deixa a vida mais completa.",
       "fechamento": "Fora do trabalho, quem é você? Escreve aqui.",
+      "tipo": "conexao",
       "titulo": "Empresário e DJ"
     },
     {
@@ -48,6 +52,7 @@
       "gancho": "Eu não tenho uma grande rede de contatos. E vou mostrar aqui como eu tô construindo uma.",
       "corpo": "Eu acredito que a gente é muito moldado pelos ambientes que frequenta e pelas pessoas com quem convive.\n\nConhecimento técnico e trabalho duro importam. Mas uma conversa certa, um lugar novo, uma pessoa que já fez o que você quer fazer, isso pode mudar a trajetória inteira de alguém.\n\nPra mim, o que vale é ficar perto de gente interessante, sem pensar no que eu vou ganhar com isso. Isso aumenta repertório e muda o que você acha que é possível.\n\nNos próximos anos eu quero conhecer empresários, artistas e gente que tá construindo coisa boa. E vou mostrar esse processo por aqui. [ PREENCHER: o próximo evento, lugar ou pessoa que você quer conhecer ]",
       "fechamento": "Qual ambiente já mudou a sua cabeça? Me conta aqui.",
+      "tipo": "conexao",
       "titulo": "A rede que eu ainda não tenho"
     }
   ]

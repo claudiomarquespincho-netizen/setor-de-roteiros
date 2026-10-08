@@ -12,6 +12,7 @@ Uso:
 import importlib.util
 import json
 import pathlib
+import re
 import shutil
 import sys
 
@@ -20,7 +21,41 @@ FORA = {"luiz"}
 DO_CLIENTE = ("retrato.json", "regras.md", "grade-do-mes.md")
 DA_COLETA = ("transcricoes.md", "reels.json")
 CAMPOS_DA_LEVA = ("chave", "tema", "titulo", "molde", "gravacao", "gancho", "corpo",
-                  "fechamento", "referencias")
+                  "fechamento", "referencias", "tipo")
+
+
+def familia_e_versao(stem):
+    """'2026-09-18-dez-v2' -> ('dez', 2). Sem marcador (ou -a-mao, -de-teste) e' a versao 1."""
+    nome = re.sub(r"^\d{4}-\d{2}-\d{2}-", "", stem)
+    achou = re.search(r"-v(\d+)$", nome)
+    if achou:
+        return nome[:achou.start()], int(achou.group(1))
+    for marca in ("-a-mao", "-de-teste"):
+        if nome.endswith(marca):
+            return nome[:-len(marca)], 1
+    return nome, 1
+
+
+def separar_versoes(stems):
+    """Devolve (ficam, rascunhos): de cada familia de versoes, so a ultima fica."""
+    familias = {}
+    for stem in stems:
+        familia, versao = familia_e_versao(stem)
+        familias.setdefault(familia, []).append((versao, stem))
+    ficam, rascunhos = [], []
+    for itens in familias.values():
+        itens.sort()
+        ficam.append(itens[-1][1])
+        rascunhos.extend(stem for _, stem in itens[:-1])
+    return ficam, rascunhos
+
+
+def transcricoes_do_felipe(legendas, alvo):
+    partes = ["# Transcricoes do Felipe (so a fala dele)\n"]
+    for nome in ("felipe-pare-de-correr-atras-do-dinheiro", "felipe-quero-construir-algo-que-faca-sentido"):
+        texto = (legendas / f"{nome}.txt").read_text(encoding="utf-8").strip()
+        partes.append(f"\n## {nome.replace('felipe-', '').replace('-', ' ')}\n\n{texto}\n")
+    alvo.write_text("".join(partes), encoding="utf-8")
 
 
 def leva_do_ensaio(ensaio, nome, slug):
@@ -62,8 +97,21 @@ def copiar_cliente(origem, destino):
         shutil.copy2(arquivo, alvo)
 
 
+def migrar_felipe(origem, destino):
+    legendas = origem / "coleta" / "2026-09-29" / "legendas"
+    extras = destino / "extras" / "2026-09-29" / "legendas"
+    extras.mkdir(parents=True, exist_ok=True)
+    for txt in legendas.glob("*.txt"):
+        shutil.copy2(txt, extras / txt.name)
+    transcricoes_do_felipe(legendas, destino / "transcricoes.md")
+    (destino / "referencias").mkdir(exist_ok=True)
+    for txt in legendas.glob("alfredo-*.txt"):
+        shutil.copy2(txt, destino / "referencias" / f"{txt.stem}.md")
+
+
 def migrar_levas(origem, destino, nome, slug):
     feitas = []
+    gerados = {}
     for ensaio in sorted((origem / "ensaios").glob("*.py")):
         try:
             dado = leva_do_ensaio(ensaio, nome, slug)
@@ -72,11 +120,14 @@ def migrar_levas(origem, destino, nome, slug):
             continue
         if dado is None:
             continue
-        (destino / "levas").mkdir(parents=True, exist_ok=True)
-        alvo = destino / "levas" / f"{ensaio.stem}.json"
-        alvo.write_text(json.dumps(dado, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        feitas.append(alvo.name)
-    return feitas
+        gerados[ensaio.stem] = dado
+    ficam, rascunhos = separar_versoes(list(gerados))
+    for pasta, stems in (("levas", ficam), ("levas/rascunhos", rascunhos)):
+        for stem in stems:
+            alvo = destino / pasta / f"{stem}.json"
+            alvo.parent.mkdir(parents=True, exist_ok=True)
+            alvo.write_text(json.dumps(gerados[stem], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return sorted(ficam), sorted(rascunhos)
 
 
 def main(argv):
@@ -91,8 +142,9 @@ def main(argv):
         shutil.copy2(e2 / "base" / nome, RAIZ / "base" / nome)
     shutil.copy2(e2 / "regras" / "todos.md", RAIZ / "base" / "regras-gerais.md")
 
-    for t in sorted((e2 / "referencias").glob("*/transcricoes.md")):
-        alvo = RAIZ / "referencias" / t.parent.name / "transcricoes.md"
+    for t in sorted(list((e2 / "referencias").glob("*/transcricoes.md"))
+                    + list((e2 / "referencias").glob("*/raio-x.md"))):
+        alvo = RAIZ / "referencias" / t.parent.name / t.name
         alvo.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(t, alvo)
 
@@ -102,8 +154,13 @@ def main(argv):
         nome = json.loads((pasta / "retrato.json").read_text(encoding="utf-8"))["nome"]
         destino = RAIZ / "clientes" / pasta.name
         copiar_cliente(pasta, destino)
-        levas = migrar_levas(pasta, destino, nome, pasta.name)
-        print(f"{nome}: {len(levas)} leva(s)")
+        shutil.rmtree(destino / "levas", ignore_errors=True)
+        levas, rascunhos = migrar_levas(pasta, destino, nome, pasta.name)
+        print(f"{nome}: {len(levas)} leva(s), {len(rascunhos)} rascunho(s)")
+        for r in rascunhos:
+            print(f"  rascunho: {r}")
+        if pasta.name == "felipe":
+            migrar_felipe(pasta, destino)
 
     refs = ar / "docs" / "referencias-da-pessoa"
     cici = RAIZ / "clientes" / "ceci"

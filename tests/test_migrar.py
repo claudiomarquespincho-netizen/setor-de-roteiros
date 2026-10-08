@@ -35,3 +35,35 @@ def test_copiar_cliente(tmp_path):
     assert (destino / "transcricoes.md").read_text() == "fala"
     assert (destino / "extras" / "2026-09-29" / "estudo.md").exists()
     assert not list(destino.rglob("*.mp4"))
+
+
+def test_familia_e_versao():
+    assert migrar.familia_e_versao("2026-09-18-dez-v2") == ("dez", 2)
+    assert migrar.familia_e_versao("2026-09-17-dez-a-mao") == ("dez", 1)
+    assert migrar.familia_e_versao("2026-09-21-cinco-de-teste") == ("cinco", 1)
+    assert migrar.familia_e_versao("2026-10-05-semana-05-10") == ("semana-05-10", 1)
+    assert migrar.familia_e_versao("2026-10-05-semana-05-10-v4") == ("semana-05-10", 4)
+    assert migrar.familia_e_versao("2026-09-28-semana-28-09") == ("semana-28-09", 1)
+
+
+def test_separar_versoes_deixa_so_a_ultima():
+    nomes = ["2026-09-17-dez-a-mao", "2026-09-18-dez-v2", "2026-09-21-dez-v6",
+             "2026-09-21-leva-v5", "2026-09-24-cinco-v1", "2026-09-24-cinco-v3",
+             "2026-09-24-cinco-v2", "2026-09-30-lancamento-so-os-dois"]
+    ficam, rascunhos = migrar.separar_versoes(nomes)
+    assert sorted(ficam) == ["2026-09-21-dez-v6", "2026-09-21-leva-v5",
+                             "2026-09-24-cinco-v3", "2026-09-30-lancamento-so-os-dois"]
+    assert sorted(rascunhos) == ["2026-09-17-dez-a-mao", "2026-09-18-dez-v2",
+                                 "2026-09-24-cinco-v1", "2026-09-24-cinco-v2"]
+
+
+def test_felipe_transcricoes_so_dos_videos_dele(tmp_path):
+    leg = tmp_path / "leg"
+    leg.mkdir()
+    (leg / "felipe-pare-de-correr-atras-do-dinheiro.txt").write_text("texto um")
+    (leg / "felipe-quero-construir-algo-que-faca-sentido.txt").write_text("texto dois")
+    (leg / "alfredo-posicionamento-socio-g4.txt").write_text("alfredo")
+    alvo = tmp_path / "transcricoes.md"
+    migrar.transcricoes_do_felipe(leg, alvo)
+    texto = alvo.read_text()
+    assert "texto um" in texto and "texto dois" in texto and "alfredo" not in texto

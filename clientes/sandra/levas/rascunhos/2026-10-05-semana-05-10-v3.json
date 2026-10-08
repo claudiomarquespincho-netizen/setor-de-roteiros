@@ -3,7 +3,7 @@
   "slug": "sandra",
   "data": "2026-10-05",
   "doc_url": "",
-  "migrada_de": "2026-10-05-semana-05-10-v2.py",
+  "migrada_de": "2026-10-05-semana-05-10-v3.py",
   "roteiros": [
     {
       "chave": "r1",
@@ -12,6 +12,7 @@
       "gancho": "Na menopausa, emagrece mais quem tomando a canetinha, quem faz reposição hormonal ",
       "corpo": "Um estudo analisou oo prontuário de 120 mulheres depois da menopausa, todas usando tirzepatida por mais ou menos 1 ano e meio.\n\nQuem usou só a caneta perdeu 14% do peso. Quem usou a caneta e fez reposição perdeu 17%.\n\nNinguém começa hormônio só pra emagrecer, tá? Mas se você está na menopausa e a caneta não está entregando o resultado que você esperava, leva essa conversa pro seu ginecologista.",
       "fechamento": "Manda esse vídeo pra amiga que usa caneta e nunca falou de hormônio com o médico.",
+      "tipo": "posicionamento",
       "titulo": "A caneta na menopausa e a reposição hormonal"
     },
     {
@@ -21,6 +22,7 @@
       "gancho": "Tem caneta emagrecedora rodando no Brasil com uma substância que não é aprovada em nenhum país do mundo.",
       "corpo": "Em setembro, a Anvisa proibiu a venda e o uso das canetas que entram pelo Paraguai, como a T36, a Tirzec e a Lipoless. Nenhuma tem registro aqui. Algumas dizem ter tirzepatida, e outras dizem ter retatrutida, que segundo a própria Anvisa não tem registro em país nenhum.\n\nE a conta que muita mulher faz é que a original está cara, a do Paraguai custa bem menos e o efeito deve ser parecido.\n\nSó que sem registro ninguém conferiu o que tem dentro daquela caneta, nem a dose. E caneta dessas fica na geladeira até a primeira aplicação. A do Paraguai atravessou a fronteira e você não sabe em que condição.\n\nRemédio no Brasil só pode ser vendido em farmácia, na loja ou no site oficial dela. Perfil de Instagram e grupo de WhatsApp não entram nessa lista, olha.\n\nSe a original não cabe no seu bolso, a conversa é com quem te acompanha, pra montar outro caminho com o que você consegue manter.",
       "fechamento": "Compartilha com quem está pensando em comprar. Pode ser que ela ainda não saiba.",
+      "tipo": "posicionamento",
       "titulo": "As canetas do Paraguai que a Anvisa proibiu"
     },
     {
@@ -30,6 +32,7 @@
       "gancho": "Se você usa caneta e a taça de vinho perdeu a graça, não é impressão sua.",
       "corpo": "Um estudo de 2025 testou a semaglutida, a substância de uma das canetas, em quem bebia demais. Em 9 semanas, quem tomou passou a ter menos vontade de beber, e bebeu menos.\n\nUma das explicações é que a caneta age na parte do cérebro ligada ao prazer da comida, e a bebida passa por ali também.\n\nEntão aproveita essa fase pra trocar a taça da sexta por um drink sem álcool. Quando você parar a caneta, o hábito novo já está feito.",
       "fechamento": "Quer a receita do meu drink sem álcool? Comenta DRINK que eu te mando.",
+      "tipo": "posicionamento",
       "titulo": "A caneta e a taça de vinho"
     },
     {
@@ -39,16 +42,18 @@
       "gancho": "5 frutas, da que tem mais carboidrato pra que tem menos.",
       "corpo": "Em quinto, a banana prata: 26 gramas de carboidrato.\n\nEm quarto, a manga: 19,4.\n\nEm terceiro, a maçã: 15,2.\n\nEm segundo, a melancia: 8,1. Menos de um terço da banana.\n\nE em primeiro, o morango: 6,8.\n\nNúmeros da TACO, a cada 100 gramas de fruta.",
       "fechamento": "Já encaminha pra sua amiga 40+ que tirou a melancia de casa.",
+      "tipo": "utilidade",
       "titulo": "5 frutas da que tem mais carboidrato pra que tem menos"
     },
     {
       "chave": "r5",
-      "tema": "5 queijos comparados pela gordura, do mais gordo pro mais leve, com o minas frescal contrariando a fama de light",
-      "gravacao": "Na cozinha, com os 5 queijos numa tábua, sem embalagem com marca à mostra.\n\nNúmero grande na tela em cada item: \"33,5 g\", \"29,1 g\", \"25,2 g\", \"20,2 g\", \"8,1 g\" de gordura.",
-      "gancho": "5 queijos, do mais gordo pro mais leve.",
-      "corpo": "Quinto lugar, o parmesão: 33,5 gramas de gordura.\n\nQuarto, o queijo prato: 29,1.\n\nTerceiro, a muçarela: 25,2.\n\nSegundo, o minas frescal: 20,2. O branquinho que todo mundo acha light fica só 5 gramas atrás da muçarela.\n\nE o primeiro lugar é da ricota: 8,1.\n\nTudo em 100 gramas de queijo.",
-      "fechamento": "Qual desses não falta na sua casa? Comenta aqui.",
-      "titulo": "5 queijos do mais gordo pro mais leve"
+      "tema": "o rebote depois de parar a caneta e' bem mais rapido que o rebote depois de parar a dieta",
+      "gravacao": "Falando pra câmera, em casa ou no consultório.\n\nTexto na tela quando os números aparecem: \"dieta: 100 g por mês\", \"caneta: 800 g por mês\".",
+      "gancho": "O efeito rebote de quem para a caneta é muito mais rápido do que o de quem para a dieta.",
+      "corpo": "Uma revisão da Universidade de Oxford juntou 37 estudos sobre isso.\n\nQuem parou a dieta recuperou, em média, uns 100 gramas por mês.\n\nQuem parou as canetas mais novas recuperou 800 gramas por mês. Pela conta do estudo, em 1 ano e meio a pessoa volta pro peso de antes.\n\nNa dieta, você mesma aprende a lidar com a fome, e isso continua depois. Com a caneta, quem faz esse trabalho é o remédio.\n\nPor isso caneta funciona melhor com acompanhamento nutricional junto, desde o primeiro mês.",
+      "fechamento": "Manda pra quem acha que é só tomar, emagrecer e parar.",
+      "tipo": "posicionamento",
+      "titulo": "O efeito rebote da caneta"
     }
   ]
 }
