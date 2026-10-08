@@ -49,3 +49,40 @@ def test_copia_pega_frase_de_referencia(tmp_path):
               "publicado": varredura_copia.publicados(pasta)}
     achados = varredura_copia.varrer(leva.ler(caminho)["roteiros"], fontes)
     assert achados and achados[0][1] == "referencia"
+
+
+def test_codigos_de_saida(tmp_path, capsys):
+    bom = _leva(tmp_path, [r("r1", "G1.", "C1.", "F1."), r("r2", "G2.", "C2.", "F2.")])
+    mod = [varredura_vicios, varredura_repeticao, varredura_copia]
+    for m in mod:
+        assert m.main(["x", str(bom)]) == 0
+        assert m.main(["x"]) == 2
+        assert m.main(["x", str(tmp_path / "nao-existe.json")]) == 2
+    ruim = tmp_path / "ruim.json"
+    ruim.write_text("{nao", encoding="utf-8")
+    for m in mod:
+        assert m.main(["x", str(ruim)]) == 2
+    assert "erro" in capsys.readouterr().err
+
+
+def test_repeticao_reprova_sai_1(tmp_path):
+    caminho = _leva(tmp_path, [r("r1", "G1.", "C1.", "Salva esse video agora."),
+                               r("r2", "G2.", "C2.", "Salva esse video agora.")])
+    assert varredura_repeticao.main(["x", str(caminho)]) == 1
+
+
+def test_repeticao_sem_fala_sai_2(tmp_path):
+    caminho = _leva(tmp_path, [r("r1", "G1.", "C1.", "F1.")])
+    (leva.pasta_da_leva(caminho) / "transcricoes.md").unlink()
+    assert varredura_repeticao.main(["x", str(caminho)]) == 2
+
+
+def test_copia_reprova_sai_1_e_avisa_fonte_ausente(tmp_path, capsys):
+    caminho = _leva(tmp_path, [r("r1", "G.", "eu sabia exatamente quanto tinha ficado na mesa ontem", "F.")])
+    pasta = leva.pasta_da_leva(caminho)
+    (pasta / "referencias").mkdir()
+    (pasta / "referencias" / "x.md").write_text(
+        "e eu sabia exatamente quanto tinha ficado na mesa", encoding="utf-8")
+    (pasta / "transcricoes.md").unlink()
+    assert varredura_copia.main(["x", str(caminho)]) == 1
+    assert "aviso: fonte nao encontrada" in capsys.readouterr().out

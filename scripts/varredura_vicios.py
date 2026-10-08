@@ -9,6 +9,9 @@ Marcacao e' suspeita, nao veredito: numero por extenso faz "cinquenta e oito"
 parecer enumeracao de tres. Confira a mao o que ela marcar.
 
 Uso: python3 -m scripts.varredura_vicios <leva.json>
+
+A saida e' suspeita, nao veredito: o codigo de saida e' 0 mesmo com suspeitas.
+Saida 2 so' quando o uso esta errado ou a leva nao carrega.
 """
 
 import collections
@@ -153,8 +156,7 @@ def por_expressao(roteiros):
             yield "enumeracao de tres", r["chave"], frase
 
 
-def main(caminho):
-    roteiros = carregar(caminho)
+def relatorio(roteiros):
     achados = 0
 
     print(f"== cauda de gancho ==  ({len(roteiros)} roteiros)")
@@ -185,7 +187,17 @@ def main(caminho):
     return 0
 
 
+def main(argv):
+    if len(argv) != 2:
+        print("uso: python3 -m scripts.varredura_vicios <leva.json>", file=sys.stderr)
+        return 2
+    try:
+        roteiros = carregar(argv[1])
+    except (ValueError, OSError) as erro:
+        print(f"erro: {erro}", file=sys.stderr)
+        return 2
+    return relatorio(roteiros)
+
+
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        sys.exit(__doc__)
-    sys.exit(main(pathlib.Path(sys.argv[1])))
+    sys.exit(main(sys.argv))

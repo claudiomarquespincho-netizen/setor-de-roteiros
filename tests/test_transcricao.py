@@ -111,3 +111,16 @@ def test_video_sem_fala_fica_de_fora_do_documento():
     assert "1 vídeo sem fala ficou de fora" in documento
     assert "Inscreva-se" not in documento
     assert "facinho" in documento
+
+
+def test_main_sem_reels_json_nao_quebra(tmp_path, capsys):
+    assert transcricao.main(["transcricao", str(tmp_path), "@x"]) == 1
+    assert "reels.json" in capsys.readouterr().out
+
+
+def test_main_nao_sobrescreve_transcricoes(tmp_path):
+    (tmp_path / "reels.json").write_text("[]", encoding="utf-8")
+    (tmp_path / "transcricoes.md").write_text("antigo", encoding="utf-8")
+    assert transcricao.main(["transcricao", str(tmp_path), "@x"]) == 1
+    assert (tmp_path / "transcricoes.md").read_text(encoding="utf-8") == "antigo"
+    assert transcricao.main(["transcricao", str(tmp_path), "@x", "--sobrescrever"]) == 0

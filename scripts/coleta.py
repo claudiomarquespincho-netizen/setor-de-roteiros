@@ -196,10 +196,17 @@ def baixar(reels, destino, abrir=None):
 
 
 def main(argv):
+    argv = list(argv)
+    sobrescrever = "--sobrescrever" in argv
+    if sobrescrever:
+        argv.remove("--sobrescrever")
     if len(argv) < 3:
-        print("uso: <pasta do cliente ou perfil> <@perfil> [quantos]")
+        print("uso: <pasta do cliente ou perfil> <@perfil> [quantos] [--sobrescrever]")
         return 1
     pasta, perfil = pathlib.Path(argv[1]), argv[2]
+    if (pasta / "reels.json").exists() and not sobrescrever:
+        print(f"{pasta / 'reels.json'} ja existe: passe --sobrescrever para refazer a coleta")
+        return 1
     quantos = int(argv[3]) if len(argv) > 3 else QUANTOS
     itens = chamar(perfil, ler_token(), quantos)
     reels = conferir(escolher(itens, perfil))

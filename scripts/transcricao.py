@@ -151,10 +151,21 @@ def transcrever(mp4, saida, palavras, rodar=None):
 
 def main(argv):
     import json
+    argv = list(argv)
+    sobrescrever = "--sobrescrever" in argv
+    if sobrescrever:
+        argv.remove("--sobrescrever")
     if len(argv) < 3:
-        print("uso: <pasta do cliente ou perfil> <@perfil> [palavra extra] ...")
+        print("uso: <pasta do cliente ou perfil> <@perfil> [palavra extra] ... [--sobrescrever]")
         return 1
     raiz, perfil = pathlib.Path(argv[1]), argv[2]
+    if not (raiz / "reels.json").exists():
+        print(f"uso: {raiz / 'reels.json'} nao existe: rode a coleta antes "
+              "(python3 -m scripts.coleta <pasta> <@perfil>)")
+        return 1
+    if (raiz / "transcricoes.md").exists() and not sobrescrever:
+        print(f"{raiz / 'transcricoes.md'} ja existe: passe --sobrescrever para refazer")
+        return 1
     reels = json.loads((raiz / "reels.json").read_text(encoding="utf-8"))
     palavras = palavras_das_legendas(reels) + list(argv[3:])
     textos = {}

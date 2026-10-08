@@ -91,19 +91,34 @@ def varrer(roteiros, fontes, n=6):
     return achados
 
 
-if __name__ == '__main__':
+def main(argv):
     from scripts import leva
-    caminho = pathlib.Path(sys.argv[1])
-    n = int(sys.argv[2]) if len(sys.argv) > 2 else 6
-    dado = leva.ler(caminho)
-    pasta = leva.pasta_da_leva(caminho)
+    if len(argv) not in (2, 3):
+        print('uso: python3 -m scripts.varredura_copia <leva.json> [N]', file=sys.stderr)
+        return 2
+    try:
+        caminho = pathlib.Path(argv[1])
+        n = int(argv[2]) if len(argv) > 2 else 6
+        dado = leva.ler(caminho)
+        pasta = leva.pasta_da_leva(caminho)
+    except (ValueError, OSError) as erro:
+        print(f'erro: {erro}', file=sys.stderr)
+        return 2
     fontes = {'referencia': referencias(pasta), 'publicado': publicados(pasta)}
+    for ps in fontes.values():
+        for p in ps:
+            if not p.exists():
+                print('aviso: fonte nao encontrada, ficou fora da varredura:', p)
     achados = varrer(dado['roteiros'], fontes, n)
     if not achados:
         print(f'passou ({pasta.name}, {len(dado["roteiros"])} roteiros): nenhuma sequencia de '
               f'{n} palavras igual a referencia ou a reel publicado')
-        sys.exit(0)
+        return 0
     print(f'reprovou ({pasta.name}): {len(achados)} trecho(s) com {n}+ palavras iguais')
     for chave, origem, trecho in achados:
         print(f'   {chave} · {origem}: "{trecho}"')
-    sys.exit(1)
+    return 1
+
+
+if __name__ == '__main__':
+    sys.exit(main(sys.argv))

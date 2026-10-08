@@ -167,3 +167,20 @@ def test_main_grava_na_pasta_que_recebe(tmp_path, monkeypatch):
     monkeypatch.setattr(coleta, "baixar", lambda reels, destino, abrir=None: [])
     assert coleta.main(["coleta", str(tmp_path), "@cicinavarro"]) == 0
     assert (tmp_path / "reels.json").exists()
+
+
+def test_main_nao_sobrescreve_reels_json(tmp_path, monkeypatch):
+    (tmp_path / "reels.json").write_text("[]", encoding="utf-8")
+    monkeypatch.setattr(coleta, "chamar", lambda *a, **k: pytest.fail("nao devia coletar"))
+    assert coleta.main(["coleta", str(tmp_path), "@cicinavarro"]) == 1
+    assert (tmp_path / "reels.json").read_text(encoding="utf-8") == "[]"
+
+
+def test_main_sobrescreve_com_flag(tmp_path, monkeypatch):
+    (tmp_path / "reels.json").write_text("[]", encoding="utf-8")
+    reels = [dict(ITEM, shortCode=f"C{i}") for i in range(12)]
+    monkeypatch.setattr(coleta, "ler_token", lambda caminho=None: "t")
+    monkeypatch.setattr(coleta, "chamar", lambda perfil, token, quantos=None: reels)
+    monkeypatch.setattr(coleta, "baixar", lambda reels, destino, abrir=None: [])
+    assert coleta.main(["coleta", str(tmp_path), "@cicinavarro", "--sobrescrever"]) == 0
+    assert len(json.loads((tmp_path / "reels.json").read_text(encoding="utf-8"))) == 12

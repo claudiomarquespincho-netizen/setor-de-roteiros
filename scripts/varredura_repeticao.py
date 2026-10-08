@@ -103,20 +103,32 @@ def varrer(roteiros, fontes_de_fala):
     return reprova, repetidos
 
 
-if __name__ == '__main__':
+def main(argv):
     from scripts import leva
-    caminho = pathlib.Path(sys.argv[1])
-    dado = leva.ler(caminho)
-    pasta = leva.pasta_da_leva(caminho)
-    reprova, _ = varrer(dado['roteiros'], fala_do_cliente(pasta))
+    if len(argv) != 2:
+        print('uso: python3 -m scripts.varredura_repeticao <leva.json>', file=sys.stderr)
+        return 2
+    try:
+        caminho = pathlib.Path(argv[1])
+        dado = leva.ler(caminho)
+        pasta = leva.pasta_da_leva(caminho)
+        fontes = fala_do_cliente(pasta)
+    except (ValueError, OSError) as erro:
+        print(f'erro: {erro}', file=sys.stderr)
+        return 2
+    reprova, _ = varrer(dado['roteiros'], fontes)
     quantos = len(dado['roteiros'])
     if not reprova:
         print(f'passou ({pasta.name}, {quantos} roteiros): nenhuma repeticao minha, '
               f'nenhuma construcao proibida, {quantos} fechos distintos')
-        sys.exit(0)
+        return 0
     print(f'reprovou ({pasta.name}, {quantos} roteiros)')
     for titulo, itens in reprova:
         print(f'\n### {titulo}')
         for item in itens:
             print('   ', item)
-    sys.exit(1)
+    return 1
+
+
+if __name__ == '__main__':
+    sys.exit(main(sys.argv))
