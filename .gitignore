@@ -1,0 +1,11 @@
+perfis/*
+!perfis/.gitkeep
+*.mp4
+*.m4a
+**/mp4/
+**/txt/
+__pycache__/
+.pytest_cache/
+google-token.json
+apify.env
+.DS_Store
