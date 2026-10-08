@@ -105,3 +105,96 @@ def nome_da_aba(n, roteiro):
 def titulo_do_doc(leva):
     ano, mes, dia = leva["data"].split("-")
     return f"{leva['nome']} · Leva {dia}/{mes}"
+
+
+RAIZ = pathlib.Path(__file__).resolve().parents[1]
+CONFIG = pathlib.Path("~/.config/setor-de-roteiros").expanduser()
+CLIENTE_GOOGLE = RAIZ / "config" / "google-client.json"
+TOKEN = CONFIG / "google-token.json"
+ESCOPOS = ["https://www.googleapis.com/auth/documents",
+           "https://www.googleapis.com/auth/drive.file"]
+PASTA_RAIZ = "Setor de Roteiros"
+PASTA_MIME = "application/vnd.google-apps.folder"
+
+
+def conectar():
+    """Login do Google de quem esta usando. Na primeira vez abre o navegador."""
+    from google.auth.transport.requests import Request
+    from google.oauth2.credentials import Credentials
+    from google_auth_oauthlib.flow import InstalledAppFlow
+    from googleapiclient.discovery import build
+
+    cred = Credentials.from_authorized_user_file(str(TOKEN), ESCOPOS) if TOKEN.exists() else None
+    if cred and cred.expired and cred.refresh_token:
+        try:
+            cred.refresh(Request())
+        except Exception:
+            cred = None
+    if not cred or not cred.valid:
+        if not CLIENTE_GOOGLE.exists():
+            raise SystemExit("falta config/google-client.json: siga docs/google-cloud.md")
+        fluxo = InstalledAppFlow.from_client_secrets_file(str(CLIENTE_GOOGLE), ESCOPOS)
+        cred = fluxo.run_local_server(port=0)
+        CONFIG.mkdir(parents=True, exist_ok=True)
+        TOKEN.write_text(cred.to_json(), encoding="utf-8")
+    return build("docs", "v1", credentials=cred), build("drive", "v3", credentials=cred)
+
+
+def _pasta(drive, nome, mae=None):
+    nome_q = nome.replace("'", "\\'")
+    q = f"name = '{nome_q}' and mimeType = '{PASTA_MIME}' and trashed = false"
+    if mae:
+        q += f" and '{mae}' in parents"
+    achadas = drive.files().list(q=q, fields="files(id)", spaces="drive").execute()["files"]
+    if achadas:
+        return achadas[0]["id"]
+    corpo = {"name": nome, "mimeType": PASTA_MIME}
+    if mae:
+        corpo["parents"] = [mae]
+    return drive.files().create(body=corpo, fields="id").execute()["id"]
+
+
+def criar(leva, servicos=None):
+    docs, drive = servicos or conectar()
+    roteiros = leva["roteiros"]
+    pedidos = [requisicoes_da_aba(r, "a conferir") for r in roteiros]  # trava antes de criar
+    del pedidos
+
+    doc_id = docs.documents().create(body={"title": titulo_do_doc(leva)}).execute()["documentId"]
+    completo = docs.documents().get(documentId=doc_id, includeTabsContent=True).execute()
+    ids = [completo["tabs"][0]["tabProperties"]["tabId"]]
+
+    if len(roteiros) > 1:
+        novas = [{"addDocumentTab": {"tabProperties": {"title": nome_da_aba(i, r), "index": i - 1}}}
+                 for i, r in enumerate(roteiros[1:], 2)]
+        resposta = docs.documents().batchUpdate(documentId=doc_id, body={"requests": novas}).execute()
+        ids += [rep["addDocumentTab"]["tabProperties"]["tabId"] for rep in resposta["replies"]]
+
+    reqs = [{"updateDocumentTabProperties": {
+        "tabProperties": {"tabId": ids[0], "title": nome_da_aba(1, roteiros[0])},
+        "fields": "title"}}]
+    for tab_id, r in zip(ids, roteiros):
+        reqs += requisicoes_da_aba(r, tab_id)
+    docs.documents().batchUpdate(documentId=doc_id, body={"requests": reqs}).execute()
+
+    destino = _pasta(drive, leva["nome"], _pasta(drive, PASTA_RAIZ))
+    drive.files().update(fileId=doc_id, addParents=destino, removeParents="root",
+                         fields="id").execute()
+    return f"https://docs.google.com/document/d/{doc_id}/edit"
+
+
+def main(argv):
+    from scripts import leva as modulo_leva
+    if len(argv) != 2:
+        print(__doc__)
+        return 1
+    caminho = pathlib.Path(argv[1])
+    dado = modulo_leva.ler(caminho)
+    dado["doc_url"] = criar(dado)
+    modulo_leva.atualizar(caminho, dado)
+    print(dado["doc_url"])
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv))

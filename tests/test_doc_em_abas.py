@@ -67,3 +67,80 @@ def test_travessao_recusa():
     r = dict(ROTEIRO, corpo="isso " + chr(0x2014) + " aquilo")
     with pytest.raises(ValueError):
         d.requisicoes_da_aba(r, "t")
+
+
+class _Chamada:
+    def __init__(self, resposta):
+        self.resposta = resposta
+
+    def execute(self):
+        return self.resposta
+
+
+class _Documents:
+    def __init__(self):
+        self.lotes = []
+        self.abas = 1
+
+    def create(self, body):
+        self.titulo = body["title"]
+        return _Chamada({"documentId": "doc1"})
+
+    def get(self, documentId, includeTabsContent):
+        return _Chamada({"tabs": [{"tabProperties": {"tabId": "t.0"}}]})
+
+    def batchUpdate(self, documentId, body):
+        self.lotes.append(body["requests"])
+        replies = []
+        for req in body["requests"]:
+            if "addDocumentTab" in req:
+                replies.append({"addDocumentTab": {"tabProperties": {"tabId": f"t.{self.abas}"}}})
+                self.abas += 1
+            else:
+                replies.append({})
+        return _Chamada({"replies": replies})
+
+
+class _Docs:
+    def __init__(self):
+        self.d = _Documents()
+
+    def documents(self):
+        return self.d
+
+
+class _Files:
+    def __init__(self):
+        self.movido = None
+
+    def list(self, q, fields, spaces="drive"):
+        return _Chamada({"files": []})
+
+    def create(self, body, fields):
+        return _Chamada({"id": "pasta-" + body["name"]})
+
+    def update(self, fileId, addParents, removeParents, fields):
+        self.movido = addParents
+        return _Chamada({"id": fileId})
+
+
+class _Drive:
+    def __init__(self):
+        self.f = _Files()
+
+    def files(self):
+        return self.f
+
+
+def test_criar_uma_aba_por_roteiro():
+    docs, drive = _Docs(), _Drive()
+    roteiros = [dict(ROTEIRO, chave=f"r{i}", tema=f"Tema {i}") for i in (1, 2, 3)]
+    url = d.criar({"nome": "Cici", "data": "2026-10-08", "roteiros": roteiros}, (docs, drive))
+    assert url == "https://docs.google.com/document/d/doc1/edit"
+    assert docs.d.titulo == "Cici · Leva 08/10"
+    ultimo = docs.d.lotes[-1]
+    abas = {q["insertText"]["location"]["tabId"] for q in ultimo if "insertText" in q}
+    assert abas == {"t.0", "t.1", "t.2"}
+    renomeia = [q for q in ultimo if "updateDocumentTabProperties" in q]
+    assert renomeia[0]["updateDocumentTabProperties"]["tabProperties"]["title"] == "Roteiro 1 · Tema 1"
+    assert drive.f.movido == "pasta-Cici"
