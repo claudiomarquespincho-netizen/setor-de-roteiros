@@ -20,11 +20,14 @@ para quem usa o repo. Comece sempre por `/comecar`.
 - `clientes/<slug>/`: retrato, regras, transcricoes e levas dos clientes da assessoria.
 - `perfis/<slug>/`: o "para voce" de quem usa esta maquina. O git ignora.
 - `base/`: os 1005 ganchos, os vicios de IA, as regras gerais, os roteiros de referencia.
-- `scripts/`: coleta, transcricao, varreduras e o Doc em abas. Tudo tem teste.
+- `scripts/`: coleta (Apify ou links colados), transcricao, varreduras e o Doc em
+  abas. Tudo tem teste.
+- `.venv/`: o Python do repo, criado pelo `./instalar.sh`. Todo comando usa
+  `.venv/bin/python -m ...`.
 
 ## Antes de mexer no codigo
 
-- `python3 -m pytest -q` antes e depois.
+- `.venv/bin/python -m pytest -q` antes e depois.
 - Commit sempre com caminho: `git commit -m "..." -- <caminhos>`.
 - Cliente novo da assessoria nao se cadastra aqui: quem cadastra e' o responsavel
   pelo repo, na bancada, e traz pronto.

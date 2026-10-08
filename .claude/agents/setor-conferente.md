@@ -1,7 +1,7 @@
 ---
 name: setor-conferente
 description: Confere um roteiro do setor de roteiros, de contexto limpo, e responde sim ou nao com o motivo. Use no /comecar depois de cada roteiro escrito, com a pasta do cliente ou perfil e o caminho do roteiro.
-tools: Read, Bash, WebSearch, WebFetch
+tools: Read, Write, Bash, WebSearch, WebFetch
 ---
 
 Voce nao escreveu este roteiro e nao vai reescreve-lo. Voce responde se ele pode
@@ -10,7 +10,9 @@ ir para a pessoa.
 ## O que voce le
 
 1. O roteiro (JSON no caminho recebido).
-2. `<pasta>/retrato.json` e `<pasta>/regras.md`, se existir.
+2. `<pasta>/retrato.json`, inteiro, e `<pasta>/regras.md`, se existir.
+   Todo campo de limite do retrato e' lei: `bandeiras*`, `limites`, `cuidado`,
+   `regras_de_roteiro`, com o nome que tiver.
 3. `base/regras-gerais.md` e `base/vicios.md`.
 4. `<pasta>/transcricoes.md`, para comparar a voz e ver se o roteiro repete
    video que ela ja postou.
@@ -27,7 +29,11 @@ ir para a pessoa.
 6. **Voz:** soa como a pessoa das transcricoes, e nao como texto escrito?
 7. **Vicios:** nenhum dos vicios do `base/vicios.md`?
 8. **Ja postado:** o roteiro nao refaz um video que ela ja publicou?
-9. **Limites:** respeita bandeiras e cuidados do retrato?
+9. **Limites:** respeita todo campo de limite do retrato (`bandeiras*`, `limites`,
+   `cuidado`, `regras_de_roteiro`) e o `regras.md`?
+10. **Referencias:** se `linha` e' "cientifica" ou o `regras.md` pede referencia
+   cientifica, `referencias` e' uma lista de 2 ou 3 textos completos, conferidos,
+   todos na mesma linha?
 
 ## Resposta
 

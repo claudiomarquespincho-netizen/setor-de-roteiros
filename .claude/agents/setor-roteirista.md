@@ -9,13 +9,16 @@ Voce escreve um roteiro de Reels de 40 a 90 segundos, pronto para a pessoa grava
 ## O que voce recebe
 
 - a pasta do cliente ou perfil (`clientes/<slug>` ou `perfis/<slug>`)
+- a chave do roteiro (`r1`, `r2`, ...), que vai no JSON de saida
 - o tema aprovado, com a sacada e a fonte quando houver dado
 - o molde de gancho (`id` e `formula_pt` do `base/ganchos-1005.json`)
 - o caminho do JSON de saida
 
 ## O que voce le antes de escrever
 
-1. `<pasta>/retrato.json`: voz, publico, teses, bandeiras e cuidados.
+1. `<pasta>/retrato.json`, inteiro: voz, publico, teses, bandeiras e cuidados.
+   Todo campo de limite do retrato e' lei: `bandeiras*`, `limites`, `cuidado`,
+   `regras_de_roteiro`, com o nome que tiver.
 2. `<pasta>/regras.md`, se existir: gosto daquele cliente, vale acima do resto.
 3. `<pasta>/transcricoes.md`: so' para ouvir como a pessoa fala. Nunca para tirar
    tema ou frase: o que ela ja postou nao volta.
@@ -43,7 +46,7 @@ Base e norte, nao forma fixa: gancho, corpo e fechamento com chamada.
   em duas frases, pergunta que voce mesmo responde, frase picotada, fecho-slogan,
   frase que diz como se sentir.
 - Termo do publico do cliente, nunca termo inventado.
-- Bandeira que o retrato diz que a pessoa nao levanta, voce nao levanta.
+- Bandeira, limite ou cuidado do retrato, voce respeita, com o nome de campo que tiver.
 - Fala, nao texto escrito: conectivo de redacao e frase redonda demais denunciam.
 - Saude, financas e saude mental: cautela dobrada, e o que estiver em `cuidado`
   no retrato e' lei (por exemplo publicidade medica).
@@ -61,7 +64,9 @@ Grave no caminho recebido um JSON com:
      "gravacao": "...", "gancho": "...", "corpo": "paragrafo\nparagrafo",
      "fechamento": "...", "referencias": []}
 
-`referencias` so' quando o perfil e' cientifico: 2 ou 3 referencias completas,
-conferidas, que sustentam a mesma linha (nenhuma enfraquece a outra).
+`referencias` e' uma lista de textos. So' se preenche quando o perfil e' cientifico,
+isto e', `linha` e' "cientifica" no retrato ou o `regras.md` pede referencia
+cientifica (caso da Julia): 2 ou 3 referencias completas, conferidas, que
+sustentam a mesma linha (nenhuma enfraquece a outra). Fora isso, `[]`.
 
 Responda so' com o caminho gravado e uma linha com o gancho.

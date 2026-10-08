@@ -10,7 +10,8 @@ por roteiro.
     ./instalar.sh
     claude
 
-Dentro do Claude Code, digite `/comecar`.
+O `./instalar.sh` cria um ambiente Python em `.venv/` dentro da pasta e instala
+tudo nele. Dentro do Claude Code, digite `/comecar`.
 
 ## O que voce vai precisar
 
