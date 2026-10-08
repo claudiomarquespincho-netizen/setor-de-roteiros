@@ -68,7 +68,7 @@ Sem `~/.config/setor-de-roteiros/apify.env`, peça o token da Apify da assessori
 (quem passa e' o responsavel pelo repo, nunca o chat de cliente) e grave a linha
 `APIFY_TOKEN=<token>` nesse arquivo. Menos de 10 videos com fala: peca para ela
 colar links de reels em que ela fala. Transcricao vazia com mp4 baixado pode ser
-video sem audio: confira com `ffprobe` e baixe o audio com `yt-dlp` antes de
+video sem audio: confira com `ffprobe` e baixe o audio com `python3 -m yt_dlp` antes de
 desistir.
 
 **Retrato.** Com as 6 respostas e a transcricao pronta, monte o retrato com:
