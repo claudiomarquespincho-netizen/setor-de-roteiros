@@ -85,7 +85,7 @@ quantos reels tem fala (`# Transcrições @x (N reels, ...)`). Com N abaixo de 1
 se a coleta parou por poucos videos, peca: "Me cola os links de reels em que você
 fala?" Rode, com os links dela mais as URLs que ja estao no `transcricoes.md`:
 
-    .venv/bin/python -m scripts.coleta_links "perfis/<slug>" <link> [<link> ...] --sobrescrever
+    .venv/bin/python -m scripts.coleta_links "perfis/<slug>" "<link>" ["<link>" ...] --sobrescrever
     .venv/bin/python -m scripts.transcricao "perfis/<slug>" "<@perfil>" "<nome>" --sobrescrever
 
 Transcricao vazia com mp4 baixado pode ser video sem audio: confira com `ffprobe`
