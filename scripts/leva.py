@@ -90,8 +90,10 @@ def atualizar(caminho, dado):
 
 
 def temas_entregues(pasta):
+    """Temas ja mostrados ao cliente, inclusive os de levas/rascunhos/: tema visto nunca volta."""
     temas = []
-    for arquivo in sorted((pathlib.Path(pasta) / "levas").glob("*.json")):
+    levas = pathlib.Path(pasta) / "levas"
+    for arquivo in sorted(levas.glob("*.json")) + sorted((levas / "rascunhos").glob("*.json")):
         try:
             dado = json.loads(arquivo.read_text(encoding="utf-8"))
         except (ValueError, OSError):

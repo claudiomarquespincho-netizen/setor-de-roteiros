@@ -101,3 +101,13 @@ def test_travessao_em_referencias():
     r["referencias"] = ["ok", "a " + chr(0x2013) + " b"]
     with pytest.raises(ValueError, match="travessao"):
         leva.validar(uma_leva(r))
+
+
+def test_temas_entregues_inclui_rascunhos(tmp_path):
+    pasta = tmp_path / "ceci"
+    leva.gravar(uma_leva(roteiro("r1", "Jaleco")), pasta)
+    rascunhos = pasta / "levas" / "rascunhos"
+    rascunhos.mkdir()
+    (rascunhos / "a.json").write_text(json.dumps(uma_leva(roteiro("r1", "Scrub"))), encoding="utf-8")
+    (rascunhos / "quebrado.json").write_text("{nao", encoding="utf-8")
+    assert leva.temas_entregues(pasta) == ["Jaleco", "Scrub"]
