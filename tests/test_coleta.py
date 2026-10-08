@@ -184,3 +184,15 @@ def test_main_sobrescreve_com_flag(tmp_path, monkeypatch):
     monkeypatch.setattr(coleta, "baixar", lambda reels, destino, abrir=None: [])
     assert coleta.main(["coleta", str(tmp_path), "@cicinavarro", "--sobrescrever"]) == 0
     assert len(json.loads((tmp_path / "reels.json").read_text(encoding="utf-8"))) == 12
+
+
+def test_main_com_poucos_videos_sugere_os_links_sem_traceback(tmp_path, monkeypatch, capsys):
+    poucos = [dict(ITEM, shortCode=f"c{i}") for i in range(3)]
+    monkeypatch.setattr(coleta, "ler_token", lambda caminho=None: "t")
+    monkeypatch.setattr(coleta, "chamar", lambda perfil, token, quantos=None: poucos)
+    monkeypatch.setattr(coleta, "baixar", lambda *a, **k: pytest.fail("nao devia baixar"))
+    assert coleta.main(["coleta", str(tmp_path), "@cicinavarro"]) == 1
+    saida = capsys.readouterr().out
+    assert "scripts.coleta_links" in saida
+    assert "3" in saida
+    assert not (tmp_path / "reels.json").exists()

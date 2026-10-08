@@ -161,7 +161,7 @@ def main(argv):
     raiz, perfil = pathlib.Path(argv[1]), argv[2]
     if not (raiz / "reels.json").exists():
         print(f"uso: {raiz / 'reels.json'} nao existe: rode a coleta antes "
-              "(python3 -m scripts.coleta <pasta> <@perfil>)")
+              "(.venv/bin/python -m scripts.coleta <pasta> <@perfil>, ou scripts.coleta_links com os links)")
         return 1
     if (raiz / "transcricoes.md").exists() and not sobrescrever:
         print(f"{raiz / 'transcricoes.md'} ja existe: passe --sobrescrever para refazer")

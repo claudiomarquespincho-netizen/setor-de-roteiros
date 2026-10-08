@@ -209,7 +209,14 @@ def main(argv):
         return 1
     quantos = int(argv[3]) if len(argv) > 3 else QUANTOS
     itens = chamar(perfil, ler_token(), quantos)
-    reels = conferir(escolher(itens, perfil))
+    escolhidos = escolher(itens, perfil)
+    try:
+        reels = conferir(escolhidos)
+    except ValueError:
+        print(f"A coleta trouxe {len(escolhidos)} videos de {perfil}, e o minimo e' {VIDEOS_MINIMOS}.\n"
+              "Peca os links de reels em que ela fala e rode:\n"
+              f"  .venv/bin/python -m scripts.coleta_links {pasta} <link> [<link> ...]")
+        return 1
     gravar(reels, pasta)
     baixados = baixar(reels, pasta / "mp4")
     print(f"{len(reels)} reels de {perfil}, {len(baixados)} mp4 novos em {pasta / 'mp4'}")
