@@ -42,19 +42,36 @@ def _paragrafos(texto):
     return [p.strip() for p in texto.split("\n") if p.strip()]
 
 
+def _limpa(texto):
+    """Quebras de linha viram \\n e caracteres de controle e de uso privado saem."""
+    texto = texto.replace("\r\n", "\n").replace("\r", "\n")
+    return "".join(c for c in texto if not _proibido(c))
+
+
+def _proibido(c):
+    n = ord(c)
+    return (n <= 0x08 or n in (0x0B, 0x0C) or 0x0E <= n <= 0x1F
+            or 0xE000 <= n <= 0xF8FF)
+
+
+def _linha(texto):
+    """Bloco de uma linha so': quebra interna vira espaco."""
+    return " ".join(_limpa(texto).split("\n")).strip()
+
+
 def blocos(roteiro):
     """(estilo, texto) na ordem em que aparecem na aba."""
-    b = [("titulo", roteiro.get("titulo") or roteiro["tema"])]
+    b = [("titulo", _linha(roteiro.get("titulo") or roteiro["tema"]))]
     if roteiro.get("gravacao"):
         b.append(("rotulo", "GRAVAÇÃO E EDIÇÃO"))
-        b += [("texto", p) for p in _paragrafos(roteiro["gravacao"])]
-    b += [("rotulo", "GANCHO · PRIMEIROS SEGUNDOS"), ("caixa", roteiro["gancho"].strip())]
+        b += [("texto", p) for p in _paragrafos(_limpa(roteiro["gravacao"]))]
+    b += [("rotulo", "GANCHO · PRIMEIROS SEGUNDOS"), ("caixa", _linha(roteiro["gancho"]))]
     b.append(("rotulo", "CORPO"))
-    b += [("texto", p) for p in _paragrafos(roteiro["corpo"])]
-    b += [("rotulo", "FECHAMENTO E CHAMADA"), ("caixa", roteiro["fechamento"].strip())]
+    b += [("texto", p) for p in _paragrafos(_limpa(roteiro["corpo"]))]
+    b += [("rotulo", "FECHAMENTO E CHAMADA"), ("caixa", _linha(roteiro["fechamento"]))]
     if roteiro.get("referencias"):
         b.append(("rotulo", "REFERÊNCIAS"))
-        b += [("texto", "• " + ref) for ref in roteiro["referencias"]]
+        b += [("texto", "• " + _linha(ref)) for ref in roteiro["referencias"]]
     return b
 
 
@@ -75,10 +92,10 @@ def _estilo(estilo, faixa):
         paragrafo.update(shading={"backgroundColor": _cor(CAIXA)}, borderTop=borda,
                          borderBottom=borda, borderLeft=borda, borderRight=borda)
     return [
-        {"updateTextStyle": {"range": faixa, "textStyle": texto,
-                             "fields": ",".join(texto)}},
         {"updateParagraphStyle": {"range": faixa, "paragraphStyle": paragrafo,
                                   "fields": ",".join(paragrafo)}},
+        {"updateTextStyle": {"range": faixa, "textStyle": texto,
+                             "fields": ",".join(texto)}},
     ]
 
 
@@ -115,6 +132,7 @@ ESCOPOS = ["https://www.googleapis.com/auth/documents",
            "https://www.googleapis.com/auth/drive.file"]
 PASTA_RAIZ = "Setor de Roteiros"
 PASTA_MIME = "application/vnd.google-apps.folder"
+DOC_MIME = "application/vnd.google-apps.document"
 
 
 def conectar():
@@ -137,11 +155,12 @@ def conectar():
         cred = fluxo.run_local_server(port=0)
         CONFIG.mkdir(parents=True, exist_ok=True)
         TOKEN.write_text(cred.to_json(), encoding="utf-8")
+        TOKEN.chmod(0o600)
     return build("docs", "v1", credentials=cred), build("drive", "v3", credentials=cred)
 
 
 def _pasta(drive, nome, mae=None):
-    nome_q = nome.replace("'", "\\'")
+    nome_q = nome.replace("\\", "\\\\").replace("'", "\\'")
     q = f"name = '{nome_q}' and mimeType = '{PASTA_MIME}' and trashed = false"
     if mae:
         q += f" and '{mae}' in parents"
@@ -157,10 +176,14 @@ def _pasta(drive, nome, mae=None):
 def criar(leva, servicos=None):
     docs, drive = servicos or conectar()
     roteiros = leva["roteiros"]
-    pedidos = [requisicoes_da_aba(r, "a conferir") for r in roteiros]  # trava antes de criar
-    del pedidos
+    for r in roteiros:  # trava antes de criar qualquer coisa
+        requisicoes_da_aba(r, "validacao")
 
-    doc_id = docs.documents().create(body={"title": titulo_do_doc(leva)}).execute()["documentId"]
+    destino = _pasta(drive, leva["nome"], _pasta(drive, PASTA_RAIZ))
+    doc_id = drive.files().create(
+        body={"name": titulo_do_doc(leva), "mimeType": DOC_MIME, "parents": [destino]},
+        fields="id").execute()["id"]
+    print(f"Doc criado: {doc_id}", file=sys.stderr)
     completo = docs.documents().get(documentId=doc_id, includeTabsContent=True).execute()
     ids = [completo["tabs"][0]["tabProperties"]["tabId"]]
 
@@ -176,10 +199,6 @@ def criar(leva, servicos=None):
     for tab_id, r in zip(ids, roteiros):
         reqs += requisicoes_da_aba(r, tab_id)
     docs.documents().batchUpdate(documentId=doc_id, body={"requests": reqs}).execute()
-
-    destino = _pasta(drive, leva["nome"], _pasta(drive, PASTA_RAIZ))
-    drive.files().update(fileId=doc_id, addParents=destino, removeParents="root",
-                         fields="id").execute()
     return f"https://docs.google.com/document/d/{doc_id}/edit"
 
 

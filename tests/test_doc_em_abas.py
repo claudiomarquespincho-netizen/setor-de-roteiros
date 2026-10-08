@@ -82,10 +82,6 @@ class _Documents:
         self.lotes = []
         self.abas = 1
 
-    def create(self, body):
-        self.titulo = body["title"]
-        return _Chamada({"documentId": "doc1"})
-
     def get(self, documentId, includeTabsContent):
         return _Chamada({"tabs": [{"tabProperties": {"tabId": "t.0"}}]})
 
@@ -111,17 +107,19 @@ class _Docs:
 
 class _Files:
     def __init__(self):
-        self.movido = None
+        self.criados = []
 
     def list(self, q, fields, spaces="drive"):
         return _Chamada({"files": []})
 
     def create(self, body, fields):
-        return _Chamada({"id": "pasta-" + body["name"]})
+        self.criados.append(body)
+        if body["mimeType"] == "application/vnd.google-apps.folder":
+            return _Chamada({"id": "pasta-" + body["name"]})
+        return _Chamada({"id": "doc1"})
 
-    def update(self, fileId, addParents, removeParents, fields):
-        self.movido = addParents
-        return _Chamada({"id": fileId})
+    def docs_criados(self):
+        return [b for b in self.criados if b["mimeType"].endswith("document")]
 
 
 class _Drive:
@@ -137,10 +135,54 @@ def test_criar_uma_aba_por_roteiro():
     roteiros = [dict(ROTEIRO, chave=f"r{i}", tema=f"Tema {i}") for i in (1, 2, 3)]
     url = d.criar({"nome": "Cici", "data": "2026-10-08", "roteiros": roteiros}, (docs, drive))
     assert url == "https://docs.google.com/document/d/doc1/edit"
-    assert docs.d.titulo == "Cici · Leva 08/10"
+    criado = drive.f.docs_criados()
+    assert len(criado) == 1
+    assert criado[0]["name"] == "Cici · Leva 08/10"
+    assert criado[0]["parents"] == ["pasta-Cici"]
     ultimo = docs.d.lotes[-1]
     abas = {q["insertText"]["location"]["tabId"] for q in ultimo if "insertText" in q}
     assert abas == {"t.0", "t.1", "t.2"}
     renomeia = [q for q in ultimo if "updateDocumentTabProperties" in q]
     assert renomeia[0]["updateDocumentTabProperties"]["tabProperties"]["title"] == "Roteiro 1 · Tema 1"
-    assert drive.f.movido == "pasta-Cici"
+
+
+def test_uma_aba_so_nao_adiciona_aba():
+    docs, drive = _Docs(), _Drive()
+    d.criar({"nome": "Cici", "data": "2026-10-08", "roteiros": [ROTEIRO]}, (docs, drive))
+    todos = [q for lote in docs.d.lotes for q in lote]
+    assert not any("addDocumentTab" in q for q in todos)
+    assert {q["insertText"]["location"]["tabId"] for q in todos if "insertText" in q} == {"t.0"}
+
+
+def test_indices_das_abas_novas():
+    docs, drive = _Docs(), _Drive()
+    roteiros = [dict(ROTEIRO, tema=f"T{i}") for i in (1, 2, 3)]
+    d.criar({"nome": "Cici", "data": "2026-10-08", "roteiros": roteiros}, (docs, drive))
+    novas = [q["addDocumentTab"]["tabProperties"]["index"]
+             for q in docs.d.lotes[0] if "addDocumentTab" in q]
+    assert novas == [1, 2]
+
+
+def test_travessao_trava_antes_de_criar_no_drive():
+    docs, drive = _Docs(), _Drive()
+    ruim = dict(ROTEIRO, corpo="a " + chr(0x2013) + " b")
+    with pytest.raises(ValueError):
+        d.criar({"nome": "Cici", "data": "2026-10-08", "roteiros": [ROTEIRO, ruim]}, (docs, drive))
+    assert drive.f.criados == []
+    assert docs.d.lotes == []
+
+
+def test_controle_e_quebras_nao_desalinham_faixas():
+    r = dict(ROTEIRO, gravacao="", gancho="a\r\nb", titulo="T\x07i")
+    reqs = d.requisicoes_da_aba(r, "t")
+    texto = reqs[0]["insertText"]["text"]
+    assert "\x07" not in texto and "\r" not in texto
+    assert texto.startswith("Ti\n")
+    assert "a b\n" in texto
+    fim = max(next(iter(q.values()))["range"]["endIndex"] for q in reqs[1:])
+    assert fim == 1 + len(texto.encode("utf-16-le")) // 2
+
+
+def test_estilo_do_paragrafo_vem_antes_do_texto():
+    reqs = d.requisicoes_da_aba(ROTEIRO, "t")
+    assert "updateParagraphStyle" in reqs[1] and "updateTextStyle" in reqs[2]
