@@ -23,8 +23,15 @@ PERFIS = RAIZ / "perfis"
 def listar(pasta):
     achados = []
     for retrato in pathlib.Path(pasta).glob("*/retrato.json"):
-        dado = json.loads(retrato.read_text(encoding="utf-8"))
-        achados.append({"slug": retrato.parent.name, "nome": dado.get("nome", retrato.parent.name),
+        try:
+            dado = json.loads(retrato.read_text(encoding="utf-8"))
+        except ValueError:
+            print(f"aviso: {retrato} nao e' JSON valido, ignorado", file=sys.stderr)
+            continue
+        if not isinstance(dado, dict):
+            print(f"aviso: {retrato} nao e' um objeto JSON, ignorado", file=sys.stderr)
+            continue
+        achados.append({"slug": retrato.parent.name, "nome": dado.get("nome") or retrato.parent.name,
                         "pasta": str(retrato.parent)})
     return sorted(achados, key=lambda c: c["nome"].lower())
 
@@ -34,13 +41,17 @@ def slug_de(nome):
     return re.sub(r"[^a-z0-9]+", "-", sem_acento.lower()).strip("-")
 
 
-def gravar_perfil(retrato, pasta=PERFIS):
+def gravar_perfil(retrato, pasta=PERFIS, clientes=CLIENTES):
     if not retrato.get("nome"):
         raise ValueError("perfil sem nome")
     if not retrato.get("voz"):
         raise ValueError("perfil sem voz: sem a fala dela o roteiro sai generico")
     retrato = dict(retrato)
-    retrato["slug"] = retrato.get("slug") or slug_de(retrato["nome"])
+    retrato["slug"] = slug_de(retrato.get("slug") or retrato["nome"])
+    if not retrato["slug"]:
+        raise ValueError("perfil com slug vazio: use letras ou numeros no nome")
+    if (pathlib.Path(clientes) / retrato["slug"]).exists():
+        raise ValueError(f"ja existe um cliente com o slug {retrato['slug']}")
     destino = pathlib.Path(pasta) / retrato["slug"]
     destino.mkdir(parents=True, exist_ok=True)
     caminho = destino / "retrato.json"

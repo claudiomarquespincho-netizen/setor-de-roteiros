@@ -64,3 +64,40 @@ def test_temas_entregues(tmp_path):
     leva.gravar(uma_leva(roteiro("r1", "Jaleco"), roteiro("r2", "Scrub")), pasta)
     assert leva.temas_entregues(pasta) == ["Jaleco", "Scrub"]
     assert leva.temas_entregues(tmp_path / "vazio") == []
+
+
+def test_data_invalida():
+    dado = uma_leva()
+    dado["data"] = "08/10/2026"
+    with pytest.raises(ValueError, match="data invalida"):
+        leva.validar(dado)
+
+
+def test_forma_errada_vira_valueerror():
+    for ruim in ([], "x", {"nome": "a", "slug": "a", "data": "2026-10-08", "roteiros": "x"},
+                 uma_leva("texto"), uma_leva(["lista"])):
+        with pytest.raises(ValueError):
+            leva.validar(ruim)
+
+
+def test_gravar_recusa_slug_diferente_da_pasta(tmp_path):
+    with pytest.raises(ValueError, match="slug"):
+        leva.gravar(uma_leva(), tmp_path / "outra")
+
+
+def test_temas_entregues_tolerante(tmp_path):
+    pasta = tmp_path / "ceci"
+    leva.gravar(uma_leva(roteiro("r1", "Jaleco")), pasta)
+    levas = pasta / "levas"
+    (levas / "quebrada.json").write_text("{nao e json", encoding="utf-8")
+    (levas / "lista.json").write_text("[]", encoding="utf-8")
+    (levas / "rot-texto.json").write_text('{"roteiros": "x"}', encoding="utf-8")
+    (levas / "rot-item.json").write_text('{"roteiros": ["x", 3]}', encoding="utf-8")
+    assert leva.temas_entregues(pasta) == ["Jaleco"]
+
+
+def test_travessao_em_referencias():
+    r = roteiro()
+    r["referencias"] = ["ok", "a " + chr(0x2013) + " b"]
+    with pytest.raises(ValueError, match="travessao"):
+        leva.validar(uma_leva(r))

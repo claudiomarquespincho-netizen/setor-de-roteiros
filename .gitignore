@@ -9,3 +9,6 @@ __pycache__/
 google-token.json
 apify.env
 .DS_Store
+.venv/
+venv/
+.env
