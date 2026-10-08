@@ -1,0 +1,54 @@
+{
+  "nome": "Pedro Roim",
+  "slug": "pedro",
+  "data": "2026-10-07",
+  "doc_url": "",
+  "migrada_de": "2026-10-07-primeira-leva.py",
+  "roteiros": [
+    {
+      "chave": "peptideo",
+      "tema": "peptideos comprados no Paraguai para pele e cabelo",
+      "gravacao": "Celular na mão, câmera frontal, gravado em casa ou no carro (lo-fi). No gancho, entra na tela um print de vídeo ou post de alguém mostrando ampola de peptídeo (sem marca e sem rosto). Os nomes GHK-Cu e BPC-157 aparecem escritos quando você fala de cada um, com os números na tela (200 e 80 ng/mL; 35 de 36 estudos). Na parte da Anvisa, entra o print da notícia.",
+      "gancho": "Alguém pode me explicar por que tem gente indo até o Paraguai comprar peptídeo pra pele e cabelo?",
+      "corpo": "Vamos lá, essa é a minha análise dos dois mais falados, sendo médico que trabalha com cabelo.\nO primeiro é o GHK-Cu. Ele existe no nosso sangue: aos 20 anos a gente tem uns 200 nanogramas por mililitro, e aos 60 cai pra uns 80. Daí vem a ideia de repor. Em creme, passado na pele, ele tem estudo em mulheres mostrando melhora de ruga. Pra cabelo, a evidência é bem mais fraca. E injetado, a agência que regula remédio nos Estados Unidos diz que tem pouco dado em humano e risco do corpo criar uma reação contra ele.\nO segundo é o BPC-157. Ele foi feito a partir de uma molécula do suco gástrico e virou febre na academia por causa de cicatrização. Uma revisão de 2025 sobre o uso dele em lesão juntou 36 estudos. 35 eram em animal ou em laboratório, e só 1 era em gente. Desde 2022, ele é proibido no esporte pela agência mundial antidoping.\nE nenhum dos dois foi aprovado pela Anvisa. Eles não têm registro no Brasil em categoria nenhuma, então quem compra no Paraguai tá injetando uma ampola que ninguém conferiu, nem a dose, nem a procedência.\nResumindo é isso: o GHK-Cu tem alguma coisa em creme pra pele, e o BPC-157 ainda é estudo de rato. Pra cabelo caindo, já existe tratamento com registro e testado em gente.",
+      "fechamento": "Comenta o nome do peptídeo que te ofereceram que eu falo dele num próximo vídeo.",
+      "titulo": "Peptídeo do Paraguai"
+    },
+    {
+      "chave": "biotina",
+      "tema": "gomas e vitaminas de cabelo: biotina atrapalha exame de infarto e nao funciona em quem e saudavel",
+      "gravacao": "Você segurando um pote de goma de cabelo (rótulo virado, sem marca aparecendo). Quando falar da biotina, vira o pote e a câmera fecha na tabela, onde aparece 'biotina'. No exame de troponina, entra escrito na tela: troponina = exame de infarto. O 100 mg e o ano do estudo entram escritos.",
+      "gancho": "A vitamina de cabelo em dose alta pode fazer o exame de infarto dar errado.",
+      "corpo": "Goma de cabelo costuma ter biotina, que é a vitamina B7, e tem suplemento com até 100 miligramas por cápsula.\nA FDA, que é tipo a Anvisa dos Estados Unidos, alertou que biotina em dose alta atrapalha alguns exames de sangue. O mais grave é o da troponina, que é o exame que o pronto-socorro usa pra ver se você tá tendo um infarto. A biotina pode fazer esse exame dar baixo quando não deveria. E a FDA recebeu o relato de um paciente que tomava biotina em dose alta e morreu depois de a troponina dar baixa.\nE pro cabelo, ela nem resolve. Uma revisão de 2017 juntou todos os casos publicados de biotina pra cabelo e unha. Todos os 18 pacientes tinham uma doença por trás, a maioria genética e rara. Em quem é saudável, não tem prova de que funciona.\nEntão, se você toma, avisa o médico antes de qualquer exame de sangue.",
+      "fechamento": "Manda esse vídeo pra quem toma goma de cabelo todo dia.",
+      "titulo": "A goma de cabelo"
+    },
+    {
+      "chave": "paciente",
+      "tema": "queda de cabelo nao e uma doenca so: eflúvio telogeno x calvicie genetica",
+      "gravacao": "Sentado no consultório, de jaleco, câmera na altura dos olhos. Sem nome, rosto ou foto da paciente. Na parte dos dois tipos de queda, entra na tela o nome de cada um (eflúvio e calvície) e, se tiver, uma imagem de tricoscopia de cada um. O '3 meses' e o '100 fios' entram escritos.",
+      "gancho": "Uma paciente chegou no meu consultório frustrada com o tratamento que tava fazendo pro cabelo.",
+      "corpo": "Ela já tinha passado por um tratamento antes, e o cabelo continuava caindo. Isso acontece muito, porque queda de cabelo não é uma doença só, e o tratamento de uma não resolve a outra.\nDuas delas se parecem muito no espelho.\nUma é o eflúvio. Você tem uma febre forte, uma cirurgia, um parto ou uma dieta muito restrita, e uns 2 a 3 meses depois o cabelo começa a cair de uma vez, no travesseiro, no ralo. Costuma passar sozinho em uns 6 meses. E perder uns 100 fios por dia é normal.\nA outra é a calvície genética. Ela não cai de uma vez. A cada ciclo o fio nasce um pouco mais fino, e o tratamento vem pra frear esse afinamento.\nQuando o tratamento é pra um tipo de queda e o problema é o outro, ou você gasta à toa, ou perde tempo enquanto a calvície avança. Com ela, a conversa voltou pro começo: que tipo de queda é essa?",
+      "fechamento": "Teve alguma febre forte ou cirurgia uns 3 meses antes do cabelo começar a cair? Me conta aqui.",
+      "titulo": "A paciente frustrada"
+    },
+    {
+      "chave": "transformacao",
+      "tema": "a transformacao do cabelo do Pedro e a predisposicao dele a calvicie",
+      "gravacao": "Você falando direto pra câmera, em casa. Sem foto de antes e depois (regra de publicidade médica do CFM). Na parte dos sinais, você mostra no próprio cabelo: a mão nas entradas, no topo e depois na nuca.",
+      "gancho": "Depois que o meu cabelo mudou, todo mundo começou a me perguntar a mesma coisa.",
+      "corpo": "\"Pedro, o que você fez?\" A resposta é acompanhamento. Eu sei que tenho predisposição à calvície e acompanho isso de perto com tratamento, pra ela não avançar.\nA calvície genética é traiçoeira porque começa em silêncio. Ela pode começar ainda na adolescência e só ficar aparente anos depois, porque o fio vai afinando devagar e você só percebe quando já foi muito.\nO tratamento serve pra estacionar o processo e recuperar parte da perda. Por isso vale começar cedo.\nTem dois sinais que eu olho. As entradas subindo, e o topo da cabeça ficando mais ralo que a nuca, porque a calvície masculina abre primeiro a coroa e as entradas.",
+      "fechamento": "Comenta aqui se tem calvície na sua família, e de que lado.",
+      "titulo": "O que você fez no cabelo?"
+    },
+    {
+      "chave": "vendedor",
+      "tema": "o passado em vendas ensina a reconhecer anuncio de produto de cabelo",
+      "gravacao": "Lo-fi, você no carro ou andando. Em cada truque, entra na tela um exemplo genérico (um frasco com aplicador, um par de fotos de cabelo sem rosto e sem marca), nunca o anúncio de uma marca real. Sem música por cima da fala.",
+      "gancho": "Tem ingrediente em tônico de cabelo que tá lá pra você sentir que ele tá funcionando.",
+      "corpo": "O mentol. É ele que dá aquele geladinho quando você passa o tônico, e o aplicador que massageia o couro cabeludo ajuda. Você sente alguma coisa acontecendo e já acha que tá funcionando. Confesso que até eu fico com vontade de passar. Mas o geladinho sozinho não diz nada sobre o seu fio.\nEu trabalhei com vendas no marketing digital, e uma das primeiras coisas que se aprende é que venda boa mexe com o que você sente. Anúncio de cabelo faz isso muito bem.\nE outra: o antes e depois. Repara se as duas fotos têm a mesma luz e o cabelo no mesmo estado. Cabelo molhado com luz de cima e cabelo seco penteado com luz de frente parecem duas cabeças diferentes. Quando a foto do antes é escura e a do depois é de estúdio, a diferença pode ser só a foto.",
+      "fechamento": "Me manda o anúncio de cabelo que mais aparece pra você que eu analiso aqui.",
+      "titulo": "O anúncio de cabelo"
+    }
+  ]
+}

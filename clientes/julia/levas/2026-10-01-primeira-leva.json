@@ -1,0 +1,79 @@
+{
+  "nome": "Julia Bressane",
+  "slug": "julia",
+  "data": "2026-10-01",
+  "doc_url": "",
+  "migrada_de": "2026-10-01-primeira-leva.py",
+  "roteiros": [
+    {
+      "chave": "c1",
+      "tema": "cegueira de escolha: explicar com certeza uma escolha que nao foi sua",
+      "gravacao": "Tela dividida: você de um lado e, do outro, duas fotos de rosto lado a lado, com a troca acontecendo na hora em que você conta.",
+      "gancho": "Um grupo de pessoas escolheu a foto mais bonita entre 2 fotos.",
+      "corpo": "Depois, com um truque de mágica, entregaram na mão delas a foto que elas não tinham escolhido e perguntaram por quê. Esse estudo saiu na revista Science em 2005, com 120 participantes. Das 354 vezes em que trocaram a foto, só 46 foram percebidas na hora. Mesmo contando quem desconfiou depois, a maior parte passou batido.\nE muita gente explicou com toda a segurança por que tinha escolhido aquele rosto. Teve até quem citasse detalhes que só existiam na foto trocada. Quando compararam essas explicações com as das escolhas verdadeiras, não acharam diferença no nível de detalhe nem na certeza.\nOs pesquisadores chamaram isso de cegueira de escolha. Depois repetiram a ideia com geleia e chá num supermercado na Suécia, e de novo a maioria das trocas passou.\nUm estudo de 2025 viu que, quando o pesquisador parece não saber o que está fazendo, as pessoas percebem mais a troca. Parte do efeito parece depender de quanto a gente confia em quem conduz o teste.",
+      "fechamento": "Quando você tiver certeza absoluta do motivo de uma escolha, lembra dessas pessoas defendendo uma foto que nem tinham escolhido.",
+      "referencias": [
+        "Johansson, P., Hall, L., Sikström, S., & Olsson, A. (2005). Failure to detect mismatches between intention and outcome in a simple decision task. *Science*, 310(5745), 116-119.",
+        "Hall, L., Johansson, P., Tärning, B., Sikström, S., & Deutgen, T. (2010). Magic at the marketplace: Choice blindness for the taste of jam and the smell of tea. *Cognition*, 117(1), 54-61.",
+        "Marchant, N., Navarrete, G., de Gardelle, V., Silva, J. R., Sackur, J., & Reyes, G. (2025). Social cues for experimenter incompetence influence choice blindness. *Consciousness and Cognition*, 132, 103887."
+      ],
+      "titulo": "A foto que você não escolheu"
+    },
+    {
+      "chave": "c2",
+      "tema": "ponto cego do vies: ver vies nos outros e nao em si",
+      "gravacao": "Você falando pra câmera, como se fizesse a pergunta pra quem assiste. Quando aparecerem os números (79 de 91, só 19), eles entram escritos na tela.",
+      "gancho": "Se eu te perguntar se você é mais justa que a média, você provavelmente vai dizer que sim.",
+      "corpo": "Foi o que aconteceu em Stanford: 79 de 91 alunos se avaliaram acima da média em qualidades pessoais. Depois, os pesquisadores deram pra eles um texto dizendo que de 70 a 80% das pessoas fazem exatamente isso, e perguntaram se eles tinham feito a mesma coisa.\nDos 79, só 19 admitiram. A maioria disse que a própria avaliação era precisa, e 13% ainda falaram que tinham sido modestos demais.\nA Emily Pronin e colegas descreveram isso em 2002 e chamaram de ponto cego do viés: a gente enxerga viés nos outros com muito mais facilidade do que em si mesma.\nEm 2021, um grupo refez os testes com 969 pessoas em Hong Kong e nos Estados Unidos, e o efeito apareceu pelo menos tão forte quanto no original. Tem pesquisador que discute o quanto disso vem do jeito de fazer a pergunta.\nUma explicação que a Pronin propõe é que, pra se julgar, a gente dá mais peso às próprias intenções, e pra julgar os outros, ao que eles fizeram.",
+      "fechamento": "Na próxima discussão, antes de explicar o que você quis dizer, repara no que a outra pessoa viu você fazer.",
+      "referencias": [
+        "Pronin, E., Lin, D. Y., & Ross, L. (2002). The bias blind spot: Perceptions of bias in self versus others. *Personality and Social Psychology Bulletin*, 28(3), 369-381.",
+        "Pronin, E., & Kugler, M. B. (2007). Valuing thoughts, ignoring behavior: The introspection illusion as a source of the bias blind spot. *Journal of Experimental Social Psychology*, 43(4), 565-578.",
+        "Chandrashekar, S. P., Yeung, S. K., Yau, K. C., Cheung, C. Y., Agarwal, T. K., Wong, C. Y. J., Pillai, T., Thirlwell, T. N., Leung, W. N., Tse, C., Li, Y. T., Cheng, B. L., Chan, H. Y. C., & Feldman, G. (2021). Agency and self-other asymmetries in perceived bias and shortcomings: Replications of the Bias Blind Spot and link to free will beliefs. *Judgment and Decision Making*, 16(6), 1392-1412."
+      ],
+      "titulo": "Todo mundo é enviesado, menos eu"
+    },
+    {
+      "chave": "p1",
+      "tema": "arrependimento de mudar ou de ficar, a partir da saida dela do corporativo",
+      "gravacao": "Você falando direto pra câmera, sem animação no começo. Os números da pesquisa podem entrar escritos na tela.",
+      "gancho": "Eu passei 8 meses sofrendo num cargo de diretoria.",
+      "corpo": "E todo mês eu tentava me convencer a ficar. Eu ganhava bem e trabalhava de casa, e mesmo assim sentia que tava regredindo. O dilema era esse: ou eu seguia o meu propósito, ou continuava ali ganhando bem.\nEm 1994, o Thomas Gilovich e a Victoria Medvec contaram pra estudantes a história de 2 alunos mais ou menos satisfeitos com a faculdade. Um ficou e o outro pediu transferência, e os 2 se arrependeram. 76% acharam que quem mudou ia se arrepender mais no começo. Pensando no longo prazo, 64% apostaram no arrependimento de quem ficou.\nQuando repetiram esses estudos em 2022, boa parte do padrão apareceu de novo, com efeitos mais fracos, e um deles não se confirmou. Então dá pra desconfiar de quem diz que a gente sempre se arrepende mais do que não fez.\nO Gilovich voltou ao tema em 2018, com o Shai Davidai, pra ver quais arrependimentos duram mais. Eles tendem a vir mais do quanto você ainda está longe da pessoa que gostaria de ser do que de alguma obrigação que ficou pra trás.",
+      "fechamento": "Eu tentei me desapegar e tratar aquilo como uma fase, e não deu. Em setembro do ano passado eu pedi demissão, sem outra proposta, porque desenvolvimento é o valor que eu mais prezo e ali eu tava abrindo mão dele todo mês.",
+      "referencias": [
+        "Gilovich, T., & Medvec, V. H. (1994). The temporal pattern to the experience of regret. *Journal of Personality and Social Psychology*, 67(3), 357-365.",
+        "Yeung, S. K., & Feldman, G. (2022). Revisiting the temporal pattern of regret in action versus inaction: Replication of Gilovich and Medvec (1994) with extensions examining responsibility. *Collabra: Psychology*, 8(1), 37122.",
+        "Davidai, S., & Gilovich, T. (2018). The ideal road not taken: The self-discrepancies involved in people's most enduring regrets. *Emotion*, 18(3), 439-452."
+      ],
+      "titulo": "8 meses tentando ficar"
+    },
+    {
+      "chave": "m1",
+      "tema": "esgotamento do ego: a ideia da forca de vontade como bateria nao replicou",
+      "gravacao": "Lo-fi: enquanto você conta o experimento, aparecem na tela um prato de biscoito, um rabanete e um cronômetro.",
+      "gancho": "Em 1998, um experimento com rabanete e biscoito de chocolate convenceu muita gente de que força de vontade acaba igual bateria.",
+      "corpo": "No estudo original, as pessoas chegavam com fome numa sala com cheiro de biscoito recém-assado. Um grupo podia comer o biscoito, o outro tinha que resistir e comer só rabanete. Depois, todo mundo tentava um quebra-cabeça sem solução. Quem comeu rabanete desistiu em pouco mais de 8 minutos, e quem comeu chocolate aguentou quase 19.\nA conclusão parecia óbvia: resistir ao biscoito gastou um estoque de autocontrole. A ideia ficou conhecida como esgotamento do ego e virou base de muito conselho de produtividade.\nSó que, em 2016, quando 23 laboratórios testaram esse efeito com um protocolo padronizado e mais de 2 mil pessoas, ele ficou praticamente em zero. O teste seguinte, de 2021, foi ainda maior: um grupo liderado por uma pesquisadora que trabalhou com o próprio autor da teoria rodou em 36 laboratórios, com mais de 3.500 pessoas. Na análise principal, o efeito de novo foi muito pequeno, sem significância estatística.",
+      "fechamento": "Se você cede ao doce às 10 da noite, esses testes não sustentam a ideia de que acabou a sua bateria. Antes de se culpar, olha pro que tava em volta.",
+      "referencias": [
+        "Baumeister, R. F., Bratslavsky, E., Muraven, M., & Tice, D. M. (1998). Ego depletion: Is the active self a limited resource? *Journal of Personality and Social Psychology*, 74(5), 1252-1265.",
+        "Hagger, M. S., Chatzisarantis, N. L. D., Alberts, H., Anggono, C. O., Batailler, C., Birt, A. R., Brand, R., Brandt, M. J., Brewer, G., Bruyneel, S., Calvillo, D. P., Campbell, W. K., Cannon, P. R., Carlucci, M., Carruth, N. P., Cheung, T., Crowell, A., De Ridder, D. T. D., Dewitte, S., ... Zwienenberg, M. (2016). A multilab preregistered replication of the ego-depletion effect. *Perspectives on Psychological Science*, 11(4), 546-573.",
+        "Vohs, K. D., Schmeichel, B. J., Lohmann, S., Gronau, Q. F., Finley, A. J., Ainsworth, S. E., Alquist, J. L., Baker, M. D., Brizi, A., Bunyi, A., Butschek, G. J., Campbell, C., Capaldi, J., Cau, C., Chambers, H., Chatzisarantis, N. L. D., Christensen, W. J., Clay, S. L., Curtis, J., ... Albarracín, D. (2021). A multisite preregistered paradigmatic test of the ego-depletion effect. *Psychological Science*, 32(10), 1566-1581."
+      ],
+      "titulo": "A bateria da força de vontade não passou no teste"
+    },
+    {
+      "chave": "c3",
+      "tema": "rotular a emocao: efeito no corpo mesmo sem mudar o sentimento relatado",
+      "gravacao": "Tela dividida: você de um lado e uma tarântula do outro. A frase do gancho entra escrita na tela, como se fosse dita por outra pessoa.",
+      "gancho": "Eu tô com medo que essa tarântula nojenta pule em mim.",
+      "corpo": "Essa era a frase que alguns voluntários com medo de aranha tinham que dizer em voz alta, olhando pra uma tarântula de verdade. Foram 88 participantes, divididos em 4 grupos. Um nomeava o medo, outro tentava pensar na aranha de um jeito mais tranquilo, outro se distraía, e o último só ficava ali, exposto a ela.\nUma semana depois, todo mundo encontrou outra aranha, num outro ambiente. E o grupo que nomeou o medo durante a exposição foi o que teve a menor reação do corpo, medida pela condutância da pele, que sobe quando o corpo entra em alerta.\nAgora, o medo que essas pessoas diziam sentir ficou igual ao dos outros grupos.\nIsso conversa com estudos de neuroimagem do Matthew Lieberman, em que nomear a emoção de um rosto, comparado a outra tarefa com a mesma imagem, veio acompanhado de uma resposta menor da amígdala. São estudos pequenos, e uma pesquisa de 2026 não encontrou vantagem duradoura em nomear.",
+      "fechamento": "Quando alguma coisa te der medo, experimenta dizer em voz alta o que você tá sentindo, enquanto continua ali.",
+      "referencias": [
+        "Kircanski, K., Lieberman, M. D., & Craske, M. G. (2012). Feelings into words: Contributions of language to exposure therapy. *Psychological Science*, 23(10), 1086-1091.",
+        "Lieberman, M. D., Eisenberger, N. I., Crockett, M. J., Tom, S. M., Pfeifer, J. H., & Way, B. M. (2007). Putting feelings into words: Affect labeling disrupts amygdala activity in response to affective stimuli. *Psychological Science*, 18(5), 421-428.",
+        "Chen, J., van de Vijver, I., Kenemans, J. L., & Baas, J. M. P. (2026). Impact of affect labelling as an implicit emotion regulation strategy on negative and positive emotions. *Cognition and Emotion*. https://doi.org/10.1080/02699931.2026.2616636"
+      ],
+      "titulo": "A tarântula e o que você sente"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "nome": "Felipe Noir",
+  "slug": "felipe",
+  "data": "2026-09-29",
+  "doc_url": "",
+  "migrada_de": "2026-09-29-posicionamento.py",
+  "roteiros": [
+    {
+      "chave": "p1",
+      "tema": "negocio local com seguidor e sem conversa no WhatsApp: a metrica que ele olha errado",
+      "gravacao": "Celular na mão, falando direto. Quando fala da ordem, aparece na tela: \"vendas\", depois \"quem te chamou\", e \"seguidores\" lá embaixo.",
+      "gancho": "Já reparou quanto negócio tem 5 mil seguidores no Instagram e o WhatsApp não toca?",
+      "corpo": "E aí a reação de quase todo mundo é postar mais, fazer sorteio, tentar viralizar, né? E o seguidor até sobe, só que o caixa continua igual.\nPor quê? Porque a gente que tem negócio pequeno acaba olhando pro número que aparece primeiro no perfil, e não pro número que paga as contas.\nPra negócio local, se eu tivesse que colocar em ordem, seria assim: primeiro, quantas vendas vieram do Instagram. Depois, quantas pessoas te chamaram. E seguidor lá no final da fila.\nPensa numa hamburgueria de bairro, sabe? Ela não precisa que o Brasil inteiro conheça ela. Ela precisa que quem mora ali perto lembre dela na sexta à noite e saiba como pedir.\nE quando você entende isso, por consequência o que você posta muda. O lanche saindo da chapa, com o jeito de pedir bem claro, vende mais do que aquele post feito pra viralizar.",
+      "fechamento": "Então nessa semana anota quantas vendas vieram do Instagram. É esse número que você tem que ver crescer.",
+      "titulo": "Seguidor não chama no WhatsApp"
+    },
+    {
+      "chave": "p2",
+      "tema": "o conteudo que o dono procura esta nas perguntas e nos elogios que ja chegaram no WhatsApp",
+      "gravacao": "Celular na mão. Se quiser, mostra a tela do WhatsApp rolando pra cima, sem aparecer nome de cliente.",
+      "gancho": "A pergunta que o seu cliente mais te faz no WhatsApp é o seu próximo vídeo.",
+      "corpo": "Pensa comigo. Se você tem uma estética, aposto que todo dia alguém pergunta se dói, ou quantas sessões precisa. Se é uma oficina, é quanto fica e se fica pronto hoje.\nPoxa, cada pergunta dessas é um vídeo, e é justamente o vídeo que o seu próximo cliente precisava ver antes de te chamar, entendeu?\nE tem mais coisa ali. Aquele áudio do cliente agradecendo, a foto que ele mandou depois do serviço. Isso vale muito, porque é outra pessoa falando bem de você.\nSó que no corre do dia a dia a gente responde, fecha a conversa e vai pro próximo, e nem percebe o que tem ali. Eu posso me incluir nisso.",
+      "fechamento": "Então pega a pergunta que mais chegou essa semana e grava a resposta hoje mesmo.",
+      "titulo": "O conteúdo que já tá no seu WhatsApp"
+    },
+    {
+      "chave": "p3",
+      "tema": "rodou anuncio e nao vendeu: antes de culpar a agencia, o tempo de resposta no WhatsApp",
+      "gravacao": "Celular na mão. No fim, se quiser, mostra o WhatsApp de uma empresa com conversa sem resposta, sem nome de cliente.",
+      "gancho": "Antes de trocar de agência, me responde uma coisa: quanto tempo você leva pra responder quem te chama no WhatsApp?",
+      "corpo": "Porque agência ruim existe, isso eu não vou defender. Mas tem uma parte que nenhuma agência resolve.\nO anúncio traz a pessoa até você. Se ela chamou e ninguém respondeu, acabou ali.\nE o que mais acontece, sabe? A pessoa chama às 7 da noite perguntando o preço e alguém só responde no outro dia de manhã. Nessa hora ela já chamou mais dois e fechou com quem respondeu primeiro.\nAí o relatório mostra lá 40 conversas, e você fala que ninguém chamou. Vale abrir uma por uma e ver quantas tiveram resposta de verdade, porque às vezes nem a agência nem você olharam isso.",
+      "fechamento": "Se a maioria ficou sem resposta, ou foi respondida só no dia seguinte, o primeiro investimento é em quem atende. Anúncio vem depois.",
+      "titulo": "Contratei uma agência e não vendi nada"
+    },
+    {
+      "chave": "a1",
+      "tema": "DJ que so posta flyer: quem contrata quer ver a pista",
+      "gravacao": "Celular na mão. Se tiver vídeo antigo seu tocando, entra por cima quando fala da pista.",
+      "gancho": "Eu fui DJ até a pandemia, e tem uma coisa que eu vejo muito DJ fazendo no Instagram que atrapalha na hora de ser contratado.",
+      "corpo": "O perfil vira uma sequência de flyer. Sexta em tal lugar, sábado em tal festa, e é arte atrás de arte.\nSó que quem contrata DJ quer ver a pista cheia quando você toca, quer ver a galera reagindo quando você solta aquela música.\nE eu entendo, sabe? Na hora que você tá tocando, a última coisa que passa na cabeça é gravar.\nEntão deixa o celular com alguém de confiança, ou apoiado num canto da cabine, e pega uns 15 segundos do melhor momento da noite.\nFaz isso em toda data. Por consequência, depois de umas dez festas você tem um material que mostra o que você faz na pista, e isso pesa muito mais na hora de alguém decidir te chamar.",
+      "fechamento": "Na sua próxima data, grava a pista. Fechou?",
+      "titulo": "O que atrapalha o DJ no Instagram"
+    },
+    {
+      "chave": "e1",
+      "tema": "voltar para a pista como gestor de trafego de um evento, depois de ter largado a carreira de DJ na pandemia",
+      "gravacao": "Se tiver, usa os takes do evento e da cabine do fim de semana por baixo da fala.",
+      "gancho": "Esse fim de semana eu tava dentro da cabine de um evento de música eletrônica pra umas 2 mil pessoas, e não era eu que tava tocando.",
+      "corpo": "Pra quem não sabe, antes da pandemia eu era DJ e produtor de música eletrônica. O sonho era viver disso, chegar no patamar de um Vintage Culture.\nAí veio a pandemia, as festas pararam, e boleto não para, né? Foi aí que eu fui pro marketing, abri uma agência de tráfego e acabei virando empresário.\nE nesse evento eu tava lá como o cara do tráfego.\n(Aqui entra, com as suas palavras, o que passou pela sua cabeça estando na cabine desse outro lado.)\nEntão a música continua na minha vida, só que agora pelo lado do negócio.",
+      "fechamento": "Não do jeito que eu imaginava com 18 anos, mas eu tô de volta nesse meio. E é só começo.",
+      "titulo": "Do outro lado da cabine"
+    }
+  ]
+}

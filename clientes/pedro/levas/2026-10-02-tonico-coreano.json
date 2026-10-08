@@ -1,0 +1,17 @@
+{
+  "nome": "Pedro Roim",
+  "slug": "pedro",
+  "data": "2026-10-02",
+  "doc_url": "",
+  "migrada_de": "2026-10-02-tonico-coreano.py",
+  "roteiros": [
+    {
+      "chave": "r1",
+      "tema": "Tônico coreano do TikTok",
+      "gravacao": "Lo-fi, com o frasco na mão. No gancho, você na frente de um vídeo do TikTok do produto (tela verde). Na parte do rótulo, close no frasco e a lista na tela, com álcool, mentol e o fim da lista marcados.",
+      "gancho": "Alguém pode me explicar que produto coreano é esse que promete segurar a queda e fortalecer o cabelo com exossomo de 4ª geração?",
+      "corpo": "Vamos lá. É o Lilyeve Grow Turn, esse tônico coreano que tá em todo vídeo do TikTok. Ele vem com essa escovinha de silicone, você aperta e o líquido sai direto no couro cabeludo. Só de ver já dá aquela coisa de nossa, isso deve ser muito bom passar no cabelo. Eu mesmo fico com vontade.\nEssa é a minha análise do Lilyeve, sendo [PROFISSÃO DO PEDRO].\nA promessa dele é o exossomo. Exossomo é tipo uma vesícula bem pequena, que entraria na pele até a região do folículo e estimularia o fio a crescer. Resumindo é isso.\nAgora vira o frasco. No rótulo, os ingredientes vêm do que tem mais pro que tem menos. Primeiro vem água. Depois, álcool. O mentol aparece em 11º, e mais pra baixo vem óleo de eucalipto. A palavra exossomo não aparece na lista. O que a marca chama de exossomo tá lá no fim, com nome de extrato de planta e de fermento.\nO mentol com o eucalipto é o que gela quando você passa, e dá a impressão de que o produto tá agindo. É isso que te dá vontade de usar.\nE outra: o problema da queda de cabelo tá embaixo, dentro do folículo, e muitas vezes começa em outro lugar do corpo. E esse produto não tem ativo em quantidade pra esse tipo de tratamento.",
+      "fechamento": "Você paga caro por uma sensação. Se o seu cabelo tá caindo, o primeiro passo é descobrir por que ele tá caindo. Manda esse vídeo pra quem já colocou esse tônico no carrinho."
+    }
+  ]
+}

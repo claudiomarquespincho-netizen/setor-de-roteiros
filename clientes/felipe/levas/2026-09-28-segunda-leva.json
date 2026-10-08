@@ -1,0 +1,54 @@
+{
+  "nome": "Felipe Noir",
+  "slug": "felipe",
+  "data": "2026-09-28",
+  "doc_url": "",
+  "migrada_de": "2026-09-28-segunda-leva.py",
+  "roteiros": [
+    {
+      "chave": "c1",
+      "tema": "o dono de empresa pequena na fase do meio, que a internet nao mostra",
+      "gravacao": "Falando direto pra câmera, no seu lugar fixo de gravação, num take só e sem pausa.\n\nPrimeira frase escrita no topo da tela nos primeiros segundos. Depois, legenda curta no meio da tela.",
+      "gancho": "O salário do dono de empresa pequena tem nome: o que sobrou.",
+      "corpo": "Dia 4 de noite ele tá na mesa da cozinha fazendo a conta da folha no papel de pão, pela terceira vez, pra ver se a soma muda sozinha.\n\nDia 5 começa a fila. Primeiro o funcionário, que recebe no dia certo nem que o dono tenha que vender o videogame. Depois o fornecedor, que já mandou 4 mensagens com um \"bom dia\" cada vez mais seco. Depois o aluguel da sala. Depois o contador, que ninguém sabe direito o que faz, mas todo mundo tem pavor de atrasar.\n\nO que sobra ele chama de pró-labore. Quando não sobra, ele chama de reinvestimento.\n\nNo almoço de domingo o tio pergunta se a empresa tá bombando, e ele responde \"tá crescendo\", que em empresa pequena quer dizer que ela ainda não fechou.\n\nFaturamento ele sabe de cabeça e fala em qualquer roda. Lucro ele não sabe, porque pra saber ia ter que abrir a planilha, e a planilha ele abre do mesmo jeito que confere a folha, rezando.\n\nNa internet só aparece o empresário que já chegou, com a cobertura, a viagem, o carro na garagem e o print de faturamento com o dedo tapando o mês ruim. Ninguém posta o mês que a empresa fechou no vermelho.\n\nEu tô nessa fase, a do meio.",
+      "fechamento": "Se você também tá no meio do caminho, segue, que o meu vai aparecer aqui enquanto acontece.",
+      "titulo": "O salário do dono"
+    },
+    {
+      "chave": "c2",
+      "tema": "o empresario que construiu a identidade inteira em volta da empresa",
+      "gravacao": "Falando pra câmera no seu lugar fixo, num take só.\n\nPrimeira frase escrita no topo da tela.",
+      "gancho": "Tem empresário que, se você tirar a empresa, não sobra assunto nenhum.",
+      "corpo": "Você chama ele pro aniversário do seu filho e ele passa a festa explicando pro pai do amiguinho como escalar o comercial, do lado da mesa do bolo, de chapéu de festa na cabeça.\n\nA bio dele é \"CEO, founder, investidor, pai\". Pai vem em quarto, depois de investidor, e investidor ele é de 2 mil reais no Tesouro.\n\nNas férias ele leva o notebook \"só pra olhar uma coisinha\". Na fila do tobogã ele responde e-mail e entra em call de sunga, com voz de quem tá fechando contrato.\n\nPergunta o que ele gosta de fazer. \"Gosto de resolver problema.\" Resposta de entrevista de emprego, mano. O hobby dele é almoço de negócio e a série favorita é podcast de empresa no 2x.\n\nQuando a empresa perde um cliente, ele perde o sono. E se um dia ele vender a empresa, vai ter que se apresentar de novo pra própria esposa.\n\nPorque ele passou tanto tempo sendo dono da empresa que esqueceu de ser dono de mais alguma coisa.",
+      "fechamento": "Fora do trabalho, quem é você? Comenta embaixo.",
+      "titulo": "O empresário que virou a empresa"
+    },
+    {
+      "chave": "c3",
+      "tema": "a empresa que vende mais e fica sem caixa, o problema de caixa da fase do meio",
+      "gravacao": "Falando pra câmera no seu lugar fixo. Cada número aparece escrito na tela na hora em que você fala, e no fim entra a conta inteira: 66 mil entrando contra 86 mil saindo.\n\nPrimeira frase escrita no topo da tela.",
+      "gancho": "Como é que uma loja vende o dobro e fica sem dinheiro pra pagar a luz?",
+      "corpo": "Pega uma loja de exemplo que vendia 50 mil por mês, tudo no cartão, parcelado em 3 vezes. Aí vem um mês bom e ela vende 100 mil.\n\nSó que pra vender o dobro ela comprou mais e contratou mais, e a conta chega no mês seguinte: 45 mil de mercadoria pro fornecedor, que quer receber em 30 dias, 25 mil de folha porque teve que contratar, 8 mil de aluguel e luz e uns 8 mil de imposto, que vence dia 20.\n\nDá 86 mil pra pagar.\n\nE o que entra? Dos 100 mil vendidos, no mês seguinte cai só a primeira parcela, uns 33. Somando as parcelas dos meses fracos de antes, entram mais uns 33. Dá 66.\n\n66 entrando, 86 saindo. Faltam 20 mil justo no mês em que ela mais vendeu na vida.\n\nO resto do dinheiro existe, tá ligado? Só que ele chega em 2 meses, e a conta de luz não espera 2 meses.\n\nEntão o dono, que acabou de bater recorde, vai no banco pegar empréstimo pra pagar a luz da loja que tá vendendo como nunca.\n\nÉ por isso que tem empresa que quebra vendendo bem: a venda cria a conta agora e o dinheiro dela chega depois.",
+      "fechamento": "Comenta se a sua empresa vende parcelado e paga o fornecedor antes de receber.",
+      "titulo": "Vendeu o dobro e faltou pra luz"
+    },
+    {
+      "chave": "c4",
+      "tema": "ambicao sem falsa modestia e sem ostentar riqueza que nao existe",
+      "gravacao": "Falando pra câmera no seu lugar fixo, sem sorrir no gancho. É o vídeo mais sério da leva.\n\nPrimeira frase escrita no topo da tela.",
+      "gancho": "Eu quero ficar rico e não vou pedir desculpa por isso.",
+      "corpo": "No Brasil, quem ganha dinheiro fala dele baixinho, com cara de quem tá confessando crime.\n\nComprou carro novo: \"peguei numa oportunidade\". Viajou pra fora: \"foi uma fugidinha\". Mudou de apartamento: \"ah, mas é alugado\". Pergunta quanto ele ganha: \"dá pra pagar as contas, graças a Deus\".\n\nE aí tem o outro, que aluga carro de luxo por 1 hora pra tirar foto e volta pra casa de ônibus.\n\nEu quero ganhar muito dinheiro e dar pra minha família uma vida cada vez melhor. Dinheiro pra mim é poder escolher.\n\nE eu ainda não cheguei lá, então você não vai me ver alugando carro pra foto.\n\nAmbição virou palavrão, e eu acho isso uma besteira. Pior é passar a vida inteira fingindo que não quer.",
+      "fechamento": "Você fala de dinheiro em voz alta ou baixinho?",
+      "titulo": "Eu quero ficar rico"
+    },
+    {
+      "chave": "c5",
+      "tema": "o networking transacional, que trata gente como faturamento",
+      "gravacao": "Falando pra câmera no seu lugar fixo. Se der, grava na saída de um evento, ainda com o crachá no pescoço.\n\nPrimeira frase escrita no topo da tela.",
+      "gancho": "Em evento de networking, o aperto de mão já vem com QR code.",
+      "corpo": "O cara chega com o crachá virado pra frente, parecendo distintivo de polícia, e aperta a sua mão lendo o seu crachá, pra saber se você é dono ou se veio pelo coffee break.\n\nSe for dono, em 40 segundos ele já sabe o seu faturamento, o seu ramo, quantos funcionários você tem e se tem sócio. Em 2 minutos o celular dele tá na sua cara. Você escaneia achando que é o Instagram. É o catálogo.\n\nVocê ainda tá no estacionamento e chega a mensagem: \"Oi, foi um prazer! Então, aproveitando...\". Você já sabe onde esse \"aproveitando\" vai dar.\n\nO café que ele marca com você é reunião de vendas com cafeína. Ele tem 300 contatos salvos como \"João Evento\" e \"Carlos Palestra\" e não lembra a cara de nenhum.\n\nEle saiu de casa pra conhecer gente e passou a noite inteira conversando com faturamento.",
+      "fechamento": "Marca aquele amigo que te chamou pra um café e apareceu com proposta.",
+      "titulo": "O café que era uma venda"
+    }
+  ]
+}

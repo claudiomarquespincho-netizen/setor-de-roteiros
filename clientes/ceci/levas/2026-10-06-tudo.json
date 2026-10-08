@@ -1,0 +1,81 @@
+{
+  "nome": "Cici",
+  "slug": "ceci",
+  "data": "2026-10-06",
+  "doc_url": "",
+  "migrada_de": "2026-10-06-tudo.py",
+  "roteiros": [
+    {
+      "chave": "a1",
+      "tema": "o proposito que transborda para fora da empresa e vira produto com causa: o jaleco desenhado pelas criancas do Instituto Florir Amor",
+      "gravacao": "Lo-fi, na sede, de preferência na sala do instituto ou com desenhos na parede.\n\nImagens de apoio: os desenhos das crianças no papel e o close da estampa no jaleco.\n\nTexto na tela: \"8 em cada 10\" e \"meio período\" no gancho, \"Instituto Florir Amor\" quando ela diz o nome, e \"08/10\" no fim, com a fonte pequena no canto (Censo Escolar 2024, Inep).",
+      "gancho": "No Brasil, 8 em cada 10 crianças do ensino fundamental estudam só meio período, e onde elas passam a outra metade do dia?",
+      "corpo": "Pra muita criança em situação de vulnerabilidade, a outra metade do dia pode ser na rua ou sozinha em casa, num lugar que não favorece o desenvolvimento dela.\n\nPor isso, dentro da nossa sede administrativa, lá em São João da Boa Vista, existe o Instituto Florir Amor. É um contraturno: a criança sai da escola e vem pra cá ter música, matemática, inglês e reforço escolar, e a outra metade do dia vira aula.\n\nEsse ano a gente quis que elas fizessem parte de um produto nosso. A gente pediu pra cada uma desenhar o mundo ideal, um mundo onde tivesse mais amor, e desses desenhos nasceu a estampa do jaleco que a gente lança dia 8 de outubro, no Dia das Crianças. E parte de cada jaleco vendido volta pro instituto.\n\nA gente veste a área da saúde, né? Então, cuidando dessas crianças desde pequenininhas, pode ser que a gente esteja cuidando dos nossos clientes lá na frente.",
+      "fechamento": "O jaleco das crianças chega dia 8. Compartilha com aquela amiga que é apaixonada pela Cherie. Beijo!",
+      "titulo": "A outra metade do dia"
+    },
+    {
+      "chave": "c1",
+      "tema": "cocriacao com a comunidade: o scrub que 15 mil clientes da Cherie escolheram em 11 meses, e como qualquer marca faz isso com 20 clientes",
+      "gravacao": "Direto pra câmera, com o scrub da collab na mão ou na arara.\n\nPrint do grupo de WhatsApp com as perguntas (sem nome nem número de cliente) quando ela fala das perguntas, e close da etiqueta da collab quando ela diz.\n\nTexto na tela: \"+15 mil clientes\" no gancho, \"11 meses\" quando ela diz e \"20 clientes\" no fim.",
+      "gancho": "Falei com mais de 15 mil clientes, e consegui criar o scrub perfeito.",
+      "corpo": "A gente tem 15 mil clientes em grupos de WhatsApp, e cada uma entrou porque quis. Pouquíssimas marcas têm gente querendo ouvir elas no lugar mais quente que existe, que é o WhatsApp.\n\nDurante quase 11 meses, a gente usou esses grupos pra criar um scrub junto com elas. A gente ia mandando pergunta atrás de pergunta: qual botão, qual modelagem, quantos bolsos fazem falta num plantão, que cor, que tecido. O que mais ganhava ia direto pro nosso time de criação, e até a embalagem saiu do jeitinho que elas pediram. Por isso a etiqueta vai dizer que é uma collab da Cherie com a nossa comunidade.\n\nQuando a cliente escolhe até o botão, ela sente que o produto é dela também. Ela quer ser a primeira a usar e quer mostrar pra todo mundo que ajudou a criar. Pra mim, comunidade é a forma de gastar menos pra trazer cliente e fazer ela comprar com você por muito mais tempo.\n\nE isso funciona com 20 clientes também. Antes do seu próximo lançamento, chama as suas 20 melhores clientes num grupo e deixa elas escolherem junto com você, uma pergunta de cada vez. O que mais ganhar entra no produto.",
+      "fechamento": "Comenta aqui o que você deixaria a sua cliente escolher no seu próximo lançamento. Beijo!",
+      "titulo": "O scrub que a comunidade criou"
+    },
+    {
+      "chave": "c2",
+      "tema": "marketing de influencia: o que e' e a escada de onde por o dinheiro (voce, suas clientes, criadoras do nicho, influenciador grande)",
+      "gravacao": "Lo-fi, ela sentada no escritório ou na loja.\n\nTexto na tela: \"+100 marcas\" no gancho e, um de cada vez, como degraus de uma escada: \"1 · Você\", \"2 · Suas clientes\", \"3 · Criadoras do seu nicho\", \"4 · Influenciador grande\".",
+      "gancho": "Depois de fazer publicidade pra mais de 100 marcas, foi isso que eu aprendi sobre marketing de influência.",
+      "corpo": "Marketing de influência é usar a confiança que uma pessoa tem com quem segue ela pra apresentar a sua marca. O seguidor compra porque confia em quem tá falando. Tanto que a publi que mais vendia comigo era de marca que eu já usava e que me deixava falar do meu jeito.\n\nE pra quem tá começando, eu penso nisso como uma escada.\n\nO primeiro degrau é você. A dona da marca é a primeira influenciadora dela, e quando você aparece, a sua marca ganha um rosto em quem a cliente confia.\n\nO segundo são as suas clientes. Quem já compra e ama a sua marca fala dela de graça, pra gente que confia nela. É por isso que eu invisto tanto em comunidade.\n\nO terceiro são as criadoras pequenas do seu nicho. Elas cobram pouco ou aceitam produto, e quem segue elas ouve de verdade o que elas indicam.\n\nE só no quarto entra o influenciador grande, quando os outros degraus já estão funcionando. Muita marca começa por ele, gasta tudo numa publi só e, quando não vende, acha que marketing de influência não funciona.",
+      "fechamento": "Escreve aqui em qual degrau a sua marca tá hoje.",
+      "titulo": "Marketing de influência em 4 degraus"
+    },
+    {
+      "chave": "m1",
+      "tema": "serie de empreendedorismo com glamour, episodio 1: os 4 jeitos de lancar um produto (drop, collab, pre-venda, colecao capsula), cada um com um caso real e o que ele faz pela marca",
+      "gravacao": "Lo-fi e leve, ela andando pela loja ou pelo estoque.\n\nTexto na tela, um de cada vez: \"1 · Drop\", \"2 · Collab\", \"3 · Pré-venda\", \"4 · Cápsula\". Nos casos: \"toda quinta, 11h\", \"esgotou em 30 minutos\", \"325 mil reservas em 1 semana\".\n\nTela dividida com a foto de cada caso quando ela cita (fila da Supreme, coleção H&M com Karl Lagerfeld, Tesla Model 3, peças da collab da Cherie com Disney e Barbie).",
+      "gancho": "Existem 4 jeitos de lançar um produto, e cada um traz um impacto diferente  para a sua marca.",
+      "corpo": "O primeiro é o drop. A Supreme lança peças novas toda quinta às 11 da manhã de Nova York, e quase nunca repõe. Quem quer tem que estar ali na hora, e a cliente aprende a voltar toda semana.\n\nO segundo é a collab, quando 2 marcas criam um produto juntas e cada uma apresenta a outra pro seu público. Em 2004 a H&M lançou uma coleção com o Karl Lagerfeld, e em Paris as lojas esgotaram em 30 minutos. Na Cherie a gente já fez collab com a Disney e com a Barbie.\n\nO terceiro é a pré-venda, quando a cliente paga antes e você produz depois. Em 2016 a Tesla abriu reserva do Model 3 com um depósito de 1.000 dólares, e em uma semana tinha mais de 325 mil reservas, antes de entregar um carro sequer. Na pré-venda você já sabe exatamente quanto produzir.\n\nE o quarto é a coleção cápsula, poucas peças que combinam entre si, pra você testar uma ideia sem lançar uma coleção inteira. Se ela vender bem, você transforma em linha fixa.\n\nEntão, antes do próximo lançamento, pensa no que a sua marca mais precisa agora e escolhe o jeito de lançar a partir disso.",
+      "fechamento": "Salva esse vídeo pra quando for planejar o seu próximo lançamento.",
+      "titulo": "Os 4 jeitos de lançar um produto"
+    },
+    {
+      "chave": "g1",
+      "tema": "o primeiro passo de quem assume a gestao de uma empresa: o basico bem-feito",
+      "gravacao": "Lo-fi, pode ser no escritório, com ela sentada na mesa de trabalho.\n\nTexto na tela: os 4 títulos, um de cada vez: \"Responde o cliente\", \"Entrega no prazo\", \"Acompanha os números\", \"Treina o time\". No fim, a frase da cadeira escrita na tela.",
+      "gancho": "Assumiu a gestão de uma empresa e não sabe qual é o primeiro passo?",
+      "corpo": "1. Responde o cliente direito.\nTodo direct e todo WhatsApp. Cliente sem resposta procura outra marca.\n\n2. Entrega no prazo.\nPrometeu dia 10, entrega dia 10. Se não der, avisa antes.\n\n3. Acompanha os números.\nQuanto entrou e quanto saiu. Sem isso, toda decisão é no escuro.\n\n4. Treina o time.\nQuem atende o seu cliente precisa saber fazer do seu jeito, sem você do lado.\n\nE enfim, lidera lado a lado. Não sai do operacional, mas levanta a cabeça pra ter o olhar estratégico.\n\nQuando eu larguei a odonto, eu levei uma frase comigo: a cadeira nunca pode ficar maior do que você tem pra dar, senão a empresa se limita. Então se desenvolve pra crescer junto com a cadeira.",
+      "fechamento": "Manda esse vídeo pra quem acabou de assumir uma empresa.",
+      "titulo": "O primeiro passo de quem assume uma empresa"
+    },
+    {
+      "chave": "v1",
+      "tema": "visibilidade sem depender de pagar alto por dia no anuncio",
+      "gravacao": "Lo-fi, ela falando direto para a câmera, sem cenário produzido.\n\nSe der, abre com o print da pergunta da caixinha na tela, sem o @ de quem mandou.\n\nOs 4 títulos aparecem escritos na tela, um de cada vez: \"Para de vender em todo post\", \"Você na frente do produto\", \"Relê antes de culpar o algoritmo\", \"Quem te segue é comunidade\".",
+      "gancho": "4 coisas que eu faria para ter mais engajamento em um perfil de uma marca começando do zero",
+      "corpo": "1. Para de vender em todo post.\nSe todo conteúdo seu é oferta, a pessoa aprende a passar reto. Conexão vem antes da venda.\n\n2. Coloca você na frente do produto.\nAs pessoas conectam com pessoas. Então aparece e fala o que você pensa. É bem ali que mora um potencial que muita gente está deixando de lado.\n\n3. Antes de culpar o algoritmo, relê o seu post.\nPost pronto e vazio não performa, e aí fica fácil dizer que o Instagram parou de entregar. Lê como quem nunca te viu: tem alguma coisa ali que faça essa pessoa parar?\n\n4. Trata quem já te segue como comunidade.\nResponde, chama pelo nome, traz pra perto. Comunidade diminui o custo de trazer cliente novo e faz quem já comprou voltar. Eu mesma respondo as minhas.\n\nLógico que anúncio ajuda. Só que ele leva o seu post até a pessoa, e quem faz ela ficar é você.",
+      "fechamento": "Qual dessas 4 você ainda não faz? Escreve o número aqui embaixo.",
+      "titulo": "Visibilidade sem pagar alto por dia"
+    },
+    {
+      "chave": "d1",
+      "tema": "disciplina como habito que roda sozinho, para ser mae, empresaria, comer bem e treinar",
+      "gravacao": "Lo-fi, pode ser gravado na rotina dela: no treino, na cozinha ou antes de sair de casa.\n\nTexto na tela: os 4 títulos, um de cada vez: \"Um hábito só\", \"O começo pronto na noite anterior\", \"Corta o vício disfarçado de hobby\", \"Repete antes de ter vontade\".\n\nSe mostrar o livro, mostra a capa de O Poder do Hábito no trecho em que ele é citado.",
+      "gancho": "Como viciar o seu cerebro a fazer coisas dificeis.",
+      "corpo": "Disciplina, pra mim, é repetir a mesma coisa por um tempo até o seu corpo entender que aquilo é normal pra você.\n\nEntão, 4 coisas pra começar:\n\n1. Escolhe um hábito só.\nNo livro O Poder do Hábito, o Charles Duhigg chama de hábito angular aquele que puxa os outros junto, e o exemplo que ele mais usa é o exercício. Começa por ele.\n\n2. Deixa o começo pronto na noite anterior.\nA roupa do treino separada, a comida da manhã montada. De manhã você não decide, só faz.\n\n3. Corta o vício disfarçado de hobby.\nAquela hora no celular que você chama de descanso. Eu digo muito não pro entretenimento, e é daí que sai o meu tempo.\n\n4. Repete antes de ter vontade.\nA vontade chega depois, quando aquilo já virou normal.\n\nE mãe entende isso rápido. Com menos tempo, a gente para de perder tempo com besteira.",
+      "fechamento": "Seu sonho merece sua disciplina. Escreve aqui qual vai ser o seu primeiro hábito.",
+      "titulo": "Disciplina que roda sozinha"
+    },
+    {
+      "chave": "c3",
+      "tema": "serie de marcas que se destacam, episodio 1: a Farm, do estande de 4 m2 na feira do Rio as lojas de Nova York e Paris, somando canais sem perder a identidade",
+      "gravacao": "Tela dividida: ela falando de um lado e, do outro, fotos da Babilônia Feira Hype, da primeira loja, das peças na Anthropologie, da loja do Soho e do plantio de árvores quando cada um é citado.\n\nTexto na tela: \"Marcas que se destacam #1\" na abertura, \"4 m²\" e \"1997\" no gancho e no começo, \"130 lojas\", \"Soho, 2019\" e \"2 milhões de árvores\" quando ela diz.",
+      "gancho": "Alguém consegue me explicar como uma marca que começou num estande de 4 metros quadrados numa feira do Rio hoje tem loja em Nova York e em Paris?",
+      "corpo": "A marca é a Farm. Em 1997, a Kátia Barros e o Marcello Bastos montaram esse estande na Babilônia Feira Hype com 1.200 reais e 120 bodies. 6 meses depois, era a marca que mais vendia na feira.\n\n2 anos depois veio a primeira loja. Hoje são 130 lojas no Brasil, e 42% do que a Farm vende aqui já sai pela internet.\n\nLá fora, ela entrou primeiro pelas araras da Anthropologie, nos Estados Unidos. Em 2019 abriu a primeira loja própria fora do Brasil, no Soho, em Nova York. E 87% do que ela vende fora do Brasil sai pelo site.\n\nEm cada canal novo a Farm levou o mesmo jeito, com a estampa e a cor do Brasil. Desde 2019 ela planta mil árvores por dia nos biomas brasileiros, e já passou de 2 milhões.\n\nEu prego muito isso: quanto mais canais de distribuição você tem, mais capacidade de expansão e mais gente você alcança. A Farm saiu de um estande de feira e foi somando canal sem largar o que ela é.",
+      "fechamento": "Me fala aqui qual canal a sua marca ainda não usa.",
+      "titulo": "Marcas que se destacam #1: a Farm"
+    }
+  ]
+}

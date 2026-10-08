@@ -1,0 +1,31 @@
+{
+  "slug": "julia",
+  "nome": "Julia Bressane",
+  "perfil": "julia.neuromind",
+  "atualizado_em": "2026-10-01",
+  "estado": "retrato inicial, do onboarding de 24/09/2026, das diretrizes de roteiro que ela escreveu e de 30 reels coletados em 01/10 (transcricoes em coleta/txt).",
+  "voz": {
+    "vicios": ["né", "gente", "Ou seja", "Percebe?", "E é claro", "talvez", "E aqui tem uma coisa importante"],
+    "nota": "fala calma e explicativa, frase media, se inclui ('a gente'), hedge cientifico ('pode', 'tende a', 'talvez'). Abre no experimento, no numero ou numa cena de filme; fecha com reflexao. Ela mesma usa 'nao porque X, mas porque Y', mas pediu para evitar 'nao e sobre X, e sobre Y' como formula.",
+    "exemplo_dela": "'Pesquisadores envelheceram digitalmente o rosto de algumas pessoas.' / 'O ganhador do Premio Nobel mostrou uma coisa estranha.'"
+  },
+  "territorio": [
+    "neurociencia e psicologia aplicadas ao autoconhecimento, sem abordagem de coaching",
+    "vieses cognitivos, valores, viver no automatico, decidir com consciencia",
+    "relacoes (Gottman), habitos, memoria, emocao"
+  ],
+  "crencas": [
+    "ninguem deveria viver no automatico, reagindo por padrao, vies ou ambiente, sem examinar o porque",
+    "consciencia nao promete a melhor escolha, promete a escolha sabida"
+  ],
+  "regras_de_roteiro": [
+    "60 a 90 s: 1 fenomeno + 1 explicacao cientifica + 1 reflexao",
+    "hook concreto que nao entrega a conclusao; nada de 'voce sabia que seu cerebro'",
+    "virada no meio ou no fim, cientificamente defensavel; fechamento sem estudo novo",
+    "nunca afirmar mais do que a evidencia; associacao nao vira causa; checar replicacao de estudo classico",
+    "2 a 3 referencias completas por roteiro, conferidas, no modelo dela",
+    "sem celebridade, sem neuromito, sem sensacionalismo, sem jargao gratuito"
+  ],
+  "publico": "80%+ mulheres, 35 a 56 anos",
+  "historia": "administracao e MBA no IBMEC; valuation, backoffice de investimentos, melhoria de processos; diretora numa empresa de 60 pessoas, home office, ganhava bem e sofreu de janeiro a agosto de 2025; pediu demissao em setembro sem outra proposta; estudou um livro de neurociencia de mais de 1000 paginas por 2 meses, das 7 as 7; perfil comecou com videos de IA (cerebro falando de negatividade, 1,7 mi de views); pos em Neurociencias e Comportamento na PUC-RS; vergonha de aparecer superada, live ainda nao"
+}

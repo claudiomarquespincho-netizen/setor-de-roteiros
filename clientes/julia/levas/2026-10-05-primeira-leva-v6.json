@@ -1,0 +1,63 @@
+{
+  "nome": "Julia Bressane",
+  "slug": "julia",
+  "data": "2026-10-05",
+  "doc_url": "",
+  "migrada_de": "2026-10-05-primeira-leva-v6.py",
+  "roteiros": [
+    {
+      "chave": "c1",
+      "tema": "cegueira de escolha: a explicacao da escolha e' montada depois",
+      "gravacao": "Tela dividida: você de um lado e, do outro, duas fotos de rosto lado a lado, com a troca acontecendo na hora em que você conta. Na parte da meia-calça, 4 pares iguais na tela, com o da direita destacado.",
+      "gancho": "Um grupo de pessoas escolheu a foto mais bonita entre 2 fotos.",
+      "corpo": "Depois, com um truque de mágica, os pesquisadores trocavam as fotos sem a pessoa perceber, entregavam na mão dela justamente a que ela não tinha escolhido e pediam pra ela explicar a escolha. Isso foi publicado na revista Science em 2005, com 120 participantes. Das 354 vezes em que fizeram a troca, só 46 foram percebidas na hora. E mesmo contando quem desconfiou depois, no máximo 1 em cada 4 trocas foi descoberta.\nE o mais impressionante foi o que as pessoas falaram. Muita gente defendeu a foto trocada com a maior segurança do mundo, e teve gente citando detalhe que só existia na foto que ela não escolheu. Os pesquisadores compararam essas explicações com as das escolhas de verdade e não acharam diferença no nível de detalhe nem na certeza.\nEles deram a isso o nome de cegueira de escolha. Em 2010, levaram o teste pra um supermercado na Suécia, com 180 clientes provando geleia e cheirando chá, e de novo no máximo um terço das trocas foi percebido.\nLá em 1977, o Richard Nisbett e o Timothy Wilson já tinham visto algo parecido. Eles pediram pras pessoas dizerem qual de 4 pares de meia-calça era o de melhor qualidade, só que os 4 eram idênticos. O par da direita foi escolhido quase 4 vezes mais do que o da esquerda, e ninguém falou da posição. Quando perguntaram diretamente se a posição tinha influenciado, quase todo mundo disse que não.\nPra eles, a gente não tem acesso ao processo que produz uma escolha. O que chega na consciência é a escolha pronta, e aí a mente monta uma explicação que faça sentido.",
+      "fechamento": "Então, quando for tomar uma decisão importante, escreve antes os motivos que estão pesando. Depois de decidir, compara com a explicação que você vai dar pra você mesma.",
+      "referencias": [
+        "Johansson, P., Hall, L., Sikström, S., & Olsson, A. (2005). Failure to detect mismatches between intention and outcome in a simple decision task. *Science*, 310(5745), 116-119.",
+        "Hall, L., Johansson, P., Tärning, B., Sikström, S., & Deutgen, T. (2010). Magic at the marketplace: Choice blindness for the taste of jam and the smell of tea. *Cognition*, 117(1), 54-61.",
+        "Nisbett, R. E., & Wilson, T. D. (1977). Telling more than we can know: Verbal reports on mental processes. *Psychological Review*, 84(3), 231-259."
+      ],
+      "titulo": "A foto que você não escolheu"
+    },
+    {
+      "chave": "c2",
+      "tema": "ponto cego do vies: ver vies nos outros e nao em si",
+      "gravacao": "Você falando pra câmera, como se fizesse a pergunta pra quem assiste. Quando aparecerem os números (79 de 91, só 19), eles entram escritos na tela.",
+      "gancho": "Se eu te perguntar se você é mais justa que a média da sua família, você provavelmente vai dizer que sim.",
+      "corpo": "Pesquisadores de Stanford perguntaram algo parecido pra 91 alunos: comparado com um colega médio, como você se sai em várias qualidades pessoais? 79 se colocaram acima da média.\nAí os pesquisadores explicaram pra eles um viés bem conhecido, o de que 70 a 80% das pessoas se avaliam acima da média, e perguntaram se eles mesmos não tinham caído nisso. Dos 79, só 19 admitiram. A maioria disse que tinha se avaliado certinho, e 13% ainda acharam que tinham sido modestos demais.\nA Emily Pronin, que liderou esse estudo, chamou isso de ponto cego do viés. A gente enxerga viés nos outros com muito mais facilidade do que na gente mesma. E isso se repetiu: em 2021, refizeram os testes com 969 pessoas em Hong Kong e nos Estados Unidos, e o efeito apareceu pelo menos tão forte quanto no original.\nAlguns anos depois do primeiro estudo, a Pronin foi entender por que isso acontece. Quando a gente se avalia, olha pra dentro, pros nossos pensamentos e intenções. Só que o viés age sem passar pela consciência, então lá dentro ele não aparece, e a gente conclui que foi justa. Quando avalia o outro, a gente olha pro que ele fez, e é no comportamento que o viés aparece. Ela chamou isso de ilusão da introspecção. E quando os participantes leram um texto científico curto sobre o quanto a nossa mente funciona sem a gente perceber, o ponto cego diminuiu.",
+      "fechamento": "Então, na próxima discussão, antes de explicar o que você quis dizer, repara no que a outra pessoa viu você fazer.",
+      "referencias": [
+        "Pronin, E., Lin, D. Y., & Ross, L. (2002). The bias blind spot: Perceptions of bias in self versus others. *Personality and Social Psychology Bulletin*, 28(3), 369-381.",
+        "Pronin, E., & Kugler, M. B. (2007). Valuing thoughts, ignoring behavior: The introspection illusion as a source of the bias blind spot. *Journal of Experimental Social Psychology*, 43(4), 565-578.",
+        "Chandrashekar, S. P., Yeung, S. K., Yau, K. C., Cheung, C. Y., Agarwal, T. K., Wong, C. Y. J., Pillai, T., Thirlwell, T. N., Leung, W. N., Tse, C., Li, Y. T., Cheng, B. L., Chan, H. Y. C., & Feldman, G. (2021). Agency and self-other asymmetries in perceived bias and shortcomings: Replications of the Bias Blind Spot and link to free will beliefs. *Judgment and Decision Making*, 16(6), 1392-1412."
+      ],
+      "titulo": "Todo mundo é enviesado, menos eu"
+    },
+    {
+      "chave": "p1",
+      "tema": "o arrependimento que dura vem da distancia do eu ideal, a partir da saida dela do corporativo",
+      "gravacao": "Você falando direto pra câmera, sem animação no começo. Quando entrar a pesquisa, \"eu ideal\" e \"eu do dever\" aparecem escritos na tela, e depois o 76%.",
+      "gancho": "Eu passei 8 meses sofrendo num cargo de diretoria.",
+      "corpo": "E todo mês eu tentava me convencer a ficar. Eu ganhava bem e trabalhava de casa, e mesmo assim sentia que tava regredindo. Eu vivia nesse dilema: ou seguia o meu propósito, ou continuava ali ganhando bem.\nDepois, estudando, eu entendi melhor o que eu tava sentindo. O psicólogo Tory Higgins propôs, em 1987, que a gente carrega 2 versões da gente mesma na cabeça. Uma é o eu ideal, quem você gostaria de ser. A outra é o eu do dever, quem você sente que tem obrigação de ser. E quando o jeito que você se vê hoje fica longe de uma delas, vem o desconforto.\nAnos depois, em 2018, o Shai Davidai e o Thomas Gilovich usaram essa ideia pra entender quais arrependimentos duram mais. Foram 6 estudos, com centenas de pessoas falando dos próprios arrependimentos. Quando perguntavam qual era o maior arrependimento da vida, 76% falavam de alguma coisa ligada ao eu ideal, e só 24% do eu do dever.\nE a explicação deles me pegou muito. Quando a gente falha numa obrigação, costuma agir logo pra resolver. Já a distância de quem você queria ser raramente tem uma ação rápida que conserte, e por isso esse arrependimento costuma ficar aberto por mais tempo.",
+      "fechamento": "Eu tentei me desapegar e tratar aquilo como uma fase, e não deu. Em setembro do ano passado eu pedi demissão, sem outra proposta, porque desenvolvimento é o valor que eu mais prezo e ali eu tava abrindo mão dele todo mês.",
+      "referencias": [
+        "Higgins, E. T. (1987). Self-discrepancy: A theory relating self and affect. *Psychological Review*, 94(3), 319-340.",
+        "Davidai, S., & Gilovich, T. (2018). The ideal road not taken: The self-discrepancies involved in people's most enduring regrets. *Emotion*, 18(3), 439-452."
+      ],
+      "titulo": "8 meses tentando ficar"
+    },
+    {
+      "chave": "m1",
+      "tema": "autocontrole alto vem de evitar a tentacao e de habito, nao de resistir mais",
+      "gravacao": "Lo-fi: um celular apitando na tela com a pergunta escrita, e os números (205, quase 8 mil, metade) entrando conforme você fala.",
+      "gancho": "Pesquisadores deram um celular pra 205 pessoas, e várias vezes por dia ele apitava pra perguntar se elas tavam com vontade de alguma coisa.",
+      "corpo": "Esse estudo foi feito na Alemanha e publicado em 2012. No fim, eles tinham quase 8 mil registros. Em metade das vezes que o celular apitou, a pessoa tava com vontade de alguma coisa, e quase metade dessas vontades batia de frente com algum objetivo dela. Tipo querer o doce quando a meta é comer melhor.\nTodo mundo também respondeu um questionário de autocontrole. Quem pontuou mais alto relatou vontades mais fracas e menos conflito entre o que queria e o que pretendia fazer. E resistiu menos vezes também. Na hora em que a vontade aparecia, essas pessoas cediam mais ou menos tanto quanto as outras. A interpretação dos autores é que elas se expunham menos à tentação.\nEm 2015, a Angela Duckworth e o Brian Galla fizeram 6 estudos, com mais de 2 mil pessoas, e viram que quem tem mais autocontrole costuma ter mais hábitos bons, como fazer exercício ou dormir no horário. Com o hábito, o comportamento vai quase no automático, e sobra muito pouca coisa pra decidir na força.",
+      "fechamento": "Então, se o seu problema é o doce às 10 da noite, deixa ele fora de casa, ou pelo menos fora da vista.",
+      "referencias": [
+        "Hofmann, W., Baumeister, R. F., Förster, G., & Vohs, K. D. (2012). Everyday temptations: An experience sampling study of desire, conflict, and self-control. *Journal of Personality and Social Psychology*, 102(6), 1318-1335.",
+        "Galla, B. M., & Duckworth, A. L. (2015). More than resisting temptation: Beneficial habits mediate the relationship between self-control and positive life outcomes. *Journal of Personality and Social Psychology*, 109(3), 508-525."
+      ],
+      "titulo": "Quem tem mais autocontrole resiste menos"
+    }
+  ]
+}

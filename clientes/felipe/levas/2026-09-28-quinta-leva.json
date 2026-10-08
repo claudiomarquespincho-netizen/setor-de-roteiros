@@ -1,0 +1,54 @@
+{
+  "nome": "Felipe Noir",
+  "slug": "felipe",
+  "data": "2026-09-28",
+  "doc_url": "",
+  "migrada_de": "2026-09-28-quinta-leva.py",
+  "roteiros": [
+    {
+      "chave": "p1",
+      "tema": "o cliente que pede desconto, o primo que faz pela metade, e o mesmo cliente pagando atrasado",
+      "gravacao": "No seu lugar fixo, celular na mão, falando direto do começo ao fim, sem corte e sem pausa.\n\nA primeira frase escrita no topo da tela nos primeiros segundos. Depois, legenda de 1 ou 2 palavras no meio da tela.",
+      "gancho": "Se você vende qualquer coisa no Brasil, você conhece o primo que faz pela metade do preço.",
+      "corpo": "Você passa o orçamento, tá tudo certo, e aí o cliente solta, é que o meu primo faz isso pela metade, e pronto, começou. Esse primo ninguém nunca viu, não tem Instagram, não tem CNPJ, não tem telefone, ele só aparece durante a negociação igual assombração, e some no segundo em que você fecha, porque o cliente não quer fechar com o primo, pô, ele quer fechar com você, pelo preço do primo. Aí vem o seu Carlos, que tá fazendo uma cozinha planejada, e fala, se você fizer um precinho eu fecho hoje, com a cara de quem tá assinando um tratado de paz na ONU, e o precinho é carimbo de cartório, sem ele não sai nada, podia ser um bolo de pote de 8 reais que ele ia pedir. E ainda vem o golpe final, se ficar bom eu te indico pra todo mundo, e indica mesmo, tá ligado, indica pro cunhado, pro vizinho, pra turma do futebol e pra academia inteira, todo mundo querendo o mesmo desconto, e agora você é oficialmente o cara que faz barato no grupo da família. E você dá o desconto, porque o mês tá fraco. 40 dias depois o seu Carlos ainda não pagou a segunda parcela, e quando você cobra ele fica ofendido, nossa, que pressa, parece que eu vou fugir, enquanto a dona Célia, que pagou o preço cheio sem nem piscar, mandou o Pix no mesmo dia e ainda escreveu obrigado, ficou lindo.",
+      "fechamento": "Porque quem chora no preço, meu irmão, chora no Pix também.",
+      "titulo": "Faz um precinho"
+    },
+    {
+      "chave": "p2",
+      "tema": "o cliente que pede orcamento com urgencia, visualiza e some, a mensagem de cobranca, e a volta 2 meses depois",
+      "gravacao": "No seu lugar fixo, celular na mão, falando direto do começo ao fim, sem corte e sem pausa.\n\nA primeira frase escrita no topo da tela nos primeiros segundos. Depois, legenda de 1 ou 2 palavras no meio da tela.",
+      "gancho": "Não existe silêncio mais alto no mundo do que o do cliente depois que você manda o orçamento.",
+      "corpo": "A Juliana pediu com urgência, era pra ontem, mandou áudio de 2 minutos, queria reunião, e você largou tudo, virou a noite, montou o PDF bonitinho, com logo, com cor, com foto do produto e com o seu nome em negrito, mandou às 9 da manhã, e às 9 e 01 apareceram os 2 risquinhos azuis. E depois mais nada, véi. Nada. E aí você começa a fazer perícia no WhatsApp, entra no perfil dela pra ver o visto por último, e ela tava online às 14h32, online, tá ligado, respondendo alguém, e esse alguém não era você. Aí você vai escrever a mensagem de cobrança, e escrever essa mensagem é mais difícil que bilhete de amor na quinta série, você escreve oi Juliana tudo bem, apaga, escreve bom dia Juliana, apaga, porque parece desesperado, e no fim manda o clássico, passando só pra saber se ficou alguma dúvida, que é o jeito educado de dizer pelo amor de Deus fala comigo. Ela visualiza. De novo. E você passa 3 dias revisando onde errou, se foi o preço, se foi a cor do PDF, se foi o bom dia com 2 pontos de exclamação, parece fim de namoro, você chega a pensar em mandar um meme só pra ver se ela reage. 2 meses depois, do nada, 11 da noite de um domingo, chega: oi, sumi, aquele orçamento ainda tá valendo? E você, que jurou que nunca mais, responde em 4 segundos: tá sim, claro.",
+      "fechamento": "E ainda completa: consigo até melhorar o valor pra você.",
+      "titulo": "O cliente que some depois do orçamento"
+    },
+    {
+      "chave": "p3",
+      "tema": "o plano de largar o emprego e abrir uma hamburgueria, a conta no bloco de notas e o que ficou fora dela",
+      "gravacao": "No seu lugar fixo, celular na mão, falando direto do começo ao fim, sem corte e sem pausa.\n\nA primeira frase escrita no topo da tela nos primeiros segundos. Depois, legenda de 1 ou 2 palavras no meio da tela.",
+      "gancho": "Todo brasileiro cansado do emprego tem o mesmo plano de fuga, que é abrir uma hamburgueria.",
+      "corpo": "E o plano nasce sempre no mesmo lugar, no churrasco de domingo, depois da terceira cerveja, quando o teu cunhado, o Anderson, fala mano, a gente devia abrir um negócio, e ali mesmo, na mesa de plástico, acontece a primeira assembleia de sócios, aprovada por unanimidade com a boca cheia de farofa. E o nome sai antes de tudo, pô, antes do ponto, antes do preço, antes do CNPJ, antes de alguém saber fritar um ovo, já tem nome em inglês, logo que o sobrinho fez, camiseta e 3 posts de contagem regressiva no Instagram. O plano de negócio é uma nota no celular: o pão custa 2, a carne 5, vende por 35, sobra 28, vezes 100 lanches por dia, vezes 30 dias, meu brother, em 6 meses o Anderson tá pesquisando preço de helicóptero. Ninguém botou na conta o aluguel, o gás, o motoboy, o aplicativo levando a parte dele, o funcionário que some no sábado e o dia que chove e ninguém sai de casa. E aí abre, e a primeira semana é festa, a família inteira vai, os amigos vão, todo mundo posta, e vocês acham que acharam petróleo no quintal. Só que a tua tia foi 1 vez, véi. Ela não vai comer hambúrguer de 35 toda terça. No terceiro mês o Anderson tá na chapa às 11 da noite, cheirando a cebola, lembrando com saudade do vale-refeição, e você tá no caixa fazendo a conta de novo, agora com o aluguel dentro.",
+      "fechamento": "No sexto mês vocês vendem a chapa pro próximo cunhado, que também tá cansado do emprego.",
+      "titulo": "A hamburgueria"
+    },
+    {
+      "chave": "p4",
+      "tema": "levar o carro no mecanico: imitar o barulho, o barulho sumir na oficina, o 'vou ter que abrir' e o orcamento",
+      "gravacao": "No seu lugar fixo, celular na mão, falando direto do começo ao fim, sem corte e sem pausa.\n\nA primeira frase escrita no topo da tela nos primeiros segundos. Depois, legenda de 1 ou 2 palavras no meio da tela.",
+      "gancho": "Todo homem que leva carro no mecânico vira beatbox.",
+      "corpo": "Porque o carro tá fazendo um barulho, e ninguém sabe o nome do barulho, então você chega na oficina do Tonhão e começa a apresentação, é tipo um tec tec tec, só que quando eu viro pra esquerda vira um vuuum, quando passa no quebra-molas faz um clonc, e quando liga o ar sai um ziiin fininho, e o Tonhão ali, parado, pano sujo no ombro, balançando a cabeça igual perito do INSS decidindo se você tá doente mesmo. E o pior é que o barulho some, meu brother. Você rodou 3 semanas com ele, tocava todo dia, parecia despertador, e no dia que você leva na oficina o carro fica mudo, anda liso, parece que acabou de sair da concessionária, e você fica ali tentando provocar o barulho, faz curva, freia, passa no buraco de propósito, olhando pro Tonhão, juro, ele tava fazendo. Aí ele levanta o carro, olha lá embaixo por 30 segundos e solta a frase que dá mais medo que resultado de exame, hum, vou ter que abrir. Vou ter que abrir é a versão automotiva do a gente precisa conversar. No fim da tarde ele manda no zap: 1.800. Você lê, respira e ainda agradece, porque na sua cabeça ia dar 5 mil, e paga feliz numa peça que você nem sabia que existia, homocinética, bieleta, coxim, pivô, pô, nome de peça de carro parece nome de dinossauro. Você paga, agradece, liga o carro, sai da oficina e passa no primeiro quebra-molas.",
+      "fechamento": "Clonc.",
+      "titulo": "O barulho do carro"
+    },
+    {
+      "chave": "p5",
+      "tema": "marcar churrasco com os amigos depois dos 30: o grupo, a enquete, as desculpas e os mesmos 3 que aparecem",
+      "gravacao": "No seu lugar fixo, celular na mão, falando direto do começo ao fim, sem corte e sem pausa.\n\nA primeira frase escrita no topo da tela nos primeiros segundos. Depois, legenda de 1 ou 2 palavras no meio da tela.",
+      "gancho": "Depois dos 30, marcar um churrasco com os amigos precisa de mais aprovação que obra pública.",
+      "corpo": "Com 18 anos era só alguém falar bora e em 20 minutos tava todo mundo na calçada, agora tem o grupo, e o grupo tem nome, Os Brabos, criado em 2014, com 14 pessoas e 3 ativas. Você solta, galera, bora marcar alguma coisa, e o grupo reage com 9 joinhas e nenhuma resposta. Aí um corajoso cria uma enquete com 4 datas e começa uma votação mais complicada que eleição de síndico. O Robson só pode depois do dia 20, que é quando cai o salário. O Diego tem aniversário da sogra. O Tiago tá de dieta e pergunta se vai ter opção sem carne, num churrasco, véi. E o Marcão vai ver com a patroa, e vou ver com a patroa é o talvez mais definitivo que existe, é um não com carinho. Depois de 3 semanas sai uma data, 2 meses pra frente, e essa data vira feriado nacional, tem gente que muda até a foto do grupo, todo mundo confirma com emoji de fogo, bora, fechou, vai ser histórico. Na véspera começam as baixas, o filho do Diego tá com febre, o Robson pegou plantão, o Tiago fala que chega mais tarde e todo mundo sabe que não chega, e o Marcão manda um áudio de 3 minutos explicando uma situação que ninguém entendeu mas que termina em não vou. No dia aparecem 3, os mesmos 3 de sempre, e é o melhor churrasco do ano, todo mundo fala que tem que fazer isso mais vezes.",
+      "fechamento": "E alguém já cria a enquete do próximo, que ninguém vai responder.",
+      "titulo": "O churrasco depois dos 30"
+    }
+  ]
+}

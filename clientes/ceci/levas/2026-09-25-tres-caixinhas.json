@@ -1,0 +1,36 @@
+{
+  "nome": "Cici",
+  "slug": "ceci",
+  "data": "2026-09-25",
+  "doc_url": "",
+  "migrada_de": "2026-09-25-tres-caixinhas.py",
+  "roteiros": [
+    {
+      "chave": "g1",
+      "tema": "o primeiro passo de quem assume a gestao de uma empresa: o basico bem-feito",
+      "gravacao": "Lo-fi, pode ser no escritório, com ela sentada na mesa de trabalho.\n\nTexto na tela: os 4 títulos, um de cada vez: \"Responde o cliente\", \"Entrega no prazo\", \"Acompanha os números\", \"Treina o time\". No fim, a frase da cadeira escrita na tela.",
+      "gancho": "Assumiu a gestão de uma empresa e não sabe qual é o primeiro passo?",
+      "corpo": "Tem empresa procurando a próxima grande ideia sem fazer o básico. Então começa por aqui:\n\n1. Responde o cliente direito.\nTodo direct e todo WhatsApp. Cliente sem resposta procura outra marca.\n\n2. Entrega no prazo.\nPrometeu dia 10, entrega dia 10. Se não der, avisa antes.\n\n3. Acompanha os números.\nQuanto entrou e quanto saiu. Sem isso, toda decisão é no escuro.\n\n4. Treina o time.\nQuem atende o seu cliente precisa saber fazer do seu jeito, sem você do lado.\n\nE enfim, lidera lado a lado. Não sai do operacional, mas levanta a cabeça pra ter o olhar estratégico.\n\nQuando eu larguei a odonto, eu levei uma frase comigo: a cadeira nunca pode ficar maior do que você tem pra dar, senão a empresa se limita. Então se desenvolve pra crescer junto com a cadeira.",
+      "fechamento": "Manda esse vídeo pra quem acabou de assumir uma empresa.",
+      "titulo": "O primeiro passo de quem assume uma empresa"
+    },
+    {
+      "chave": "v1",
+      "tema": "ter visibilidade sem levar jeito para gravar",
+      "gravacao": "Lo-fi de verdade: celular na mão ou apoiado, sem luz montada. O jeito de gravar é o próprio argumento do vídeo.\n\nTexto na tela: os 4 títulos, um de cada vez: \"Não copia quem grava bem\", \"Fala do que você acredita\", \"Mostra o seu dia como ele é\", \"Divide a edição\".\n\nNo item 3, entra um trecho do vídeo das coisas que ela ama na casa dela.",
+      "gancho": "Como ter visibilidade se você não leva jeito pra gravar?",
+      "corpo": "Eu também não nasci com esse jeito, e a minha marca cresceu mesmo assim. Eu sou muito disciplinada, e levar leveza e entretenimento pro vídeo sempre foi o meu desafio. Até hoje o gancho é a parte que mais me dá trabalho. [ PREENCHER: como foi quando você começou a gravar ]\n\nEntão, se você também trava na frente da câmera, 4 coisas:\n\n1. Não copia o jeito de quem grava bem.\nNinguém sustenta fingir. Você trava justamente porque tá tentando ser outra pessoa.\n\n2. Fala do que você sabe e do que você acredita.\nQuando você mostra os seus valores, você já se distancia de quem faz tudo igual.\n\n3. Mostra o seu dia como ele é.\nUm dos vídeos que mais me trouxe gente foi um vídeo simples, das coisas que eu amo na minha casa. Deu 30 mil compartilhamentos.\n\n4. Divide a edição.\nEu tenho uma social media que edita pra mim. Você grava do seu jeito, e alguém te ajuda a deixar redondo.\n\nJeito pra gravar vem de gravar.",
+      "fechamento": "Grava hoje 30 segundos falando de uma coisa que você acredita. Só isso.",
+      "titulo": "Visibilidade para quem não leva jeito para gravar"
+    },
+    {
+      "chave": "z1",
+      "tema": "iniciar uma marca do zero pelo que a faz diferente: o teste de uma frase",
+      "gravacao": "Lo-fi, com um caderno ou papel na mão: no item 1 ela escreve a frase da Cherie e mostra para a câmera.\n\nTexto na tela: \"1 frase\" no gancho, e depois os 4 títulos: \"Uma frase só\", \"Olha pro cliente\", \"O belo atrai\", \"O que as pessoas lembram\".",
+      "gancho": "Como iniciar uma marca do zero?",
+      "corpo": "Essa pergunta veio da minha caixinha. Antes do nome e do logo, a sua marca precisa passar num teste de uma frase.\n\n1. Escreve em uma frase por que a sua marca é diferente.\nA da Cherie era dar ao profissional da saúde uma identidade que, naquela época, ele não podia ter. Se você precisa explicar 10 coisas pra dizer por que é diferente, ainda não existe clareza.\n\n2. Olha mais pro cliente do que pro concorrente.\nQuanto mais você olha pro lado, mais você começa a copiar preço, produto, campanha, estética e linguagem. E aí a sua marca fica igual a todas as outras.\n\n3. Cuida do belo desde o primeiro dia.\nO belo atrai e o propósito conecta. Os detalhes que a pessoa vê primeiro já contam a sua frase por você.\n\n4. Confere o que as pessoas lembram.\nPosicionamento é aquilo que as pessoas lembram quando pensam em você. Então pergunta pros seus primeiros clientes por que eles escolheram você, e vê se a resposta bate com a sua frase.\n\nNome e logo vêm depois. Eles só funcionam quando a frase já está clara.",
+      "fechamento": "Escreve aqui embaixo a frase da sua marca, em uma linha só.",
+      "titulo": "O teste de uma frase antes de abrir uma marca"
+    }
+  ]
+}

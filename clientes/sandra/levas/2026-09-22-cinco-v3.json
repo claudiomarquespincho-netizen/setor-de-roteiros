@@ -1,0 +1,49 @@
+{
+  "nome": "Sandra Gelmini",
+  "slug": "sandra",
+  "data": "2026-09-22",
+  "doc_url": "",
+  "migrada_de": "2026-09-22-cinco-v3.py",
+  "roteiros": [
+    {
+      "chave": "r1",
+      "tema": "o atalho vem antes do basico, e quem aplica o recurso e' quem mais cobra a base",
+      "gancho": "A maioria das mulheres que senta aqui na minha frente já tentou de tudo, menos fazer o básico.",
+      "corpo": "E eu falo sem julgar ninguém, tá? O mercado fitness empurra o atalho primeiro. Chega caneta emagrecedora, chega chá detox, chega pó que promete secar 10 quilos.\n\nAí ela senta aqui, gente, e eu começo pelas perguntas chatas. Quanta proteína você come por dia? Ela não sabe. Quantas horas você dorme? Cinco, e acorda cansada.\n\nEu sou enfermeira antes de ser nutricionista, e faço especialização em injetáveis. Eu aplico o recurso, e sei o que acontece quando ele entra num corpo sem base. A massa muscular continua caindo e o sono continua ruim.\n\nAí o efeito passa, volta tudo, e ela sai achando que o problema é ela, né? Olha, o problema é a ordem.\n\nDepois dos 40 o básico virou obrigação: proteína em todas as refeições, sono, musculação e exame em dia. É isso que segura o resultado, e é isso que faz o recurso valer o que você pagou.",
+      "fechamento": "Envelhecer bem exige estratégia, e ela começa pelo que é chato. Me conta qual desses quatro você já faz.",
+      "titulo": "Tentou de tudo, menos fazer o básico"
+    },
+    {
+      "chave": "r2",
+      "tema": "proteico escrito na frente da embalagem nao quer dizer nada; quem conta e a tabela atras",
+      "gancho": "Supermercado da semana, gente. Peguei dois iogurtes pra vocês verem.",
+      "corpo": "Olha só esse primeiro. Tem proteico escrito na frente, com a foto bonita. Aí eu viro ele: 6 gramas de proteína no copo inteiro. E o segundo ingrediente da lista é açúcar.\n\nAgora olha esse outro. Não tem nada escrito na frente. E tem 15 gramas de proteína, com 4 de açúcar.\n\nA frente da embalagem é propaganda. Quem conta a verdade é a tabela atrás.\n\nE a lista vem na ordem da quantidade. Quando o açúcar aparece em segundo lugar, é porque tem mais açúcar ali do que qualquer coisa depois dele.\n\nPra nós, mulheres 40+, isso pesa, né? Depois da menopausa a gente perde massa muscular todo ano, e é a proteína que segura isso. Quando você acha que tá comendo 15 gramas e tá comendo 6, a conta do dia não fecha, e aí você culpa o metabolismo.\n\nA embalagem fala com você de longe. E a tabela só fala se você virar.\n\nEntão esse aqui volta pra prateleira, gente.",
+      "fechamento": "Já salva essa comparação pra sua próxima compra e encaminha pra sua amiga 40 +.",
+      "titulo": "Proteico na frente não quer dizer nada"
+    },
+    {
+      "chave": "r3",
+      "tema": "numero comprado nao sustenta nada, e e' o mesmo atalho que ela combate na consulta",
+      "gancho": "Compraram 10 mil seguidores pro meu Instagram sem eu autorizar.",
+      "corpo": "Apareceu uma pessoa oferecendo ajuda pra crescer o perfil. Eu topei conversar, e no meio da conversa ela comprou. Eu abri o Instagram e tinha 10 mil contas ali dentro que não eram ninguém.\n\nDepois ela começou a me cobrar dinheiro e a me ameaçar. Eu registrei boletim de ocorrência.\n\nE aí veio a parte que ninguém vê, gente: eu passei uns dois anos removendo conta falsa na mão, uma por uma. E até hoje eu não sei se esse perfil ficou marcado.\n\nEu conto isso porque é a mesma armadilha que eu vejo na consulta toda semana, sabe? A vontade de ver o número andar rápido. O seguidor que aparece numa semana, a balança que desce num mês.\n\nO número vem, né? E por baixo dele não tem nada sustentando.\n\nSeguidor comprado não marca consulta. E peso que desce sem músculo, sem sono e sem exame volta, e às vezes volta trazendo mais.",
+      "fechamento": "Número que não aguenta ser olhado de perto não serve, nem no perfil nem na balança. Me conta se já ofereceram isso pro seu perfil.",
+      "titulo": "Compraram 10 mil seguidores pra mim sem eu pedir"
+    },
+    {
+      "chave": "r4",
+      "tema": "drink sem alcool que nao bagunca o hormonio, mais uma da serie dela",
+      "gancho": "Mais uma da série Drinks Sem Álcool, e essa é pra quem acha que sem álcool é sem graça.",
+      "corpo": "Sexta à noite chegando, e bora beber uma coisa bem gostosa sem bagunçar o seu hormônio.\n\nEu bati o colágeno que eu tomo todo dia com morango e framboesa, que são as minhas frutinhas vermelhas de sempre, gelo e água com gás. Só isso, gente. Sai em 2 minutos.\n\nPorque o álcool na nossa idade cobra caro. Ele piora o calorão e ele atrapalha o seu sono. E uma noite mal dormida já é meio caminho pra você acordar inchada e com vontade de doce no dia seguinte.\n\nJá esse aqui vai nutrir sua pele, seu cabelo, sua unha, e ainda melhora o aspecto da celulite e da flacidez.\n\nE olha, eu não tirei o ritual da minha sexta. Eu troquei o que vai dentro do copo. A taça bonita continua, e o momento de sentar e desligar continua.\n\nEntão sexta tem drink aqui em casa, e sábado eu acordo inteira pra treinar.",
+      "fechamento": "Quem fizer me marca que eu quero ver o copo de vocês.",
+      "titulo": "Drink de sexta que não bagunça o hormônio"
+    },
+    {
+      "chave": "r5",
+      "tema": "a trajetoria dela, e por que enfermagem mais nutricao mais injetaveis muda a consulta",
+      "gancho": "Eu fui enfermeira por 9 anos e vendi suplemento por quase 10 antes de fazer Nutrição aos 45.",
+      "corpo": "Eu não saí da enfermagem por falta de gosto. Eu saí porque a rotina tinha tomado a minha vida.\n\nNa distribuidora eu aprendi uma coisa que me serve até hoje: eu vi por dentro como um produto é vendido. Eu sei o que é ativo e o que é embalagem bonita.\n\nSó que chegou uma hora que ficou claro que eu não queria vender o pote. Eu queria acompanhar a pessoa e ver o resultado nela.\n\nFoi aí que eu fui fazer Nutrição, com filho pequeno em casa e todo mundo perguntando se não era tarde.\n\nE hoje eu junto as duas na mesma consulta. Sou enfermeira e sou nutricionista, e estou terminando a especialização em injetáveis. Então eu monto o seu plano alimentar e planejo a parte injetável com você, no mesmo lugar.\n\nE eu estou na menopausa também, então o que eu peço pra você fazer eu faço em mim.",
+      "fechamento": "Eu sou minha melhor cliente, minha melhor paciente. Me conta o que você começou achando que era tarde.",
+      "titulo": "Fui enfermeira 9 anos antes de virar nutricionista"
+    }
+  ]
+}

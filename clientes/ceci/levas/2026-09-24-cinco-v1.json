@@ -1,0 +1,49 @@
+{
+  "nome": "Cici",
+  "slug": "ceci",
+  "data": "2026-09-24",
+  "doc_url": "",
+  "migrada_de": "2026-09-24-cinco-v1.py",
+  "roteiros": [
+    {
+      "chave": "r1",
+      "tema": "fadiga de decisao, e o armario como decisao que da' para tirar do dia",
+      "gancho": "Se você chega no fim do dia sem conseguir decidir mais nada, o problema começou de manhã, no seu armário.",
+      "corpo": "Isso tem nome, gente. Chama fadiga de decisão: cada escolha que você faz durante o dia gasta um pouco da sua capacidade de escolher bem a próxima.\n\nE tem gente medindo isso. A McKinsey perguntou pra executivos, e 54% deles passam mais de 30% do tempo decidindo. No alto da empresa tem gente que passa mais de 70%. E 61% dizem que pelo menos metade desse tempo é ineficaz.\n\nE olha onde eu quero chegar. As decisões que mais cansam você são as pequenas, as que se repetem todo santo dia e que ninguém contabiliza.\n\nAqui dentro eu resolvo isso tirando do dia toda decisão que não muda o resultado da empresa.\n\nPrimeiro, eu separo as roupas de trabalho em uma parte só do armário, e é dela que eu tiro tudo que eu visto pra trabalhar. Sem cruzar com o resto.\n\nSegundo, eu uso um número pequeno de peças que combinam entre si. Se cada peça que eu tenho combina com as outras, qualquer combinação funciona, e a decisão deixa de existir.\n\nTerceiro, o que eu vou usar amanhã fica escolhido hoje à noite, quando eu ainda não gastei nada do dia.\n\nE quarto: peça que eu preciso pensar pra vestir sai da parte de trabalho. Se ela me faz parar na frente do espelho, ela não é peça de trabalho.\n\nO seu armário é um dos únicos lugares onde você pode decidir uma vez e colher todo dia.",
+      "fechamento": "Escolhe hoje à noite o que você vai vestir amanhã e repara em como o seu dia começa. Me conta aqui qual decisão pequena mais rouba a sua cabeça.",
+      "titulo": "O seu armário é a decisão que você não precisa tomar"
+    },
+    {
+      "chave": "r2",
+      "tema": "a sequencia de stories que ela usa para lancar, passo a passo",
+      "gancho": "Se eu tivesse que lançar uma coleção amanhã, eu gravaria exatamente esses 5 stories, nessa ordem.",
+      "corpo": "Tela 1, o problema, e não o produto. Comece pelo incômodo que a sua cliente já tem. No meu caso, é aquele momento em que ela abre o armário antes do plantão e não acha nada que ela queira vestir.\n\nTela 2, o bastidor que prova. Aqui você mostra o que ninguém vê: a escolha do tecido, a peça que voltou pro corte, o motivo pelo qual você reprovou. É isso que faz a pessoa acreditar que tem gente pensando, e não só vendendo.\n\nTela 3, o desejo com nome. Não é mostrar a peça, é mostrar a peça sendo usada no momento em que ela resolve a vida de alguém. A mesma roupa numa arara e numa profissional atendendo viram coisas diferentes na cabeça de quem assiste.\n\nTela 4, a objeção dita antes. Você fala em voz alta o que ela está pensando e não escreve no direct. Se o seu produto é mais caro, é aqui que você diz por quê e mostra a conta na tela. Objeção que você não responde responde sozinha na cabeça da pessoa, gente, e sempre pior do que você responderia.\n\nE tela 5, a ação mais fácil que existe, e ela não é comprar: é responder, é dizer qual cor. Movimento pequeno primeiro, porque quem responde um story volta pro próximo.\n\nE tem uma regra que atravessa as 5, gente: cada tela precisa dar um motivo pra pessoa ver a seguinte. Se a tela 2 já entrega tudo, a 3 ninguém assiste. Eu escrevo as 5 antes de gravar qualquer uma, justamente pra conferir isso.",
+      "fechamento": "Monta essas 5 telas pro seu próximo lançamento antes de gravar qualquer coisa. Comenta o que você vende que eu faço a sequência do seu nicho.",
+      "titulo": "A sequência de stories que eu uso pra lançar"
+    },
+    {
+      "chave": "r3",
+      "tema": "zona de talento: o talento deixa pista na infancia, e depois vira criterio de trabalho",
+      "gancho": "Quem diria que uma aula de ballet aos 9 anos ia definir o jeito como eu aprovo campanha hoje.",
+      "corpo": "Eu convenci a minha mãe a me colocar, e eu achava lindo o figurino, a música, a coordenação e a delicadeza de cada movimento.\n\nE aconteceu uma coisa curiosa: eu passava na frente de menina com mais tempo de sala do que eu. Na época eu não sabia explicar.\n\nHoje eu sei: eu não estava só executando o movimento, eu estava tentando fazer quem assistia sentir alguma coisa. E eu colocava presença e carisma. E isso pesava mais do que o passo perfeito.\n\nTem um livro chamado O Óbvio que Ignoramos que fala disso. Ele chama de zona de talento: o lugar onde a pessoa tem um potencial alto e passa anos lapidando aquilo, até virar excelência.\n\nE o que eu descobri é que o meu talento nunca foi o ballet. O ballet foi o primeiro lugar onde ele apareceu.\n\nPorque hoje eu faço exatamente a mesma coisa como diretora criativa. Eu posso estar diante de um vídeo tecnicamente impecável, com fotografia linda, modelo linda, edição perfeita, e dizer: não está pronto. Eu não senti nada.\n\nÉ o mesmo olhar da menina de 9 anos, atrás de beleza com emoção.\n\nEntão talvez você não precise inventar um talento. Talvez ele esteja deixando pista sobre você há muito tempo, e ninguém soube nomear.",
+      "fechamento": "Volta pra sua infância, antes de profissão e de currículo: no que você já brilhava sem saber que aquilo virava alguma coisa? Escreve aqui embaixo, que eu quero ler.",
+      "titulo": "Onde o seu talento apareceu pela primeira vez"
+    },
+    {
+      "chave": "r4",
+      "tema": "o canal de revenda: como a marca chega onde ela nao tem loja",
+      "gancho": "A Cherie vende em cidade onde eu nunca pisei, e quem levou ela pra lá não fui eu.",
+      "corpo": "Quem leva a marca pra lá é revendedora, e eu vou te explicar por que isso é canal, e não bico.\n\nQuando você vende só pelo seu site, você paga pra aparecer toda vez. Quando você tem revendedora, existe uma pessoa naquela cidade que já tem a confiança que você levaria anos pra construir de fora.\n\nE ela não vende pra desconhecido: ela vende pra colega de plantão e pra amiga de faculdade.\n\nSó que canal de revenda quebra quando a marca trata a revendedora como cliente que compra em quantidade. Ela não é.\n\nO que eu faço aqui é o contrário: eu formo. A gente junta revendedora do Brasil inteiro e de fora na nossa sede, por 3 dias, com palestra, educação empresarial e premiação. Elas saem de lá sabendo vender e sabendo o que vem pela frente.\n\nE olha o detalhe que muda tudo: elas veem a operação por dentro. O corte, o estoque, a conferência, o produto saindo. Quem viu de onde vem o que ela vende, vende diferente.\n\nE se você tem produto bom e pouca praça, a pergunta deixa de ser quanto custa abrir loja e passa a ser quem já tem, na cidade que você quer, a confiança que você levaria anos pra construir.\n\nComeça pequeno: escolhe 3 clientes que já compram de você e já falam de você sem pedir nada, oferece condição de revenda pra elas e acompanha as primeiras vendas de perto. Canal de revenda não nasce grande, ele nasce com quem já confia em você.\n\nE deixa combinado desde o primeiro dia o que você entrega de formação, porque é isso que separa revendedora de cliente que compra em quantidade.",
+      "fechamento": "Lista agora 3 pessoas que já compram de você e já falam de você sem pedir nada. Salva esse vídeo pra quando você for montar a sua praça.",
+      "titulo": "Como a Cherie chega onde eu não tenho loja"
+    },
+    {
+      "chave": "r5",
+      "tema": "maternidade e produtividade pelo lado positivo, sem estudo, na vivencia dela",
+      "gancho": "O dia inteiro é o melhor jeito que existe de adiar uma decisão, e eu só entendi isso quando virei mãe.",
+      "corpo": "E eu falo isso porque foi o que aconteceu comigo, e não porque eu romantize a maternidade.\n\nAntes eu esperava a condição perfeita. Eu ficava remoendo uma escolha por dias, eu marcava reunião pra decidir uma coisa que cabia num áudio, e eu chamava isso de cuidado.\n\nQuando a janela vira 40 minutos, você para de remoer, gente. Você decide com o que tem na mesa, porque não vai ter uma segunda chance naquele dia.\n\nE aí acontecem 3 coisas que ninguém te conta. Você aprende a cortar o que não importa, porque não sobra tempo pro que não importa. Você aprende a delegar de verdade, e não aquela delegação que é você fazendo de novo depois. E você aprende a fechar assunto, porque assunto aberto te persegue até em casa.\n\nOlha, o meu trabalho não ficou menor depois dos meus filhos: ele ficou mais apertado, e apertado é onde a gente descobre o que era gordura.\n\nE tem a parte que não entra em conta nenhuma: os meus filhos não estão vendo só a mãe indo trabalhar, estão vendo alguém construir uma coisa do zero.\n\nAgora, se você está no meio do furacão com filho pequeno, você não ficou pra trás: você está aprendendo a fazer em menos tempo o que muita gente não faz com o dia inteiro. E isso é uma vantagem que fica pra sempre, muito depois de eles crescerem. Vale pra qualquer pessoa que de repente passou a ter menos tempo do que tinha antes.",
+      "fechamento": "Escolhe hoje uma tarefa que só existe porque você tem tempo pra ela, e corta. Marca aqui uma mãe que precisa ouvir isso.",
+      "titulo": "Mãe não produz menos, produz diferente"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "nome": "Felipe Noir",
+  "slug": "felipe",
+  "data": "2026-09-29",
+  "doc_url": "",
+  "migrada_de": "2026-09-29-dia-a-dia.py",
+  "roteiros": [
+    {
+      "chave": "p1",
+      "tema": "a mensagem pedindo preco que chega a noite e so e' respondida no dia seguinte",
+      "gravacao": "Celular na mão. Se quiser, abre com a tela do celular no escuro, mensagem chegando.",
+      "gancho": "Sabe aquela mensagem que chega às 11 da noite, \"oi, qual o valor?\", e você vê deitado na cama e fala: amanhã cedo eu respondo?",
+      "corpo": "Eu entendo, você trabalhou o dia inteiro. Só que, querendo ou não, essa pessoa também tá deitada na cama dela, rolando o Instagram, clicou no seu anúncio e caiu no seu WhatsApp. E ela não mandou esse \"oi, qual o valor?\" só pra você, mandou pra você e pra mais dois.\nAí no outro dia, 9 da manhã, você responde \"bom dia, tudo bem?\", e ela já fechou com quem respondeu às 11 e 5.\nE no fim do mês você olha pro caixa e fala que o anúncio não traz cliente. E trouxe, né? Ela te chamou às 11 da noite.\nPra resolver isso você não precisa ficar acordado até meia-noite. O WhatsApp Business tem a mensagem de ausência, que responde sozinha fora do seu horário. Você coloca ali o valor a partir de quanto e avisa que amanhã cedo chama ela, e aí ela já sai com a resposta e com um motivo pra esperar você.",
+      "fechamento": "Configura isso hoje, leva cinco minutos.",
+      "titulo": "A mensagem das 11 da noite"
+    },
+    {
+      "chave": "p2",
+      "tema": "o dono responde a pergunta de preco nos comentarios com te chamei no direct e perde quem so estava lendo",
+      "gravacao": "Celular na mão. No começo, a tela de um post com o comentário \"quanto custa?\" e a resposta \"te chamei no direct\".",
+      "gancho": "Alguém comenta no seu post \"quanto custa?\" e você responde \"te chamei no direct\".",
+      "corpo": "Parece o certo, né? Você tá sendo educado, tá levando a conversa pro privado pra negociar com calma.\nSó que presta atenção: aquele comentário não é só daquela pessoa. Tem um monte de gente lendo aquele post com a mesma dúvida, que não teve coragem de perguntar, entende? Elas veem \"te chamei no direct\", ficam sem saber o valor e vão embora.\nE às vezes a própria pessoa que perguntou nem abre o direct, porque tá cheio de mensagem lá dentro.\nEntão, se você não tem problema de falar o valor, fala ali mesmo nos comentários, nem que seja \"a partir de tanto, te mando os detalhes no direct\".",
+      "fechamento": "Na próxima pergunta de preço, responde ali mesmo e depois chama no direct.",
+      "titulo": "Te chamei no direct"
+    },
+    {
+      "chave": "p3",
+      "tema": "impulsionar o post mais curtido da semana, que foi curtido por quem ja conhece o negocio",
+      "gravacao": "Celular na mão. Se quiser, mostra a tela do Instagram com o botão de impulsionar.",
+      "gancho": "Sexta à noite você abre o Instagram, vê que a foto da equipe foi a mais curtida da semana e pensa: vou colocar 50 reais nessa.",
+      "corpo": "Na cabeça faz todo sentido: se todo mundo gostou, vai funcionar.\nSó que repara quem curtiu aquela foto. A sua mãe, o seu funcionário, o cliente de sempre. Isso eu chamo de curtida de casa, é de quem já te conhece e já gosta de você.\nQuando você impulsiona pra sua região, a maior parte de quem vê é gente do bairro que ainda não te conhece, e essa pessoa não sabe quem é a sua equipe, entendeu? Ela quer saber o que você vende e como faz pra comprar.\nPor isso o post que merece os seus 50 reais é o que mostra o seu serviço e deixa claro como te chamar, mesmo que tenha tido menos curtida.",
+      "fechamento": "Antes de impulsionar, faz essa pergunta: se alguém que nunca ouviu falar de mim visse só esse post, ia saber o que eu vendo e como comprar?",
+      "titulo": "O post mais curtido da semana"
+    },
+    {
+      "chave": "a1",
+      "tema": "o DJ posta o flyer da proxima data e o video da pista fica no celular de um amigo",
+      "gravacao": "Celular na mão. Se tiver vídeo seu tocando, entra por cima quando fala da pista.",
+      "gancho": "Domingo, meio-dia, você acorda depois de tocar, o ouvido ainda zunindo, e a primeira coisa que você posta é o flyer da próxima data.",
+      "corpo": "E aqueles 40 segundos da pista explodindo, quando você soltou aquela música, ficaram no celular do seu amigo, ou de alguém que você nem conhece, sabe?\nPô, é justamente esse vídeo que quem contrata DJ quer ver, a pista cheia, a galera reagindo. O flyer ele até olha depois.\nNa hora você tá lá em cima e a última coisa que passa na cabeça é gravar, então não dá pra deixar pro acaso. Combina antes com alguém de confiança pra pegar o seu melhor momento da noite.",
+      "fechamento": "E no domingo, antes de postar o flyer, manda mensagem pra essa pessoa pedindo o vídeo.",
+      "titulo": "O vídeo da pista que ficou no celular do seu amigo"
+    },
+    {
+      "chave": "e1",
+      "tema": "ele caiu na narrativa do enriqueca rapido com marketing digital e hoje ve que o basico bem feito e' o que funciona",
+      "gravacao": "Celular na mão, no carro, do jeito que você já grava.",
+      "gancho": "Entre 2018 e 2022 eu caí direitinho naquela história de ficar rico rápido com marketing digital.",
+      "corpo": "Dropshipping, PLR, aquela promessa de faturar alto sem sair de casa. Sendo sincero com vocês, eu acreditei. Graças a Deus não perdi dinheiro, mas eu perdi tempo.\nE hoje, trabalhando com tráfego pra negócio que abre a porta todo dia de manhã, eu vejo que o que faz um negócio crescer é bem mais simples do que me venderam: é a pessoa ser bem atendida e conseguir trocar um produto sem ter que provar até que respira.\nParece o básico, né? E é. Loucura, mas a maioria dos negócios não faz, e por consequência quem faz bem feito já sai na frente.",
+      "fechamento": "Então antes de ir atrás da próxima fórmula, olha se o seu atendimento tá bem feito. Estamos junto.",
+      "titulo": "Eu caí no enriqueça rápido"
+    }
+  ]
+}

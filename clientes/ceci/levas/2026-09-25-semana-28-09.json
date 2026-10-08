@@ -1,0 +1,45 @@
+{
+  "nome": "Cici",
+  "slug": "ceci",
+  "data": "2026-09-25",
+  "doc_url": "",
+  "migrada_de": "2026-09-25-semana-28-09.py",
+  "roteiros": [
+    {
+      "chave": "c1",
+      "tema": "visibilidade sem depender de pagar alto por dia no anuncio",
+      "gravacao": "Lo-fi, ela falando direto para a câmera, sem cenário produzido.\n\nSe der, abre com o print da pergunta da caixinha na tela, sem o @ de quem mandou.\n\nOs 4 títulos aparecem escritos na tela, um de cada vez: \"Para de vender em todo post\", \"Você na frente do produto\", \"Relê antes de culpar o algoritmo\", \"Quem te segue é comunidade\".",
+      "gancho": "4 coisas que eu faria para ter mais engajamento em um perfil de uma marca começando do zero",
+      "corpo": "1. Para de vender em todo post.\nSe todo conteúdo seu é oferta, a pessoa aprende a passar reto. Conexão vem antes da venda.\n\n2. Coloca você na frente do produto.\nAs pessoas conectam com pessoas. Então aparece e fala o que você pensa. É bem ali que mora um potencial que muita gente está deixando de lado.\n\n3. Antes de culpar o algoritmo, relê o seu post.\nPost pronto e vazio não performa, e aí fica fácil dizer que o Instagram parou de entregar. Lê como quem nunca te viu: tem alguma coisa ali que faça essa pessoa parar?\n\n4. Trata quem já te segue como comunidade.\nResponde, chama pelo nome, traz pra perto. Comunidade diminui o custo de trazer cliente novo e faz quem já comprou voltar. Eu mesma respondo as minhas.\n\nLógico que anúncio ajuda. Só que ele leva o seu post até a pessoa, e quem faz ela ficar é você.",
+      "fechamento": "Qual dessas 4 você ainda não faz? Escreve o número aqui embaixo.",
+      "titulo": "Visibilidade sem pagar alto por dia"
+    },
+    {
+      "chave": "c2",
+      "tema": "disciplina como habito que roda sozinho, para ser mae, empresaria, comer bem e treinar",
+      "gravacao": "Lo-fi, pode ser gravado na rotina dela: no treino, na cozinha ou antes de sair de casa.\n\nTexto na tela: os 4 títulos, um de cada vez: \"Um hábito só\", \"O começo pronto na noite anterior\", \"Corta o vício disfarçado de hobby\", \"Repete antes de ter vontade\".\n\nSe mostrar o livro, mostra a capa de O Poder do Hábito no trecho em que ele é citado.",
+      "gancho": "Como viciar o seu cerebro a fazer coisas dificeis.",
+      "corpo": "Disciplina, pra mim, é repetir a mesma coisa por um tempo até o seu corpo entender que aquilo é normal pra você. O meu é [ PREENCHER: um hábito seu que hoje roda sozinho, e há quanto tempo ].\n\nEntão, 4 coisas pra começar:\n\n1. Escolhe um hábito só.\nNo livro O Poder do Hábito, o Charles Duhigg chama de hábito angular aquele que puxa os outros junto, e o exemplo que ele mais usa é o exercício. Começa por ele.\n\n2. Deixa o começo pronto na noite anterior.\nA roupa do treino separada, a comida da manhã montada. De manhã você não decide, só faz.\n\n3. Corta o vício disfarçado de hobby.\nAquela hora no celular que você chama de descanso. Eu digo muito não pro entretenimento, e é daí que sai o meu tempo.\n\n4. Repete antes de ter vontade.\nA vontade chega depois, quando aquilo já virou normal.\n\nE mãe entende isso rápido. Com menos tempo, a gente para de perder tempo com besteira.",
+      "fechamento": "Seu sonho merece sua disciplina. Escreve aqui qual vai ser o seu primeiro hábito.",
+      "titulo": "Disciplina que roda sozinha"
+    },
+    {
+      "chave": "c3",
+      "tema": "serie de marcas que se destacam, episodio 1: a Gymshark, da garagem a loja fisica somando canais",
+      "gravacao": "Tela dividida: ela falando de um lado e, do outro, fotos do começo da Gymshark na garagem, dos influenciadores com as peças, da feira e da loja de Regent Street quando cada um é citado.\n\nTexto na tela: \"Marcas que se destacam #1\" na abertura, \"1 bilhão de libras\" no gancho e o nome de cada canal quando ele aparece: \"site\", \"influenciadores\", \"feira\", \"loja\".",
+      "gancho": "Alguém consegue me explicar como um garoto de 19 anos costurando roupa de academia na garagem dos pais criou uma marca de mais de 1 bilhão de libras?",
+      "corpo": "A marca se chama Gymshark. Começou em 2012, em Birmingham, na Inglaterra. O Ben Francis comprou uma máquina de costura e uma de estampar com mil libras que tinha guardado, e fazia tudo sozinho: costurava, estampava e entregava.\n\nO primeiro canal foi o site. Depois ele mandou as peças pros fisiculturistas que ele admirava, e esses caras começaram a aparecer com elas nos vídeos do YouTube.\n\nEm 2013, ele esvaziou a conta pra pagar um estande numa feira de fitness. O estoque acabou no primeiro dia. Depois da feira, o site vendeu 30 mil libras em meia hora, mais do que a marca tinha vendido desde que nasceu.\n\nEm 2020, a Gymshark foi avaliada em mais de 1 bilhão de libras. A primeira loja física só abriu em 2022 em Londres, 10 anos depois da garagem. Hoje vende pela internet pra mais de 230 países.\n\nEu prego muito isso: quanto mais canais de distribuição você tem, mais capacidade de expansão e mais gente você alcança. A Gymshark foi somando um canal de cada vez, sem largar o anterior.",
+      "fechamento": "Escreve aqui qual canal a sua marca ainda não usa.",
+      "titulo": "Marcas que se destacam #1: a Gymshark"
+    },
+    {
+      "chave": "a1",
+      "tema": "as collabs com Disney, Barbie, Smiley, Patbo e Swarovski, e por que uma marca de jaleco chegou nelas",
+      "gravacao": "Tela dividida: ela falando de um lado e, do outro, a peça de cada collab aparecendo quando o nome é dito.\n\nTexto na tela no gancho: \"a primeira marca de jaleco do mundo\".\n\nGravar na loja ou no escritório de São Paulo, com as peças à vista.",
+      "gancho": "Nenhuma marca de jaleco no mundo tinha feito collab com a Disney antes da Cherie.",
+      "corpo": "Depois vieram Barbie, Smiley, Patbo e Swarovski. E a pergunta que sempre volta é como uma marca de jaleco chegou nesses nomes.\n\nA primeira foi em [ PREENCHER: ano da collab com a Disney ], e [ PREENCHER: como ela aconteceu, quem procurou quem ].\n\nQuando eu comecei, o profissional da saúde não podia ter identidade no que vestia. Era todo mundo igual. A Cherie nasceu pra trazer identidade e expressão pra essas pessoas.\n\nA Dra. Cherie mexe com a emoção das pessoas, mexe com o sonho das pessoas.\n\nEm 2020, com 27 anos, eu entrei na lista da Forbes Under 30.\n\nHoje a Cherie tem 9 lojas, um café, mais de 6 marcas dentro da marca, e está entrando em franquia.",
+      "fechamento": "Se você pudesse escolher a próxima collab da Cherie, qual seria? Escreve aqui.",
+      "titulo": "A primeira marca de jaleco a fazer collab com a Disney"
+    }
+  ]
+}

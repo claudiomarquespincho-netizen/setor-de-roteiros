@@ -1,0 +1,118 @@
+{
+  "slug": "felipe",
+  "nome": "Felipe Noir",
+  "perfil": null,
+  "atualizado_em": "2026-09-28",
+  "estado": "retrato inicial, do PDF de posicionamento de 25/09/2026. Sem video postado, sem call, sem audio. Em 28/09 ele decidiu seguir sem a voz real: as levas usam o registro do @lipe.alive (voz_provisoria abaixo). O retrato continua sem passar na validacao de proposito, porque voz e formatos gravados so' saem de fala dele.",
+  "voz": {
+    "vicios": [],
+    "nota": "sem material falado ainda. O PDF e' texto escrito e formal ('Acredito que', 'Minha visao e''), nao serve de voz para roteiro",
+    "exemplo_dele": "'ninguem posta o mes que a empresa fechou no vermelho' (correcao dele em 26/09 para o gancho 'ninguem posta o mes em que a empresa nao fechou a conta'): direto, concreto, girias de negocio"
+  },
+  "territorio": [
+    "empreendedorismo sem romantizar: a fase do meio, com empresa pequena, problema de caixa, erro de gestao, dificuldade societaria, decisao ruim, mudanca de direcao e negocio que ainda nao da' lucro",
+    "o processo de tentar transformar negocios pequenos em empresas relevantes, mostrado enquanto acontece",
+    "ambicao, dinheiro e patrimonio falados de frente, sem falsa modestia e sem ostentacao",
+    "crescer sem deixar a vida para depois: familia, corpo, esporte e musica junto com a empresa",
+    "identidade alem do trabalho: musica eletronica, DJ, treino, esporte, carros, familia, amigos, viagens",
+    "ambientes e pessoas mudam trajetoria: a expansao do circulo dele mostrada enquanto acontece"
+  ],
+  "crencas": [
+    "o empreendedorismo e' muito romantizado nas redes, que mostram so' o resultado final",
+    "ambicao nao deveria ser tratada como defeito",
+    "dinheiro e' ferramenta de liberdade, seguranca, acesso e possibilidade de escolha, e nao a unica medida de sucesso",
+    "nao existe equilibrio perfeito, mas o sucesso profissional deve fazer parte de uma vida boa, e nao substituir a vida inteira",
+    "ter interesses fora do trabalho nao reduz a ambicao profissional; torna a vida mais completa",
+    "as pessoas sao profundamente influenciadas pelos ambientes que frequentam e pelas pessoas com quem convivem",
+    "estar perto de pessoas interessantes aumenta repertorio e muda a percepcao do que e' possivel; nao e' networking transacional"
+  ],
+  "teses": [
+    "pouco se fala da fase intermediaria de quem empreende",
+    "o discurso de sacrificar a vida pessoal por anos e so' depois viver esta' errado para ele",
+    "muita gente constroi a identidade inteira em volta da profissao ou da empresa"
+  ],
+  "bandeiras": {
+    "levanta": [
+      "empreendedorismo realista, com erro e incerteza",
+      "ambicao sem vergonha",
+      "familia presente",
+      "vida alem do trabalho"
+    ],
+    "nao_levanta": [
+      "ostentacao ou riqueza que nao existe: 'nao quero fingir que ja construi um imperio que ainda nao existe'",
+      "rede de contatos que ele ainda nao tem: 'nao quero fingir que hoje ja possuo uma grande rede de contatos'",
+      "especialista em empreendedorismo ensinando formula pronta"
+    ]
+  },
+  "posicionamento": {
+    "protagonista": "o Felipe Noir, e nao um especialista",
+    "fio_narrativo": "negocios, com a vida pessoal acompanhando: ambicoes, decisoes, familia, musica, esporte, experiencias e pessoas que cruzarem o caminho",
+    "promessa": "menos parecer alguem que ja chegou e mais deixar acompanhar a construcao da pessoa e da vida que ele pretende alcancar",
+    "nicho": "ele mesmo diz que ainda nao tem nicho definido e que no comeco os conteudos podem ser mais genericos; quer sair da inercia e lapidar no caminho"
+  },
+  "historia": [],
+  "tipos_de_conteudo": {},
+  "producao": [
+    "lugar fixo de gravacao, sempre o mesmo, a definir por ele (nao usar o carro, que e' a marca do Lipe)",
+    "primeira frase escrita no topo da tela nos primeiros segundos, legenda curta depois",
+    "frase de despedida propria, a definir por ele",
+    "roteiro que nao pegou pode ser repostado com outro corte ou outra primeira frase antes de descartar o tema"
+  ],
+  "pendencias": [
+    "VOZ: ele nao tem video postado. Em 28/09 decidiu seguir com o registro do @lipe.alive (voz_provisoria). A voz real continua pendente: audios de WhatsApp ou call gravada, transcritos com esteira2/scripts/transcricao.py",
+    "@ do Instagram: ainda sem video postado (28/09)",
+    "quais sao as empresas dele hoje: ramo, tamanho, tempo, socios, o que da' e o que nao da' lucro. Sem isso, a 'fase do meio' vira tese sem caso",
+    "casos reais: um erro de gestao, um problema de caixa, uma dificuldade societaria, uma mudanca de direcao, uma decisao ruim, cada um com o que aconteceu e o que ele fez",
+    "familia: quem aparece (esposa, filhos?) e o que pode ou nao pode ir para o video",
+    "DJ: desde quando, onde toca, se tem nome artistico ou se 'Felipe Noir' ja' e' esse nome",
+    "idade e cidade",
+    "as referencias que ele citou no WhatsApp: vieram como linhas em branco na copia, provavelmente links ou prints perdidos",
+    "quem e' Matheus Alves, que assina as mensagens: o nome civil dele ou outra pessoa",
+    "combinado de producao: quantos roteiros por semana, mistura de tipos, reuniao fixa, quem grava e edita"
+  ],
+  "voz_provisoria": {
+    "origem": "registro do @lipe.alive, referencia de formato escolhida por ele; raio-x em esteira2/referencias/lipe.alive/raio-x.md",
+    "vale_ate": "chegarem audios ou videos do Felipe falando",
+    "registro": [
+      "fala rapida e coloquial, perto de 213 palavras por minuto; roteiro falado de 200 a 350 palavras",
+      "frases emendadas, sem cara de texto escrito; giria leve (po', ta' ligado, mano), sem giria regional do Lipe",
+      "comparacao exagerada para descrever coisa banal",
+      "conta de dinheiro feita em voz alta, com numero redondo e exemplo dito como exemplo",
+      "abre recortando um grupo que se reconhece, com pergunta de leigo ou com afirmacao em primeira pessoa",
+      "a cronica fecha com a frase que explica o comportamento, e nao com manifesto"
+    ],
+    "proibido": "frase, comparacao, bordao ('pega a senha', 'stay alive'), exemplo, nome de pessoa ou caso do Lipe; varredura-copia antes de entregar"
+  },
+  "formatos_da_referencia": [
+    {
+      "nome": "cronica de humor sobre um grupo",
+      "para": "alcance",
+      "no_lipe": "9 videos, mediana 1,7 mi de views",
+      "depende_de_caso": false
+    },
+    {
+      "nome": "dinheiro explicado com conta em voz alta",
+      "para": "autoridade",
+      "no_lipe": "mediana 550 mil, onde entra a chamada do produto",
+      "depende_de_caso": false
+    },
+    {
+      "nome": "opiniao direta em primeira pessoa",
+      "para": "posicionamento",
+      "no_lipe": "913 mil no video de sumir de quem trata mal",
+      "depende_de_caso": false
+    },
+    {
+      "nome": "historia propria com valor em reais",
+      "para": "conexao",
+      "no_lipe": "834 mil na trajetoria de 387 s",
+      "depende_de_caso": true
+    },
+    {
+      "nome": "convidado comum com numero",
+      "para": "alcance e autoridade",
+      "no_lipe": "1,2 mi na barraca de coco, contra 127 mil do empresario de Hyrox",
+      "depende_de_caso": true
+    }
+  ]
+}

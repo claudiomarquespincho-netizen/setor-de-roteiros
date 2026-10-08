@@ -1,0 +1,54 @@
+{
+  "nome": "Felipe Noir",
+  "slug": "felipe",
+  "data": "2026-09-29",
+  "doc_url": "",
+  "migrada_de": "2026-09-29-espelho-do-lipe.py",
+  "roteiros": [
+    {
+      "chave": "c1",
+      "tema": "faturamento contra lucro, com a conta de uma empresa qualquer que fatura 50 mil por mes",
+      "gravacao": "Espelha o vídeo da conta de classe média do perfil de referência.\n\nNo seu lugar fixo, celular na mão. Cada valor aparece escrito na tela quando é falado, e o total no fim.",
+      "gancho": "Sua empresa fatura 50 mil por mês? Então pega a calculadora e faz essa conta comigo.",
+      "corpo": "É de exemplo, tá? Uma empresa normal, com cliente todo mês.\nVendeu 50 mil. Beleza.\nImposto, 3 mil, e olha que é Simples.\nTaxa de boleto e de cartão, 2 mil.\nEquipe, 4 pessoas com encargo, 16 mil.\nAnúncio, 8 mil, porque cliente não cai do céu.\nEscritório, ou o coworking, 2 mil.\nOs sistemas, e-mail, aquelas assinaturas que você nem lembra que paga, 1.200.\nContador, 800.\nE aquele cliente que atrasou, ou cancelou no meio do mês, 2 mil que você vendeu e não recebeu.\nSoma aí. 35 mil.\nSobraram 15.\nE isso sem ninguém pedir demissão, sem o computador de alguém quebrar.\nDesses 15 ainda sai o seu salário.\nAí você posta os 50 mil nos stories, com musiquinha.\nTá, mas quanto é que ficou com você?\nPorque 50 mil é o que você vendeu.",
+      "fechamento": "Você sabe quanto o seu negócio lucra, ou só sabe quanto ele fatura?",
+      "titulo": "Faturamento não é o que sobra"
+    },
+    {
+      "chave": "c2",
+      "tema": "vendeu 60 mil no mes e nao tem dinheiro pra folha: cliente pagando a prazo contra equipe e anuncio pagos na hora, fluxo de caixa",
+      "gravacao": "Espelha o vídeo da conversa sobre CDB do perfil de referência.\n\nNo seu lugar fixo, celular na mão. Quando fala a pergunta do cara, muda um pouco o tom, como quem imita.",
+      "gancho": "Um cara me mandou mensagem essa semana: Felipe, eu vendi 60 mil esse mês e não tenho dinheiro pra pagar a minha equipe.",
+      "corpo": "Como é que pode, né?\nEu perguntei, você recebe como?\nEle, ah, metade é de um cliente grande, que só paga em 60 dias. A outra metade eu parcelei em 6 vezes.\nE a equipe, você paga quando?\nEle, todo dia 5. E o anúncio sai do cartão conforme vai rodando.\nPronto. Tá aí.\nPensa numa caixa d'água.\nA venda é a água que tá pra chegar.\nO caixa é o que sai da torneira hoje.\nVocê vendeu 60 mil em março.\nO cliente grande só paga em maio, e dos parcelados entrou 5 mil em março.\nE dia 5 de abril a equipe quer o salário.\nA água tá vindo, mas a torneira tá seca.\nE quanto mais você vende desse jeito, maior fica o buraco, porque cada venda nova é gasto hoje e dinheiro pingando lá na frente.\nEle, e o que eu faço?\nPrimeira coisa, anota numa planilha o dia que cada dinheiro cai.\nE com cliente grande, negocia uma parte adiantada, que pelo menos pague a equipe que vai trabalhar pra ele.",
+      "fechamento": "Porque a venda de março que só entra em maio não paga a folha de abril.",
+      "titulo": "Vendeu 60 mil e não tem pra folha"
+    },
+    {
+      "chave": "c3",
+      "tema": "desconto contra bonus: o cliente pede 30% pra fechar, o desconto come a margem, e o bonus quase nao custa",
+      "gravacao": "Espelha o vídeo de oferta e promoção do perfil de referência.\n\nNo seu lugar fixo, celular na mão. Os números aparecem na tela: \"1.000\", \"440\", \"700\" e \"158\".",
+      "gancho": "Desconto e bônus parecem a mesma coisa pro cliente, só que um deles sai do seu bolso.",
+      "corpo": "Olha só.\nVocê vende um serviço de mil reais.\nPra entregar, gasta uns 400 de equipe.\nPra trazer esse cliente, uns 100 de anúncio.\nO imposto leva uns 60.\nSobra 440 por venda. Tá bom.\nAí o cliente pede 30% pra fechar, e você dá.\nO serviço cai pra 700.\nA equipe e o anúncio continuam custando a mesma coisa, né?\nTira tudo, sobra 158.\nVocê tinha 440 por venda e passou pra 158.\nPra ganhar o mesmo dinheiro de antes, tem que vender quase o triplo.\nE o pior é que você fecha o mês cheio de cliente e sem dinheiro.\nAgora o bônus.\nMantém os mil e coloca junto uma revisão extra no fim.\nPro cliente, é coisa a mais.\nPra você, custa uma tarde da equipe, e não quase 300 a menos em cada venda.\nAntes de dar desconto, pensa no que dá pra entregar a mais sem mexer no preço.",
+      "fechamento": "Senão o desconto vira você pagando pro cliente comprar.",
+      "titulo": "Desconto e bônus"
+    },
+    {
+      "chave": "k1",
+      "tema": "ter um amigo com a mesma ambicao, com quem se fala de sonho grande sem ser julgado",
+      "gravacao": "Espelha o vídeo da pessoa pra fofocar do perfil de referência.\n\nNo seu lugar fixo, celular na mão, com cara de conversa.",
+      "gancho": "Sabe aquele amigo pra quem você conta um plano meio maluco e ele, em vez de rir, pergunta quando começa?",
+      "corpo": "Porque quando você divide uma ideia com a pessoa errada, ela já vem com o balde de água fria.\nVocê fala, cara, tô pensando em abrir outra empresa.\nE ela, nossa, mas agora? Com essa economia? Isso aí é arriscado, hein.\nAcabou a graça. Você nem terminou a frase.\nAgora, quando você conta pro amigo certo, rapaz, é outra conversa.\nVocê fala da empresa nova e ele já quer saber: e o sócio, quem vai ser?\nEle não tá te iludindo, não. Ele quer saber de onde sai o dinheiro, e ainda te passa tarefa.\nSó que ele pergunta pra coisa dar certo.\nVira aquela conversa de bar que só acaba quando o garçom começa a empilhar as cadeiras.\nE você sai dali achando que dá. Às vezes nem dá, mas você sai com vontade de tentar.\nSe toda conversa sua termina em isso aí é arriscado, uma hora você para de sonhar em voz alta.",
+      "fechamento": "Então acha esse amigo. E se ainda não tem, começa sendo esse amigo pra alguém.",
+      "titulo": "O amigo que pergunta quando começa"
+    },
+    {
+      "chave": "k2",
+      "tema": "nao deixar familia, treino e lazer pra depois da empresa ficar pronta",
+      "gravacao": "Espelha o vídeo do \"eu sumo mesmo\" do perfil de referência.\n\nNo seu lugar fixo, celular na mão, falando firme.",
+      "gancho": "Quando eu falo que não vou deixar a minha vida pra depois da empresa, eu não tô brincando, não.",
+      "corpo": "Porque tem uma conversa que todo empreendedor escuta.\nAh, agora é fase de sacrifício. Trabalha 14 horas por dia que depois você aproveita.\nPeraí, pô. Depois quando?\nPorque empresa nunca fica pronta. Nunca.\nQuando você resolve um problema, aparecem 2.\nSe eu for esperar a empresa ficar pronta pra ir no almoço de domingo, eu vou ver a minha família de novo na formatura de alguém que eu nem vi crescer.\nAh, mas quem quer crescer tem que abrir mão.\nAbro mão de muita coisa. De série, de rolê que não acrescenta, de balada toda sexta, de dormir até tarde.\nAgora o treino, a família, a música e os amigos, esses não entram na lista.\nEu quero crescer, e crescer muito. Isso eu falo de boca cheia.\nSó que eu quero chegar lá inteiro, com o corpo funcionando e com gente em volta de mim que ainda me reconhece.\nPorque não adianta nada você chegar no topo e olhar pro lado e não ter ninguém pra comemorar.",
+      "fechamento": "E quem achar que isso é falta de ambição, beleza. Ambição é justamente querer tudo isso junto.",
+      "titulo": "Minha vida não fica pra depois"
+    }
+  ]
+}

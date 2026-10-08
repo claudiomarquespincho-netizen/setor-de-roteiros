@@ -1,0 +1,54 @@
+{
+  "nome": "Felipe Noir",
+  "slug": "felipe",
+  "data": "2026-09-28",
+  "doc_url": "",
+  "migrada_de": "2026-09-28-terceira-leva.py",
+  "roteiros": [
+    {
+      "chave": "e1",
+      "tema": "o dono de empresa pequena na fase do meio, que a internet nao mostra",
+      "gravacao": "Falando direto pra câmera, no seu lugar fixo de gravação, num take só e sem pausa.\n\nPrimeira frase escrita no topo da tela nos primeiros segundos. Depois, legenda curta no meio da tela.",
+      "gancho": "O salário do dono de empresa pequena tem nome: o que sobrou.",
+      "corpo": "Dia 4 de noite ele tá na mesa da cozinha fazendo a conta da folha no papel de pão, pela terceira vez, pra ver se a soma muda sozinha.\n\nDia 5 começa a fila. Primeiro o funcionário, que recebe no dia certo nem que o dono tenha que vender o videogame. Depois o fornecedor, que já mandou 4 mensagens com um \"bom dia\" cada vez mais seco. Depois o aluguel da sala. Depois o contador, que ninguém sabe direito o que faz, mas todo mundo tem pavor de atrasar.\n\nO que sobra ele chama de pró-labore. Quando não sobra, ele chama de reinvestimento.\n\nNo almoço de domingo o tio pergunta se a empresa tá bombando, e ele responde \"tá crescendo\", que em empresa pequena quer dizer que ela ainda não fechou.\n\nFaturamento ele sabe de cabeça e fala em qualquer roda. Lucro ele não sabe, porque pra saber ia ter que abrir a planilha, e a planilha ele abre do mesmo jeito que confere a folha, rezando.\n\nNa internet só aparece o empresário que já chegou, com a cobertura, a viagem, o carro na garagem e o print de faturamento com o dedo tapando o mês ruim. Ninguém posta o mês que a empresa fechou no vermelho.\n\nEu tô nessa fase, a do meio.",
+      "fechamento": "Segue, que a minha fase do meio vai aparecer aqui do jeito que ela for.",
+      "titulo": "O salário do dono"
+    },
+    {
+      "chave": "e2",
+      "tema": "ambicao sem falsa modestia e sem ostentar riqueza que nao existe",
+      "gravacao": "Falando pra câmera no seu lugar fixo, sem sorrir no gancho. É o vídeo mais sério da leva.\n\nPrimeira frase escrita no topo da tela.",
+      "gancho": "Eu quero ficar rico e não vou pedir desculpa por isso.",
+      "corpo": "No Brasil, quem ganha dinheiro fala dele baixinho, com cara de quem tá confessando crime.\n\nComprou carro novo: \"peguei numa oportunidade\". Viajou pra fora: \"foi uma fugidinha\". Mudou de apartamento: \"ah, mas é alugado\". Pergunta quanto ele ganha: \"dá pra pagar as contas, graças a Deus\".\n\nE aí tem o outro, que aluga carro de luxo por 1 hora pra tirar foto e volta pra casa de ônibus.\n\nEu quero ter muito dinheiro e dar pra minha família uma vida melhor a cada ano. Dinheiro pra mim é poder escolher.\n\nE eu ainda não cheguei lá, então você não vai me ver alugando carro pra foto.\n\nAmbição virou palavrão, e eu acho isso uma besteira. Pior é passar a vida inteira fingindo que não quer.",
+      "fechamento": "Você fala de dinheiro em voz alta ou baixinho?",
+      "titulo": "Eu quero ficar rico"
+    },
+    {
+      "chave": "e3",
+      "tema": "crescer sem deixar a vida pra depois dos 50",
+      "gravacao": "Falando pra câmera no seu lugar fixo. Cada subtração aparece escrita na tela enquanto você fala: 24, 10, 3, 1 e meia, meia hora.\n\nPrimeira frase escrita no topo da tela.",
+      "gancho": "Quantas horas por dia sobram pra família de quem trabalha 14?",
+      "corpo": "O dia tem 24. Tira 14 de trabalho, sobram 10. Tira 7 de sono, sobram 3. Tira 1 hora e meia de trânsito, sobra 1 e meia. Tira banho e janta, sobra meia hora.\n\nMeia hora, pô. E nessa meia hora você tá respondendo fornecedor no celular com o filho pendurado no seu pescoço.\n\nAgora faz isso 6 dias por semana, dos 25 aos 50. São 25 anos de meia hora.\n\nE o discurso que todo mundo repete é esse: sacrifica tudo agora que depois você vive. Família depois, treino depois, viagem depois, música depois.\n\nEu quero construir empresa grande, muito grande, e chegar aos 50 com mais do que 25 anos de meia hora pra contar.\n\nPra isso, treino, família, música e amigos têm que entrar na agenda primeiro, e a empresa cresce em volta deles.\n\nPorque o depois tem data. Quando ele chega, você tem 50 anos e o filho que pendurava no seu pescoço já mora em outra cidade.",
+      "fechamento": "Comenta o que você tá deixando pra depois.",
+      "titulo": "Meia hora por dia"
+    },
+    {
+      "chave": "e4",
+      "tema": "empresario pode ter vida e interesses fora da empresa sem perder credibilidade",
+      "gravacao": "Falando pra câmera no seu lugar fixo. Se tiver imagem sua treinando ou com fone de DJ, entra em corte curto enquanto você lista o que o empresário esconde.\n\nPrimeira frase escrita no topo da tela.",
+      "gancho": "Empresário que quer tocar de DJ perde credibilidade?",
+      "corpo": "Tem uma ideia antiga de que empresário sério só pode ter um assunto. Se o cliente te vê de fone numa cabine no sábado, na segunda ele acha que você tá de brincadeira com a empresa dele.\n\nAí o cara esconde tudo. Esconde o treino, porque parece vaidade. Esconde o carro, porque parece ostentação. Esconde a música, porque parece que ele não trabalha. Esconde a viagem, porque parece que a empresa tá largada.\n\nNo fim fica um perfil de LinkedIn com 2 pernas.\n\nEmpresa é uma parte enorme de quem eu sou. E eu quero que música eletrônica, treino, carro e viagem também caibam no que as pessoas conhecem de mim.\n\nDiscutir negócio de manhã e estar numa cabine de DJ à noite, essa é a vida que eu quero.\n\nPerde credibilidade com quem acha que empresário sério não tem sábado.\n\nQuem só tem a empresa, quando ela vai mal, não tem pra onde voltar.",
+      "fechamento": "Qual coisa você faz que não tem nada a ver com o seu trabalho?",
+      "titulo": "Empresário pode ser DJ?"
+    },
+    {
+      "chave": "e5",
+      "tema": "a rede de contatos que ele ainda nao tem, e a construcao dela mostrada no perfil",
+      "gravacao": "Falando pra câmera no seu lugar fixo, com cara de conversa de mesa de bar.\n\nPrimeira frase escrita no topo da tela.",
+      "gancho": "Minha rede de contatos hoje cabe numa mesa de bar.",
+      "corpo": "E tem perfil por aí que te faz achar que todo empresário tem o celular do dono do banco e janta toda semana com jogador de futebol.\n\nEu não tenho isso.\n\nA gente vira um pouco das pessoas com quem anda. Passa um mês perto de alguém que pensa grande e o que antes parecia o máximo começa a parecer pequeno.\n\nEu quero chegar perto de gente interessante porque ela é interessante, e ponto.\n\nCada cadeira nova nessa mesa vai aparecer aqui, seja empresário, artista, profissional excelente ou gente construindo coisa nova.\n\nSe daqui a 2 anos a mesa não tiver crescido, vocês vão ver isso também.",
+      "fechamento": "Marca aqui a pessoa que mais puxou você pra cima.",
+      "titulo": "A mesa de bar"
+    }
+  ]
+}

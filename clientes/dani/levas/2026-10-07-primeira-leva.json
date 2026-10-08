@@ -1,0 +1,54 @@
+{
+  "nome": "Dani Facchinetti",
+  "slug": "dani",
+  "data": "2026-10-07",
+  "doc_url": "",
+  "migrada_de": "2026-10-07-primeira-leva.py",
+  "roteiros": [
+    {
+      "chave": "cozinha",
+      "tema": "o pedido da cliente sem cozinha e a cozinha separada da casa brasileira colonial (arquitetura brasileira)",
+      "gravacao": "Abre com você falando direto pra câmera numa área externa. Na parte de Portugal e das casas antigas, entram imagens de casa colonial ou de engenho (em Pernambuco tem muita; serve foto de arquivo) e o texto na tela: Carlos Lemos, arquiteto e historiador (USP). A frase dele aparece escrita enquanto você fala.",
+      "gancho": "Uma cliente me pediu uma casa sem cozinha.",
+      "corpo": "Ela queria a cozinha do lado de fora, e só lá.\nEm Portugal, de onde veio o nosso jeito de construir, o fogão sempre foi o centro da casa, e a família se juntava em volta dele depois do jantar, no inverno.\nAqui o calor não deixou. O arquiteto e historiador Carlos Lemos, da USP, conta que a cozinha separada, às vezes totalmente afastada da casa, foi uma das primeiras características da casa brasileira. Telhado de palha pegava fogo fácil, e, nas palavras dele, o calor tropical espantou o fogão.",
+      "fechamento": "Na casa da sua avó, a cozinha também ficava do lado de fora?",
+      "titulo": "A casa sem cozinha"
+    },
+    {
+      "chave": "layout",
+      "tema": "layout nao e projeto executivo; o barato que sai caro",
+      "gravacao": "Na mesa do escritório, com um layout impresso de um lado e uma prancha do executivo do outro. Quando fala do executivo, a câmera fecha nos detalhes: cota, tomada, ponto de água e marcenaria.",
+      "gancho": "Um cliente não pagou o resto do meu projeto porque achou que dava pra construir só com o layout.",
+      "corpo": "Aquele desenho com o sofá e a cama no lugar é o layout, a primeira etapa. Ele mostra onde cada móvel vai ficar, e pra quem não é da área parece mesmo a planta da casa. O que vai pra obra é o projeto executivo, que o pedreiro, o eletricista, o gesseiro e o marceneiro usam, com a medida de cada parede, a altura de cada tomada, onde fica cada ponto de água, o detalhe da marcenaria e a paginação do piso.\nSem isso, quem decide essas coisas é quem tá na obra, na hora. Aí aparece parede quebrada pra mudar ponto de água de lugar e armário que não cabe porque ninguém mediu o vão.",
+      "fechamento": "Antes de fechar com um arquiteto, pergunta se o projeto executivo está incluso.",
+      "titulo": "O layout que virou obra"
+    },
+    {
+      "chave": "almofada",
+      "tema": "contra a arquitetura glamurosa; abre o diario da casa grande",
+      "gravacao": "Primeiro take: você bem vestida, de salto, ajeitando uma almofada num ambiente pronto. Corta seco pra você de bota e capacete na obra da casa grande. O resto é falado ali, andando pela obra, com microfone de lapela. Se o celular tocar de verdade durante a gravação, melhor ainda.",
+      "gancho": "Todo mundo acha que arquiteta passa o dia de salto escolhendo almofada.",
+      "corpo": "Boa parte do meu dia é obra, com poeira no sapato e o telefone tocando porque deu um problema e alguém precisa decidir na hora. Salto, na obra, dura uns 5 minutos.\nAgora mesmo eu tô com uma casa de mais de 400 metros quadrados em obra, com demolição e mais ou menos 1 ano pela frente.",
+      "fechamento": "Me segue que eu vou te mostrar essa obra até a entrega.",
+      "titulo": "Salto e almofada"
+    },
+    {
+      "chave": "pinterest",
+      "tema": "copiar referencia sem considerar o que gosta e como vive",
+      "gravacao": "Você com o celular na mão rolando uma pasta do Pinterest; a gravação de tela entra sobreposta na edição. Na sala branca e na ilha, entra a foto de referência na tela. No fim, volta pra você falando direto.",
+      "gancho": "Aquela foto do Pinterest que você salvou não foi pensada pra sua casa.",
+      "corpo": "Sabe aquela sala toda branca com sofá de linho claro? Agora imagina ela com uma criança pequena e um cachorro. Ou aquela cozinha com uma ilha enorme no meio, num apartamento em que a ilha vai travar a passagem.\nAntes de usar uma referência, eu vejo se ela combina com o que a pessoa gosta e com o jeito que ela vive.\nOlha a sua pasta de novo e procura a cor ou o material que aparece em várias fotos.",
+      "fechamento": "Comenta aqui qual cor mais se repete na sua pasta.",
+      "titulo": "A foto do Pinterest"
+    },
+    {
+      "chave": "poente",
+      "tema": "orientacao solar: sala virada pro poente",
+      "gravacao": "Grava de tarde, numa sala virada pro oeste, com sol entrando forte pela janela. Mostra a luz batendo no sofá, mas não grava você de costas pra janela, senão some contra a luz. Na pergunta 'Mas Dani', o texto aparece na tela.",
+      "gancho": "Tem sala que ninguém consegue usar às 3 da tarde.",
+      "corpo": "Isso acontece muito quando a sala fica virada pro poente, o lado onde o sol se põe.\nDe tarde o sol bate de frente no vidro e esquenta a sala inteira. O sofá fica vazio, porque ninguém aguenta sentar ali.\nA primeira coisa que eu olho num projeto é pra onde a casa tá virada.\nMas Dani, e se eu já moro num apartamento assim?\nAí dá pra melhorar com cortina ou persiana de tecido que reflete o sol e com película de controle solar no vidro, se o condomínio deixar.",
+      "fechamento": "E se você ainda vai comprar, visita o imóvel às 3 da tarde antes de assinar.",
+      "titulo": "A sala das 3 da tarde"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "nome": "Cici",
+  "slug": "ceci",
+  "data": "2026-09-21",
+  "doc_url": "",
+  "migrada_de": "2026-09-21-leva-v5.py",
+  "roteiros": [
+    {
+      "chave": "r1",
+      "tema": "crescer com o proprio lucro, sem dinheiro de fora, e o mecanismo que isso impoe",
+      "gancho": "A Dra. Cherie começou com 2 mil reais na sala da casa da minha mãe, e nunca mais entrou dinheiro do meu bolso na empresa.",
+      "corpo": "E eu falo isso com orgulho e com uma ressalva, porque crescer assim tem um custo que quase ninguém conta.\n\nQuando você não tem investidor e não tem sócio que coloca dinheiro, cada compra de tecido sai do lucro do mês anterior. E aí você entra numa conta que aperta todo mês, sabe?\n\nÉ assim: se eu compro tecido demais, eu prendo o dinheiro que compraria a mídia pra vender aquele tecido. Se eu invisto demais em mídia, eu vendo uma peça que eu não tenho pra entregar.\n\nEntão todo mês, gente, eu estava escolhendo entre estoque e venda com o mesmo caixa.\n\nE eu escolhi errado várias vezes, gente. Teve coleção que acabou em dias e eu sabia exatamente quantas peças eu tinha deixado de vender. Teve tecido parado que eu olhava e sabia que aquilo ali era mídia que eu não ia poder fazer.\n\nMas tem uma coisa que eu nunca troquei: eu preferi ficar devendo peça pra cliente do que ficar devendo dinheiro pro banco.\n\nPorque a dívida com o banco tem juros e tem prazo, e ela decide o seu mês por você. Já a cliente que ficou sem o scrub dela, essa eu consigo chamar e trazer de volta na próxima.\n\nE foi essa escolha, repetida durante anos, que fez a Cherie ser uma empresa que se sustenta com o que ela mesma gera.\n\nSe você está aí com o seu negócio pequeno, achando que só vai deslanchar quando aparecer um investidor, eu te digo uma coisa: essa conta apertada é que te ensina a operar. Quando vier dinheiro grande, você já vai saber onde colocar.",
+      "fechamento": "Quem começa com pouco aprende a administrar o pouco, e é isso que sustenta o muito depois. Comenta aqui com quanto você começou o seu negócio.",
+      "titulo": "R$ 2 mil e a sala da casa da minha mãe"
+    },
+    {
+      "chave": "r3",
+      "tema": "tres erros de perfil que fazem o profissional de saude parecer com todo mundo",
+      "gancho": "3 coisas que eu apagaria hoje do perfil de um profissional de saúde.",
+      "corpo": "A primeira é o post fixado de apresentação. Aquele com a foto de jaleco e o prazer, meu nome é fulano, atendo em tal lugar.\n\nE olha, repara nos perfis grandes que você segue: quase nenhum se apresenta no fixado.\n\nNinguém fica num perfil por causa de uma apresentação. O post fixado é o lugar mais valioso que você tem, e ele tem que mostrar a maior prova do porquê a pessoa deveria continuar ali. Um caso, um antes e depois, um resultado, um número. Prova, e não currículo.\n\nA segunda é a foto de procedimento sem contexto nenhum. A boca, o rosto, o dente, sem uma linha do que era aquele problema e do que mudou na vida daquela pessoa.\n\nQuem não é da área não sabe olhar pra um antes e depois e entender o que aconteceu ali, sabe? Então escreve embaixo o que a pessoa não conseguia fazer antes e o que ela faz agora. É isso que faz alguém se reconhecer e marcar consulta.\n\nE a terceira é o que a maioria chama de prova social e não é. Print de conversa com ai, amei, ficou lindo, obrigada doutora.\n\nIsso é elogio, gente, e elogio todo mundo tem. Prova social é transformação, é resultado, é número, é a paciente contando o que mudou na vida dela. Elogio enche a tela e não convence ninguém que está ali decidindo pra quem pagar.\n\nE olha, tem uma coisa que atravessa as três. O seu paciente não escolhe você pelo que você diz que você é. Ele escolhe pelo que ele consegue entender em 3 segundos olhando o seu perfil.",
+      "fechamento": "Posicionamento é o que as pessoas lembram quando pensam em você. Abre o seu perfil agora e me conta qual dessas três você tem.",
+      "titulo": "3 coisas que eu apagaria do perfil de um profissional de saúde"
+    },
+    {
+      "chave": "r4",
+      "tema": "os 4 Rs que fazem uma marca ser lembrada, e o erro de parar no primeiro",
+      "gancho": "A sua cliente pensa muito menos na sua marca do que você imagina.",
+      "corpo": "E isso não é falta de carinho dela, gente. A cabeça dela está cheia de outras 40 coisas.\n\nEntão, aqui dentro eu trabalho com 4 erres pra uma marca não ser esquecida. E a maioria das pessoas para no primeiro.\n\nO primeiro é resultado. Você precisa entregar o que prometeu, bem-feito. Só que resultado é o mínimo, é o ingresso pra entrar no jogo. Todo concorrente seu também entrega bem, e por isso ninguém é lembrado só por isso.\n\nO segundo é repetir. A pessoa precisa ver você de novo e de novo. E aqui é onde quase todo mundo desiste, porque repetir é chato e dá aquela sensação de que você está falando demais da mesma coisa. E você não está, gente. Você falou 10 vezes e ela viu 2.\n\nO terceiro é renovar. Porque se você só repete do mesmo jeito, aí sim você cansa. Então é a mesma mensagem, dita de um jeito novo: muda o formato, muda o ângulo, traz um caso diferente que prova a mesma coisa. A tese continua a mesma, a roupa dela é que muda.\n\nE o quarto é relacionar. É lembrar do nome e é saber o que aconteceu com aquela pessoa depois que ela comprou de você. É o que transforma uma cliente em alguém que defende a sua marca sem você pedir.\n\nE repara numa coisa, gente: o primeiro erre é sobre o seu produto, e os outros três são sobre a memória da pessoa. É por isso que existe marca com produto pior que o seu vendendo muito mais que você. Ela ocupou um espaço na cabeça da cliente que você não ocupou.",
+      "fechamento": "Entregar bem é o começo da conversa, não o fim dela. Me conta qual desses 4 erres é o que você menos faz hoje.",
+      "titulo": "Os 4 Rs de uma marca que não é esquecida"
+    },
+    {
+      "chave": "r5",
+      "tema": "onde ela aprendeu a vender, e por que disputa desde cedo virou metodo",
+      "gancho": "Eu aprendi a vender no escoteiro, e não em curso nenhum de vendas.",
+      "corpo": "Eu entrei no Lobinho, que é o ramo das crianças, e desde ali eu corria atrás de subir de ramo antes da idade.\n\nEu disputei monitora, disputei submonitora. E juntava selo atrás de selo, sabe? Cada selo era uma habilidade que você tinha que provar que sabia fazer, na frente dos outros.\n\nE tem uma coisa ali que eu só fui entender muito depois: no escoteiro você não ganha nada por ser boa em silêncio. Você tem que saber fazer, e você tem que conseguir mostrar que sabe.\n\nE fora dali eu vendia sabonete na escola e vendia rifa pra conseguir ir pro acampamento. Pegava até o dinheiro que a minha avó me dava no fim do ano pra comprar coisa e revender.\n\nE olha o que eu estava treinando sem saber: eu estava aprendendo a olhar pra uma pessoa e entender o que ela queria antes de oferecer. Ninguém compra rifa de quem chega empurrando.\n\nEntão eu não acredito muito em dom pra vender, gente. Vender é uma coisa que você treina, igual a subir de ramo: você erra, você apanha na frente dos outros, e você volta.\n\nE quando eu abri a Cherie, eu não sabia nada de confecção. Mas eu sabia disputar, eu sabia mostrar o que eu tinha feito e eu sabia conversar com quem ia comprar.",
+      "fechamento": "Ninguém precisa nascer boa de venda, precisa começar cedo a errar. Me conta o que você vendia quando era criança.",
+      "titulo": "Onde eu aprendi a vender"
+    }
+  ]
+}

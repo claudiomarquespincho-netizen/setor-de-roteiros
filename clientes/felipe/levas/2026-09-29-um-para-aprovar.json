@@ -1,0 +1,18 @@
+{
+  "nome": "Felipe Noir",
+  "slug": "felipe",
+  "data": "2026-09-29",
+  "doc_url": "",
+  "migrada_de": "2026-09-29-um-para-aprovar.py",
+  "roteiros": [
+    {
+      "chave": "u1",
+      "tema": "o dono de empresa pequena que ocupa todos os cargos e nao tem pra quem empurrar problema",
+      "gravacao": "No seu lugar fixo, celular na mão, falando direto do começo ao fim, sem corte.\n\nA primeira frase escrita no topo da tela nos primeiros segundos.",
+      "gancho": "Empresa pequena é o único lugar do mundo onde o dono acorda CEO e vai dormir estagiário.",
+      "corpo": "Porque de manhã você tá lá numa reunião, sério, voz grossa, falando de meta, de abrir filial, e 2 horas depois você tá no carro indo comprar papel A4, porque acabou e ninguém te avisou.\n\nE não tem pra quem passar o problema, cara. Na empresa grande sempre tem um setor pra empurrar. Aqui não. Aqui o financeiro é você, o RH é você, o jurídico é você, e o cara que troca a lâmpada do banheiro, adivinha, também é você.\n\nAí o cliente liga reclamando. Você atende, muda um pouquinho a voz, fala assim, deixa eu verificar com o responsável. Desliga. Fica 5 minutos olhando pra parede. Liga de volta: olha, conversei aqui com o responsável. Você conversou com você mesmo. Você fez uma reunião com você mesmo no corredor.\n\nE aí o Jonas, que é o seu único funcionário, pede aumento. E você fala, vou levar pro conselho. O conselho é você, no banho, de noite, fazendo conta de cabeça.\n\nE no fim do mês, quando sobra alguma coisa, você nem sabe de qual dos seus cargos veio o dinheiro. Agora quando não sobra, aí você sabe direitinho de quem é a culpa.",
+      "fechamento": "De todos eles. Que no caso é você.",
+      "titulo": "O dono que acorda CEO e dorme estagiário"
+    }
+  ]
+}

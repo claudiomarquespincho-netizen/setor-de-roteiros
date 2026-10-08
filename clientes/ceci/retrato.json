@@ -1,0 +1,312 @@
+{
+  "slug": "ceci",
+  "nome": "Cici",
+  "perfil": "@cicinavarro",
+  "atualizado_em": "2026-09-25",
+  "voz": {
+    "vicios": [
+      "gente",
+      "a gente (quase nunca nós)",
+      "né",
+      "então",
+      "assim",
+      "olha isso",
+      "olha que legal",
+      "muito, muito (repete para enfatizar)",
+      "super",
+      "maravilhoso",
+      "coisa mais linda",
+      "sabe?",
+      "enfim",
+      "aliás",
+      "lógico",
+      "ai, meu Deus",
+      "obcecada",
+      "eu sempre falo que",
+      "primeiro ponto, segundo, terceira coisa"
+    ],
+    "palavras": [
+      "Cherie",
+      "Doutora Cherie",
+      "Cherie by CN",
+      "Café Cherie",
+      "scrub",
+      "jaleco",
+      "profissionais da saúde",
+      "revendedoras",
+      "coleção",
+      "drop",
+      "lançamento",
+      "flagship",
+      "wellness",
+      "alfaiataria",
+      "comunidade",
+      "repertório",
+      "ticket médio",
+      "taxa de conversão",
+      "fluxo",
+      "recorrência",
+      "produto campeão",
+      "Martina",
+      "mini gangue"
+    ],
+    "abre": [
+      "Vamos de bastidores da Cherie comigo?",
+      "Vem comigo fazer a receita de chocolate quente que vira o nosso ritual favorito depois que as crianças dormem.",
+      "8 coisas que eu faria se eu começasse hoje uma marca do zero.",
+      "Se a gente precisasse aumentar suas vendas nos próximos 30 dias, eu olharia para essas 5 métricas.",
+      "Quem diria que vender um café de 15 reais poderia ajudar uma marca a vender produtos de mais de 600?",
+      "Eu precisei fechar o Café Cherie depois de seis anos de história.",
+      "Eu liguei pra minha mãe no meio da minha aula de pós-graduação, quando eu tinha 22 anos, contando a ideia da Cherie.",
+      "Sabe qual é a parte de empreender que não vem no contrato?",
+      "Eu criei um scrub pensando no meu marido e esse foi o resultado.",
+      "A maternidade tem uma mania curiosa.",
+      "Eu tô obcecada nesse lançamento da Cherie, eu vou mostrar tudo pra vocês."
+    ],
+    "fecha": [
+      "Beijo!",
+      "Beijão!",
+      "Tchau.",
+      "Espero que tenham gostado.",
+      "Espero que tenha te ajudado."
+    ],
+    "cta": [
+      "Compartilha com quem merece ouvir isso hoje.",
+      "Salve e compartilha com quem merece ver esse vídeo hoje.",
+      "Comenta aqui se você já tomou um cafezinho com a gente.",
+      "Agora me conta aqui, qual estratégia você vai começar a colocar no seu negócio hoje?",
+      "Me conta aqui qual produto campeão você vai criar agora.",
+      "Já salva esse post pra começar do jeitinho certo.",
+      "Manda esse vídeo pra aquela amiga que também já faz parte da Cherie.",
+      "Eu quero saber qual a métrica que você quer que eu faça um próximo vídeo contando mais profundamente."
+    ]
+  },
+  "territorio": [
+    "gestão e crescimento de marca, contado por dentro: métricas, ticket médio, produto campeão, comunidade",
+    "bastidores da própria empresa: sede, shooting, encontro de revendedoras, obra da flagship",
+    "moda para profissional da saúde: coleções, scrubs, jalecos, tecidos e o porquê de cada escolha",
+    "maternidade e vida com as crianças, sem separar da vida de empresária",
+    "fé e propósito aplicados ao trabalho e a quem trabalha com ela",
+    "criatividade e repertório: como ela observa, destrincha e traz de fora do nicho"
+  ],
+  "formatos": [
+    {
+      "nome": "historia_pessoal",
+      "grava": true,
+      "performou": true,
+      "faixa_palavras": [
+        180,
+        530
+      ],
+      "exemplos": [
+        "https://www.instagram.com/p/DdEMUIhSxsj/",
+        "https://www.instagram.com/p/Db8qRE8yvB5/",
+        "https://www.instagram.com/p/Db3V9IKyixE/"
+      ]
+    },
+    {
+      "nome": "opiniao",
+      "grava": true,
+      "performou": true,
+      "faixa_palavras": [
+        290,
+        450
+      ],
+      "exemplos": [
+        "https://www.instagram.com/p/DdMEgGcyLrb/",
+        "https://www.instagram.com/p/DcRsmNxyh4C/"
+      ]
+    },
+    {
+      "nome": "vitrine_de_produto",
+      "grava": true,
+      "performou": true,
+      "faixa_palavras": [
+        200,
+        840
+      ],
+      "exemplos": [
+        "https://www.instagram.com/p/DboWUEyybmH/",
+        "https://www.instagram.com/p/Db-161gSEyA/",
+        "https://www.instagram.com/p/DcRBDFcSC8_/"
+      ]
+    },
+    {
+      "nome": "bastidores",
+      "grava": true,
+      "performou": false,
+      "faixa_palavras": [
+        280,
+        510
+      ],
+      "exemplos": [
+        "https://www.instagram.com/p/DdSVllRSeot/",
+        "https://www.instagram.com/p/Dc361bpyh6R/",
+        "https://www.instagram.com/p/DdUOla4yfUA/"
+      ]
+    },
+    {
+      "nome": "mecanismo_de_negocio",
+      "grava": true,
+      "performou": false,
+      "faixa_palavras": [
+        300,
+        370
+      ],
+      "exemplos": [
+        "https://www.instagram.com/p/DdKACcNyQ1d/"
+      ]
+    },
+    {
+      "nome": "lista",
+      "grava": true,
+      "performou": false,
+      "faixa_palavras": [
+        300,
+        590
+      ],
+      "exemplos": [
+        "https://www.instagram.com/p/Db_pnjjSEUG/",
+        "https://www.instagram.com/p/DcelOjuSFHT/",
+        "https://www.instagram.com/p/DclrlwJyX5Q/"
+      ]
+    }
+  ],
+  "fonte": {
+    "videos": 21,
+    "quando": "2026-09-17",
+    "de_onde": "reels do perfil dela, puxados pela Apify e transcritos pelo Whisper; 22 baixados, 21 com fala dela, 43 minutos de áudio",
+    "palavras_por_segundo": 3.29,
+    "views_media": 33000,
+    "forms": "docs/referencias-da-pessoa/forms-cici-2026-09-17.md, respondido em 17 de setembro de 2026",
+    "retorno": "docs/referencias-da-pessoa/retorno-cici-2026-09-18.md, 10 áudios de 18 de setembro de 2026",
+    "retorno_24_09": "docs/referencias-da-pessoa/retorno-cici-2026-09-24.md, colado por ele no chat em 24/09. Traz a reprovacao do roteiro das maes, os pedidos em aberto, as 6 referencias com link e a grade semanal de producao.",
+    "whatsapp_24_09": "docs/referencias-da-pessoa/whatsapp-cici-2026-09-24/, o historico do grupo dela encaminhado pelo Tassio, com 14 audios transcritos. Material historico: serve de fonte, nao de pauta."
+  },
+  "bandeiras": {
+    "levanta": [
+      "família, Deus e filhos: a família é potencializada pelo trabalho, nunca destruída por ele",
+      "trabalho como forma de servir ao mundo",
+      "marca pessoal: as pessoas conectam com pessoas",
+      "autenticidade como atalho de destaque, porque está todo mundo fazendo igual",
+      "comunidade e pertencimento, que na conta dela diminuem CAC e aumentam LTV",
+      "disciplina, autorresponsabilidade e execução",
+      "o belo, o poder da imagem e o poder dos detalhes"
+    ],
+    "nao_levanta": [
+      "bandeira de feminismo",
+      "mulher ganha menos",
+      "vitimização de qualquer tipo: ela escreveu 'odeio vitimismo'",
+      "finja até que seja",
+      "fórmula pronta",
+      "politica, direita e esquerda: 'estou fora'",
+      "sexualidade",
+      "gancho polemico: 'nao sou uma pessoa muito polemica'; o gancho prende sem provocar (o 'paciente rico e pobre' e o exemplo do que nao fazer)",
+      "maternidade como identidade principal: ela quer ser reconhecida como empreendedora antes de mae; maternidade entra pouco, ligada ao trabalho e pelo lado positivo",
+      "nada que fira familia, trabalho ou fe"
+    ]
+  },
+  "crencas": [
+    "Ser para parecer ser: transbordar a essência através do branding pessoal, e a soma das duas coisas é o que vale",
+    "Sucesso é processo: execução e lapidação do todo dia, com disciplina",
+    "Seu sonho merece sua disciplina",
+    "A cadeira nunca pode ficar maior do que temos pra dar, senão a empresa se limita",
+    "O belo atrai e o propósito conecta",
+    "Cultura transborda para o branding",
+    "Dizer nãos te leva aonde você quer chegar",
+    "Vício disfarçado de hobby é o que tira foco do objetivo de vida",
+    "Liderar lado a lado, sem sair do operacional, mas com olhar estratégico",
+    "Acredita em ambiência, em alta performance e em desenvolvimento pessoal"
+  ],
+  "teses": [
+    "Olhar demais para o concorrente é uma das formas mais rápidas de deixar sua marca parecida com todas as outras",
+    "Efeito manada: ensinam a fazer igual prometendo destaque, e o efeito é o contrário, ainda mais com IA",
+    "Coerência gera confiança: muita gente parece ser e não sustenta, porque o peso de sustentar é duro",
+    "O básico bem-feito ganha de estratégia mirabolante",
+    "Seu cliente pensa muito menos na sua marca do que você imagina, por isso repetição importa",
+    "Posicionamento é o que as pessoas lembram quando pensam em você, não o que você escreve que é",
+    "Os 4 Rs de uma marca inesquecível: resultado, repetir, renovar, relacionar",
+    "Não existe fórmula pronta, existem pessoas que já passaram pelo que você vive"
+  ],
+  "publico": {
+    "pergunta": [
+      "como começar a empreender",
+      "como criar um perfil que atraia clientes",
+      "como criar comunidade forte",
+      "como criar produtos que performem",
+      "como ser minha própria influenciadora",
+      "como dar conta de tudo",
+      "maternidade"
+    ],
+    "erros": [
+      "querer vender o tempo todo sem criar conexão",
+      "post pronto e vazio, e a culpa no algoritmo",
+      "olhar mais para o concorrente do que para o cliente",
+      "não reinvestir na empresa e deixar a experiência deteriorar",
+      "atendimento ruim e canais de comunicação sem olhar estratégico",
+      "depender de tráfego pago sem fortalecer o orgânico",
+      "querer parecer algo que não é"
+    ],
+    "causas": [
+      "falta de educação empresarial",
+      "falta de referências que ampliem a visão",
+      "preguiça de buscar conhecimento fora",
+      "dificuldade de priorização",
+      "dificuldade de entender os próprios talentos"
+    ]
+  },
+  "historia": [
+    "criou a marca em um dia, com nome, público e símbolo",
+    "largou a Odontologia sem plano B para se dedicar ao empreendedorismo",
+    "rodou Brasil e exterior vendendo jaleco na mala, montando stand",
+    "abriu as primeiras lojas e aprendeu varejo de moda: cronograma, timing de coleção, distribuição",
+    "montou o escritório no meio da primeira loja, e dali nasceu o Café Cherie",
+    "hoje: 200 colaboradores, 9 lojas, 1 café, mais de 6 marcas dentro da marca, e franquia",
+    "Golden Ticket: a ganhadora tinha 95 peças Cherie e devolveu para eles exatamente o que a comunicação tenta transbordar",
+    "collabs com Disney, Barbie, Smiley, Patbo e Swarovski, primeira do mundo no segmento",
+    "Forbes Under 30 aos 27 anos, em 2020",
+    "mais de 100 marcas em publicidade, entre elas Santander, SuperCoffee, Dafiti, SkinCeuticals e Prada",
+    "a infância que pauta o ser para parecer ser: escoteiro, rifa, sabonete vendido na escola",
+    "a virada: era a melhor tecnicamente e parecia igual a todo mundo, porque o jaleco era o mesmo"
+  ],
+  "producao": [
+    "25 roteiros por mes, combinado com o Penoni, dito por ela em audio",
+    "ela quer o roteiro palavra por palavra, e lapida em cima: 'na verdade eu preciso que faca, que dai eu vou lapidar'",
+    "grade fechada na call de 24/09: 5 por semana, 3 crescimento, 1 conexao e 1 autoridade (o 3-1-1). Flexivel: pode ser 3 crescimento, 2 conexao e 1 autoridade, ou 4 crescimento numa semana. Crescimento nunca abaixo de 3. Substitui a conta de 3-1-2 que ela escreveu antes da call",
+    "objecao nao tem vaga fixa no 3-1-1: entra de vez em quando, no lugar de conexao ou autoridade, e sempre sinalizada como objecao",
+    "todo roteiro sai etiquetado com o tipo (crescimento, conexao, objecao, autoridade) e, quando fizer diferenca, com a direcao de gravacao e edicao: lo-fi e despretensioso, tela dividida com as referencias de imagem, ou palavras de destaque escritas na tela",
+    "conexao pesa pouco na grade porque ela faz conexao sem roteiro (lifestyle, grwm, filhos). Mesmo assim, alguns roteiros de conexao sao necessarios",
+    "ela tem social media que edita. Postar e responder e com ela",
+    "caixinhas de pergunta sao a base de 50% dos roteiros de crescimento, pedido dele em 25/09. A conta e' por mes: 12 de crescimento, 6 das caixinhas e 6 de outras fontes (tema em alta com analogia, serie de marcas que se destacam com tendencia de consumo, historia de empreendedor no formato Blank, teses dela). A grade do mes fica em esteira2/clientes/ceci/grade-do-mes.md",
+    "roteiro que sai de caixinha pode abrir com a propria pergunta, quase como ela veio (ex.: 'Como ter visibilidade se voce nao leva jeito pra gravar?'), pedido dele em 25/09: quem fez a pergunta se reconhece, e quem tem a mesma duvida para"
+  ],
+  "tipos_de_conteudo": {
+    "crescimento": "onde mora o problema dela, e onde ela quer quantidade. Estilo pedido na call de 24/09: 'professora rapida', conteudo rapido que traz base, com to-do aplicavel no dia seguinte ('se voce fizer isso, isso e isso, vai ter resultado melhor'). E o formato '5 coisas' que ela ja grava, com as palavras de destaque escritas na tela; o que falta nele e gancho. Historia pessoal aqui so contextualiza rapido e vira licao pratica, nunca e contada do comeco ao fim. Formatos que ela citou: como fazer isso, 3 coisas que x, habitos x, o que eu faria se fosse x, licoes que tive x, historias de empreendedores de sucesso (formato Blank/Rony). Disciplina (rotina, alimentacao, treino, mae e empresaria) cabe aqui, sempre pratica, podendo puxar O Poder do Habito",
+    "autoridade": "posicionamento e branding de uma das maiores empreendedoras do Brasil: os feitos dela, as estrategias, o tamanho da marca, e o que a Cherie fez antes de todo mundo. Ela vai mandar no dia a dia o que fez na marca e deu certo: e a estrategia por tras da marca",
+    "conexao": "ballet, lifestyle com os filhos, o modo de se vestir, grwm, vlog, bastidores. Ela nao espera crescimento de base aqui, e sim conexao. Ela faz boa parte sem roteiro. Um de conexao ja estourou: 'coisas que eu amo na minha casa', 30 mil compartilhamentos e quase 10 mil seguidores",
+    "objecao": "desmistificar para que o seguidor compre Cherie e as linhas. Exemplo dela: o conteudo sobre as varias formas de expressar o estilo"
+  },
+  "pendencias": [
+    "roteiro 8 da leva de 10, o das maes, esta reprovado por tese: ela quer o lado positivo, 'mae se torna mais produtiva, faz mais com menos tempo', e o roteiro entregue diz o oposto, que a producao cai 15%. Refazer com fonte que sustente o lado dela",
+    "roteiro das tendencias do brilhinho, do post do Joao Branco: pedido dela e nao entregue",
+    "roteiro das decisoes do CEO, com o look que nao precisa ser mais uma decisao do dia: pedido por escrito duas vezes e nao entregue",
+    "conteudos com to-do para aplicar em casa, usando a experiencia dela como influenciadora e empresaria: cobranca dela em 24/09",
+    "serie de marcas que se destacam cruzada com tendencias de consumo: ela ve como o caminho de alto crescimento",
+    "o video das imagens tem gancho reprovado: 'meio polemico de paciente rico e pobre, nao e por esse lado que quero levar'",
+    "o Doc da leva de 10 no Drive tem o r6 antigo, que repete o reel dela de 31 de marco, e foi editado a mao em 23/09, trocando 4 erres por 4 erros",
+    "O r1 da leva de 10 de 21/09 (crescer com o proprio lucro) foi escrito em cima do molde do reel da Uana Amorim: o mecanismo estoque x midia, a frase 'eu sabia exatamente quanto tinha ficado na mesa' e a escolha 'devendo peca pra cliente e nao dinheiro pro banco' sao dela, quase palavra por palavra. Precisa ser reescrito antes de ela gravar. O r7 da mesma leva fecha com a CTA literal de um reel que ela ja publicou ('salve e compartilha com quem merece ver esse video hoje').",
+    "caixinhas de pergunta: ele vai mandar as da semana; usar como fonte de dor comum e de tema, nao como resposta uma a uma",
+    "tema em alta com analogia (molde canetas emagrecedoras x mercado de moda): testar em crescimento, dentro dos valores dela",
+    "roteiro de disciplina a partir da caixinha 'sou muito formiga': como ela organiza a vida para ser mae, empresaria, comer bem e treinar, pratico, podendo puxar O Poder do Habito"
+  ],
+  "referencias_dela": [
+    "opiniao que muda mentalidade: https://www.instagram.com/reel/DdWjmeJxusn/",
+    "com to-do: https://www.instagram.com/reel/DcepsMmvLdO/",
+    "com to-do: https://www.instagram.com/reel/DcRB4z4MyRy/",
+    "com to-do: https://www.instagram.com/reel/Dbs-n56ON_z/",
+    "com to-do: https://www.instagram.com/reel/DbEoiz1SZyD/",
+    "com to-do: https://www.instagram.com/reel/DbBM3HoyHHM/",
+    "perfis que ela cita como alvo, pela quarta vez: Leticia Vaz e Uana Amorim",
+    "call de 24/09: Leticia Vaz e Uana Amorim sao referencia de formato e fluxo de crescimento, 'nada que eu quero que seja copiado'; ela quer um formato unico dela. Tambem citou o formato Blank/Rony de historias de empreendedores"
+  ]
+}
